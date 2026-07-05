@@ -1,1 +1,17 @@
-[]
+[
+  {
+    "url": "https://www.aeg.com.es/aspiradoras/air-comfort/air-conditioners/portable-air-conditioner/axp26u339cw/",
+    "name": "Aire acondicionado portátil Comfort 6000 de 9.000 BTUs para 31-35 m²",
+    "sku": "axp26u339cw"
+  },
+  {
+    "url": "https://www.aeg.com.es/aspiradoras/air-comfort/air-conditioners/portable-air-conditioner/acu7878csw/",
+    "name": "Aire acondicionado portátil Comfort 7000 de 12.000 BTUs para 41-49 m²",
+    "sku": "acu7878csw"
+  },
+  {
+    "url": "https://www.aeg.com.es/laundry/laundry/irons/steam-iron/si6-1-2mn/",
+    "name": "Plancha de vapor AEG Delicate 6000 de 2400 W y 160 g/mm de golpe de vapor",
+    "sku": "si6-1-2mn"
+  }
+]
