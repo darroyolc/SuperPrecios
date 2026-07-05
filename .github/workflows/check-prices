@@ -1,0 +1,38 @@
+name: Revisar precios AEG
+
+on:
+  schedule:
+    - cron: "0 */6 * * *" # cada 6 horas
+  workflow_dispatch: {} # permite lanzarlo a mano desde la pestaña Actions
+
+permissions:
+  contents: write
+
+jobs:
+  check-prices:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+
+      - name: Instalar dependencias
+        run: |
+          pip install -r requirements.txt
+          playwright install --with-deps chromium
+
+      - name: Revisar precios
+        env:
+          TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
+          TELEGRAM_CHAT_ID: ${{ secrets.TELEGRAM_CHAT_ID }}
+        run: python check_prices.py
+
+      - name: Guardar estado
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add data/state.json data/alerts_log.json
+          git diff --staged --quiet || git commit -m "Actualizar estado de precios"
+          git push
