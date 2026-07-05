@@ -1,1 +1,39 @@
-[]
+[
+  {
+    "timestamp": "2026-07-05T22:53:24.058675+00:00",
+    "sku": "axp26u339cw",
+    "name": "Aire acondicionado portátil Comfort 6000 de 9.000 BTUs para 31-35 m²",
+    "url": "https://www.aeg.com.es/aspiradoras/air-comfort/air-conditioners/portable-air-conditioner/axp26u339cw/",
+    "price": 0.0,
+    "reference_price": 0.0,
+    "discount_pct": 0.0,
+    "reasons": [
+      "por debajo de 100 €"
+    ]
+  },
+  {
+    "timestamp": "2026-07-05T22:53:27.097645+00:00",
+    "sku": "acu7878csw",
+    "name": "Aire acondicionado portátil Comfort 7000 de 12.000 BTUs para 41-49 m²",
+    "url": "https://www.aeg.com.es/aspiradoras/air-comfort/air-conditioners/portable-air-conditioner/acu7878csw/",
+    "price": 0.0,
+    "reference_price": 749.0,
+    "discount_pct": 1.0,
+    "reasons": [
+      "por debajo de 100 €",
+      "ha bajado un 100% respecto a su precio de referencia (749.00 €)"
+    ]
+  },
+  {
+    "timestamp": "2026-07-05T22:53:30.139583+00:00",
+    "sku": "si6-1-2mn",
+    "name": "Plancha de vapor AEG Delicate 6000 de 2400 W y 160 g/mm de golpe de vapor",
+    "url": "https://www.aeg.com.es/laundry/laundry/irons/steam-iron/si6-1-2mn/",
+    "price": 50.0,
+    "reference_price": 50.0,
+    "discount_pct": 0.0,
+    "reasons": [
+      "por debajo de 100 €"
+    ]
+  }
+]
