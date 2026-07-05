@@ -1,24 +1,29 @@
 """
 Descubre las URLs de producto en aeg.com.es (canal de beneficios corporativos).
 
-Ajustado a partir de un log real de ejecución (no son suposiciones):
+Ajustado dos veces a partir de logs reales de ejecución:
 
-- El catálogo vive bajo /kitchen/, /laundry/ y /aspiradoras/ — el rastreo
-  se limita a esas tres secciones.
-- Se excluyen por RUTA (más fiable que por texto de menú):
+1ª vuelta: el rastreo excluía por el TEXTO de cada enlace ("accesorio",
+"pequeño electrodoméstico"). Un mega-menú hacía que el enlace de "Cocción"
+incluyera en su innerText todo el panel desplegable, así que se excluían
+categorías enteras sin relación.
+
+2ª vuelta: se acotó el filtro de texto a textos cortos, pero SIGUIÓ
+fallando — kitchen/cooking, laundry/laundry, etc. se excluían igual. La
+causa real: hay enlaces cortos tipo "Accesorios" que apuntan a la MISMA
+URL base de una categoría pero con un parámetro de filtro distinto
+(?algo=accesorios). Como las URLs se comparan ignorando parámetros para
+no rastrear la misma página dos veces, ese enlace corto "contaminaba" el
+prefijo de la categoría entera.
+
+Conclusión: el texto de los enlaces no es fiable en esta web. Esta versión
+YA NO excluye nada por texto — solo por RUTA, usando las dos rutas
+confirmadas en dos rastreos reales distintos:
     /accessories/                       -> "Accesorios"
     /kitchen/small-kitchen-appliances   -> "Pequeño electrodoméstico"
-- Se descartan de entrada PDFs y rutas de assets/legal (/siteassets/,
-  /external/, /overlays/) — Playwright no puede "navegar" a un PDF
-  (da net::ERR_ABORTED) y esas rutas nunca son fichas de producto, así
-  que ni se intentan cargar.
-- El filtro por TEXTO de enlace se mantiene como red de seguridad (por si
-  aparece alguna subcategoría de accesorios con otra URL), pero solo se
-  aplica a textos cortos. La primera versión de este script comprobaba el
-  texto completo de cada enlace, y el menú de AEG resultó ser un mega-menú
-  donde el enlace de "Cocción" incluye en su innerText todo el panel
-  desplegable — así que acababa "contaminado" y excluía categorías enteras
-  que no tenían nada que ver. Limitar el chequeo a textos cortos evita eso.
+
+El texto de los enlaces solo se usa para registrar en el log qué se HABRÍA
+excluido por texto (a título informativo), sin que afecte al rastreo.
 
 Sigue usando Playwright porque el catálogo y los precios se cargan con
 JavaScript, no están en el HTML inicial.
@@ -40,7 +45,8 @@ DOMAIN = "www.aeg.com.es"
 # Únicas secciones por las que merece la pena rastrear (confirmado por log real)
 INCLUDE_PATH_PREFIXES = ["/kitchen/", "/laundry/", "/aspiradoras/"]
 
-# Exclusiones confirmadas por ruta real
+# Exclusiones confirmadas por RUTA en dos rastreos reales distintos.
+# Esta es la única fuente de exclusión — el texto de los enlaces no es fiable.
 EXCLUDE_PATH_FRAGMENTS = ["/accessories/", "/kitchen/small-kitchen-appliances"]
 
 # Rutas que nunca son fichas de producto (assets, PDFs, avisos legales)
@@ -50,9 +56,9 @@ NON_PAGE_EXTENSIONS = (
     ".zip", ".doc", ".docx", ".xls", ".xlsx", ".mp4",
 )
 
-# Red de seguridad por texto de menú — solo para textos cortos (ver docstring)
-EXCLUDE_TEXT_PATTERN = re.compile(r"accesori|pequeñ.{0,10}electrodom", re.IGNORECASE)
-MAX_EXCLUDE_TEXT_LEN = 50
+# Solo informativo: registra enlaces con este texto para que puedas
+# revisarlos tú, pero NO se usa para excluir nada del rastreo.
+SUSPICIOUS_TEXT_PATTERN = re.compile(r"accesori|pequeñ.{0,10}electrodom", re.IGNORECASE)
 
 # Patrón de precio en formato español: 1.234,56 € / 799 € / 69,90 €
 PRICE_PATTERN = re.compile(r"\d{1,3}(?:\.\d{3})*(?:,\d{2})?\s?€")
@@ -131,10 +137,10 @@ def classify_price(text: str):
 def crawl():
     seen = set()
     to_visit = [BASE_URL + "/"]
-    excluded_prefixes = set(EXCLUDE_PATH_FRAGMENTS)
     products = {}
     first_page = True
     pdf_skipped = 0
+    suspicious_text_seen = {}  # link_key -> texto (solo informativo)
 
     with sync_playwright() as p:
         browser = p.chromium.launch()
@@ -155,8 +161,6 @@ def crawl():
             path = urlsplit(raw_url).path
             is_homepage = path in ("", "/")
 
-            if any(key.startswith(prefix) for prefix in excluded_prefixes):
-                continue
             if not is_homepage and not is_in_scope(path):
                 continue
 
@@ -203,13 +207,11 @@ def crawl():
                 link_key = dedup_key(href)
                 link_path = urlsplit(href).path
 
+                if SUSPICIOUS_TEXT_PATTERN.search(text) and len(text) <= 80:
+                    suspicious_text_seen.setdefault(link_key, text[:80])
+
                 if is_non_page(link_path):
                     pdf_skipped += 1
-                    continue
-                if len(text) <= MAX_EXCLUDE_TEXT_LEN and EXCLUDE_TEXT_PATTERN.search(text):
-                    excluded_prefixes.add(link_key)
-                    continue
-                if any(link_key.startswith(prefix) for prefix in excluded_prefixes):
                     continue
                 if not is_in_scope(link_path):
                     continue
@@ -227,10 +229,15 @@ def crawl():
         browser.close()
 
     print(f"\n[info] Enlaces a PDF/assets descartados sin visitar: {pdf_skipped}")
-    if excluded_prefixes:
-        print("[info] Rutas excluidas:")
-        for prefix in sorted(excluded_prefixes):
-            print(f"        - {prefix}")
+    print(f"[info] Rutas excluidas por configuración: {', '.join(EXCLUDE_PATH_FRAGMENTS)}")
+    if suspicious_text_seen:
+        print(
+            "[info] Enlaces DENTRO del catálogo cuyo texto menciona "
+            "'accesorio'/'pequeño electrodoméstico' (NO excluidos, solo aviso "
+            "para que los revises tú si quieres):"
+        )
+        for link_key, text in sorted(suspicious_text_seen.items()):
+            print(f"        - {text!r} -> {link_key}")
 
     return list(products.values())
 
