@@ -117,21 +117,65 @@ def dismiss_cookie_banner(page):
             continue
 
 
-def classify_price(text: str):
+# Pistas de financiación. Las de SUFIJO van justo DESPUÉS de la cifra
+# ("24,90 €/mes", "€ al mes"); la de PREFIJO ("12 cuotas de 41,58 €") va antes
+# del importe. El "0€ de entrada" no necesita pista: se descarta por ser 0.
+FINANCING_SUFFIX = ("/mes", "al mes", "mensual")
+FINANCING_PREFIX = ("cuota",)
+
+
+def extract_selling_price(text: str):
     """
-    Heurística: si la página tiene entre 1 y 4 precios visibles, la tratamos
-    como ficha de producto individual (el resto suele ser precio anterior,
-    precio/mes de financiación, etc). Si hay más, es probable que sea un
-    listado con varios productos y no intentamos sacar "el" precio de ahí.
+    Devuelve el primer precio "real" de la página (float) o None.
+    Ignora cifras de financiación (0€ de entrada, X€/mes, cuotas...) y ceros.
+
+    Para no confundir el precio real con la letra pequeña de financiación, a
+    cada cifra se le mira una ventana CORTA por detrás (por el sufijo "/mes")
+    y el hueco desde la cifra anterior (por el prefijo "cuota"). Así "/mes"
+    no se contamina con el precio siguiente y "cuota" no salta al total real.
     """
-    matches = PRICE_PATTERN.findall(text)
-    if not matches or len(matches) > 4:
-        return None, False
-    raw = matches[0].replace("€", "").strip().replace(".", "").replace(",", ".")
-    try:
-        return float(raw), True
-    except ValueError:
-        return None, False
+    prev_end = 0
+    for m in PRICE_PATTERN.finditer(text):
+        after = text[m.end():m.end() + 8].lower()
+        between = text[prev_end:m.start()].lower()
+        prev_end = m.end()
+        if any(h in after for h in FINANCING_SUFFIX):
+            continue
+        if any(h in between for h in FINANCING_PREFIX):
+            continue
+        raw = m.group(0).replace("€", "").strip().replace(".", "").replace(",", ".")
+        try:
+            val = float(raw)
+        except ValueError:
+            continue
+        if val <= 0:
+            continue
+        return val
+    return None
+
+
+def looks_like_product_url(path: str) -> bool:
+    """
+    Una ficha de producto termina en un código de modelo (SKU) — un segmento
+    que contiene al menos un "token" con letras Y números mezclados
+    (lfr8504l6q, v5pba521ab, si6-1-2mn). Las páginas de listado terminan en
+    palabras (ovens, built-in-dishwasher, 9-kg-washing-machine), donde números
+    y palabras van en tokens SEPARADOS y por tanto no cuentan.
+
+    Esto sustituye a la antigua heurística de "contar precios", que fallaba
+    porque las fichas de producto reales muestran precio actual + precio
+    anterior + financiación, superando el tope y quedando descartadas.
+    """
+    segments = [s for s in path.strip("/").split("/") if s]
+    if len(segments) < 2:
+        return False
+    last = segments[-1]
+    for token in last.split("-"):
+        has_letter = any(c.isalpha() for c in token)
+        has_digit = any(c.isdigit() for c in token)
+        if has_letter and has_digit:
+            return True
+    return False
 
 
 def crawl():
@@ -187,17 +231,18 @@ def crawl():
             except Exception:
                 body_text = ""
 
-            price, is_product = classify_price(body_text)
-            if is_product:
+            if looks_like_product_url(path):
                 try:
                     name = page.locator("h1").first.inner_text(timeout=2000).strip()
                 except Exception:
                     name = page.title().strip()
+                price = extract_selling_price(body_text)
                 canon = canonical_url(raw_url)
                 segments = [s for s in urlsplit(canon).path.strip("/").split("/") if s]
                 sku = segments[-1] if segments else canon
                 products[canon] = {"url": canon, "name": name, "sku": sku}
-                print(f"[producto] {name} -> {price} € ({canon})")
+                price_txt = f"{price:.2f} €" if price is not None else "precio no detectado"
+                print(f"[producto] {name} -> {price_txt} ({canon})")
 
             for link in links:
                 href = link.get("href", "")
