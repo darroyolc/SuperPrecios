@@ -35,6 +35,12 @@ CHANNEL_PARAM = "cs02_corporatebenefits"
 PRICE_PATTERN = re.compile(r"\d{1,3}(?:\.\d{3})*(?:,\d{2})?\s?€")
 REQUEST_DELAY = 0.3
 
+# Pistas de financiación. Las de SUFIJO van justo DESPUÉS de la cifra
+# ("24,90 €/mes", "€ al mes"); la de PREFIJO ("12 cuotas de 41,58 €") va antes
+# del importe. El "0€ de entrada" no necesita pista: se descarta por ser 0.
+FINANCING_SUFFIX = ("/mes", "al mes", "mensual")
+FINANCING_PREFIX = ("cuota",)
+
 TELEGRAM_TOKEN = os.environ.get("TELEGRAM_BOT_TOKEN")
 TELEGRAM_CHAT_ID = os.environ.get("TELEGRAM_CHAT_ID")
 
@@ -94,11 +100,21 @@ def extract_prices(page):
     except Exception:
         text = ""
     current = None
-    for m in PRICE_PATTERN.findall(text):
+    prev_end = 0
+    for m in PRICE_PATTERN.finditer(text):
+        after = text[m.end():m.end() + 8].lower()
+        between = text[prev_end:m.start()].lower()
+        prev_end = m.end()
+        if any(h in after for h in FINANCING_SUFFIX):
+            continue  # "24,90 €/mes" -> financiación, no el precio
+        if any(h in between for h in FINANCING_PREFIX):
+            continue  # "12 cuotas de 41,58 €" -> importe de cuota, no el precio
         try:
-            val = parse_price(m)
+            val = parse_price(m.group(0))
         except ValueError:
             continue
+        if val <= 0:
+            continue  # "0€ de entrada"
         if original is not None and abs(val - original) < 0.01:
             continue  # es el mismo precio tachado, no el actual
         current = val
