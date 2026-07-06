@@ -1,20 +1,195 @@
 {
   "axp26u339cw": {
     "name": "Aire acondicionado portátil Comfort 6000 de 9.000 BTUs para 31-35 m²",
-    "last_price": 0.0,
-    "reference_price": 0.0,
-    "was_under_100": true,
+    "last_price": 419.3,
+    "reference_price": 419.3,
+    "was_under_100": false,
     "was_big_discount": false
   },
   "acu7878csw": {
     "name": "Aire acondicionado portátil Comfort 7000 de 12.000 BTUs para 41-49 m²",
-    "last_price": 0.0,
+    "last_price": 524.3,
     "reference_price": 749.0,
-    "was_under_100": true,
-    "was_big_discount": true
+    "was_under_100": false,
+    "was_big_discount": false
   },
   "si6-1-2mn": {
     "name": "Plancha de vapor AEG Delicate 6000 de 2400 W y 160 g/mm de golpe de vapor",
+    "last_price": 50.0,
+    "reference_price": 50.0,
+    "was_under_100": true,
+    "was_big_discount": false
+  },
+  "v5pba521ab": {
+    "name": "Horno multifunción Serie 5000 SurroundCook con SteamBake con Display LED Explore",
+    "last_price": 69.9,
+    "reference_price": 91.9,
+    "was_under_100": true,
+    "was_big_discount": false
+  },
+  "ffb75707pm": {
+    "name": "Lavavajillas de 60 cm Serie 7000 GlassCare para 14 cubiertos",
+    "last_price": 472.0,
+    "reference_price": 849.0,
+    "was_under_100": false,
+    "was_big_discount": false
+  },
+  "gb87d91cb": {
+    "name": "Campana extractora decorativa Serie 8000 AuroraTech de 90 cm",
+    "last_price": 323.0,
+    "reference_price": 349.9,
+    "was_under_100": false,
+    "was_big_discount": false
+  },
+  "tx6mr531ee": {
+    "name": "Frigorífico americano de libre instalación Serie 6000 Negro de 177 cm",
+    "last_price": 971.4,
+    "reference_price": 971.4,
+    "was_under_100": false,
+    "was_big_discount": false
+  },
+  "tr818a4ob": {
+    "name": "Secadora con Bomba de Calor Serie 8000 AbsoluteCare® de 8 kg",
+    "last_price": 69.9,
+    "reference_price": 69.9,
+    "was_under_100": true,
+    "was_big_discount": false
+  },
+  "lfr7394o4q": {
+    "name": "Lavadora de libre instalación Serie 7000 ProSteam® Autodose de 9.0 kg",
+    "last_price": 69.9,
+    "reference_price": 899.0,
+    "was_under_100": true,
+    "was_big_discount": true
+  },
+  "aw82u1db": {
+    "name": "Aspiradora sin cable Wet&Dry 8000 de 35 min de autonomía",
+    "last_price": 50.0,
+    "reference_price": 50.0,
+    "was_under_100": true,
+    "was_big_discount": false
+  },
+  "tp9sb831ab": {
+    "name": "Horno de vapor Serie 9000 ProAssist con SteamPro con Display CookSmart Touch+ 7,8 '', con WiFi",
+    "last_price": 69.9,
+    "reference_price": 91.9,
+    "was_under_100": true,
+    "was_big_discount": false
+  },
+  "ti63iq10iz": {
+    "name": "Placa de inducción SaphirMatt® Serie 7000 Sense de 60 cm",
+    "last_price": 69.9,
+    "reference_price": 91.9,
+    "was_under_100": true,
+    "was_big_discount": false
+  },
+  "i64av423fb": {
+    "name": "Placas de Inducción",
+    "last_price": 559.3,
+    "reference_price": 799.0,
+    "was_under_100": false,
+    "was_big_discount": false
+  },
+  "gx970xt": {
+    "name": "Lavavajillas integrable de 60 cm Serie 9000 XXL Flexibility para 15 cubiertos",
+    "last_price": 424.0,
+    "reference_price": 424.0,
+    "was_under_100": false,
+    "was_big_discount": false
+  },
+  "gi8700a2pn": {
+    "name": "Lavavajillas integrable de 60 cm Serie 8000 XXL Cleaning Performance para 15 cubiertos",
+    "last_price": 360.0,
+    "reference_price": 360.0,
+    "was_under_100": false,
+    "was_big_discount": false
+  },
+  "gt6200b2snm": {
+    "name": "Lavavajillas integrable de 60 cm Serie 6000 SmartSelect para 14 cubiertos",
+    "last_price": 366.0,
+    "reference_price": 366.0,
+    "was_under_100": false,
+    "was_big_discount": false
+  },
+  "dbt800": {
+    "name": "Planchas de vapor | AEG",
+    "last_price": 39.0,
+    "reference_price": 59.0,
+    "was_under_100": true,
+    "was_big_discount": false
+  },
+  "lfr8504l6q": {
+    "name": "Lavadora de libre instalación Serie 8000 PowerCare Autodose de 11.0 kg",
+    "last_price": 50.0,
+    "reference_price": 1029.0,
+    "was_under_100": true,
+    "was_big_discount": true
+  },
+  "lfr6194o4q": {
+    "name": "Lavadora de libre instalación Serie 6000 ProSense® Autodose de 9.0 kg",
+    "last_price": 69.9,
+    "reference_price": 789.0,
+    "was_under_100": true,
+    "was_big_discount": true
+  },
+  "lfr7314o4v": {
+    "name": "Lavadoras de 10kg",
+    "last_price": 499.0,
+    "reference_price": 699.0,
+    "was_under_100": false,
+    "was_big_discount": false
+  },
+  "lfr7294o4v": {
+    "name": "Lavadoras de 9 kg",
+    "last_price": 552.3,
+    "reference_price": 789.0,
+    "was_under_100": false,
+    "was_big_discount": false
+  },
+  "lfr6194o2v": {
+    "name": "Lavadoras de 9 kg",
+    "last_price": 224.0,
+    "reference_price": 789.0,
+    "was_under_100": false,
+    "was_big_discount": true
+  },
+  "tr959m6obc": {
+    "name": "Secadora con Bomba de Calor Serie 9000 AbsoluteCare® Plus de 9 kg",
+    "last_price": 540.0,
+    "reference_price": 540.0,
+    "was_under_100": false,
+    "was_big_discount": false
+  },
+  "tr818a2pb": {
+    "name": "Secadora con Bomba de Calor Serie 8000 AbsoluteCare® de 8 kg",
+    "last_price": 1484.0,
+    "reference_price": 1484.0,
+    "was_under_100": false,
+    "was_big_discount": false
+  },
+  "tr719g4pb": {
+    "name": "Secadora con Bomba de Calor Serie 7000 SensiDry® de 9 kg",
+    "last_price": 559.0,
+    "reference_price": 949.0,
+    "was_under_100": false,
+    "was_big_discount": false
+  },
+  "ap72ub21es": {
+    "name": "Aspiradora sin cable Serie 7000 de 40 min de autonomía",
+    "last_price": 50.0,
+    "reference_price": 50.0,
+    "was_under_100": true,
+    "was_big_discount": false
+  },
+  "si6-1-4mn": {
+    "name": "Plancha de vapor AEG Delicate 6000 y 200 g/mm de golpe de vapor",
+    "last_price": 50.0,
+    "reference_price": 59.0,
+    "was_under_100": true,
+    "was_big_discount": false
+  },
+  "db1730": {
+    "name": "Plancha de vapor AEG Easyline de 2300 W y 100 g/mm de golpe de vapor",
     "last_price": 50.0,
     "reference_price": 50.0,
     "was_under_100": true,
