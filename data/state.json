@@ -2,7 +2,7 @@
   "axp26u339cw": {
     "name": "Aire acondicionado portátil Comfort 6000 de 9.000 BTUs para 31-35 m²",
     "last_price": 419.3,
-    "reference_price": 419.3,
+    "reference_price": 599.0,
     "was_under_100": false,
     "was_big_discount": false
   },
@@ -29,37 +29,37 @@
   },
   "ffb75707pm": {
     "name": "Lavavajillas de 60 cm Serie 7000 GlassCare para 14 cubiertos",
-    "last_price": 472.0,
+    "last_price": 69.9,
     "reference_price": 849.0,
-    "was_under_100": false,
-    "was_big_discount": false
+    "was_under_100": true,
+    "was_big_discount": true
   },
   "gb87d91cb": {
     "name": "Campana extractora decorativa Serie 8000 AuroraTech de 90 cm",
-    "last_price": 323.0,
+    "last_price": 69.9,
     "reference_price": 349.9,
-    "was_under_100": false,
-    "was_big_discount": false
+    "was_under_100": true,
+    "was_big_discount": true
   },
   "tx6mr531ee": {
     "name": "Frigorífico americano de libre instalación Serie 6000 Negro de 177 cm",
-    "last_price": 971.4,
+    "last_price": 425.0,
     "reference_price": 971.4,
     "was_under_100": false,
-    "was_big_discount": false
+    "was_big_discount": true
   },
   "tr818a4ob": {
     "name": "Secadora con Bomba de Calor Serie 8000 AbsoluteCare® de 8 kg",
-    "last_price": 69.9,
-    "reference_price": 69.9,
-    "was_under_100": true,
+    "last_price": 1409.0,
+    "reference_price": 1409.0,
+    "was_under_100": false,
     "was_big_discount": false
   },
   "lfr7394o4q": {
     "name": "Lavadora de libre instalación Serie 7000 ProSteam® Autodose de 9.0 kg",
-    "last_price": 69.9,
+    "last_price": 224.0,
     "reference_price": 899.0,
-    "was_under_100": true,
+    "was_under_100": false,
     "was_big_discount": true
   },
   "aw82u1db": {
@@ -71,9 +71,9 @@
   },
   "tp9sb831ab": {
     "name": "Horno de vapor Serie 9000 ProAssist con SteamPro con Display CookSmart Touch+ 7,8 '', con WiFi",
-    "last_price": 69.9,
-    "reference_price": 91.9,
-    "was_under_100": true,
+    "last_price": 360.0,
+    "reference_price": 360.0,
+    "was_under_100": false,
     "was_big_discount": false
   },
   "ti63iq10iz": {
@@ -127,14 +127,14 @@
   },
   "lfr6194o4q": {
     "name": "Lavadora de libre instalación Serie 6000 ProSense® Autodose de 9.0 kg",
-    "last_price": 69.9,
+    "last_price": 224.0,
     "reference_price": 789.0,
-    "was_under_100": true,
+    "was_under_100": false,
     "was_big_discount": true
   },
   "lfr7314o4v": {
     "name": "Lavadoras de 10kg",
-    "last_price": 499.0,
+    "last_price": 353.0,
     "reference_price": 699.0,
     "was_under_100": false,
     "was_big_discount": false
@@ -148,10 +148,10 @@
   },
   "lfr6194o2v": {
     "name": "Lavadoras de 9 kg",
-    "last_price": 224.0,
+    "last_price": 552.3,
     "reference_price": 789.0,
     "was_under_100": false,
-    "was_big_discount": true
+    "was_big_discount": false
   },
   "tr959m6obc": {
     "name": "Secadora con Bomba de Calor Serie 9000 AbsoluteCare® Plus de 9 kg",
@@ -193,6 +193,13 @@
     "last_price": 50.0,
     "reference_price": 50.0,
     "was_under_100": true,
+    "was_big_discount": false
+  },
+  "i84av423fb": {
+    "name": "Placas de Inducción",
+    "last_price": 559.3,
+    "reference_price": 799.0,
+    "was_under_100": false,
     "was_big_discount": false
   }
 }

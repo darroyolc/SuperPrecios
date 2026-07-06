@@ -194,5 +194,43 @@
     "reasons": [
       "por debajo de 100 €"
     ]
+  },
+  {
+    "timestamp": "2026-07-06T14:09:10.438643+00:00",
+    "sku": "ffb75707pm",
+    "name": "Lavavajillas de 60 cm Serie 7000 GlassCare para 14 cubiertos",
+    "url": "https://www.aeg.com.es/kitchen/dishwashing/dishwashers/free-standing-dishwasher/ffb75707pm/",
+    "price": 69.9,
+    "reference_price": 849.0,
+    "discount_pct": 0.9177,
+    "reasons": [
+      "por debajo de 100 €",
+      "ha bajado un 92% respecto a su precio de referencia (849.00 €)"
+    ]
+  },
+  {
+    "timestamp": "2026-07-06T14:09:20.155087+00:00",
+    "sku": "gb87d91cb",
+    "name": "Campana extractora decorativa Serie 8000 AuroraTech de 90 cm",
+    "url": "https://www.aeg.com.es/kitchen/cooking/cooker-hoods/90-cm-cooker-hood/gb87d91cb/",
+    "price": 69.9,
+    "reference_price": 349.9,
+    "discount_pct": 0.8002,
+    "reasons": [
+      "por debajo de 100 €",
+      "ha bajado un 80% respecto a su precio de referencia (349.90 €)"
+    ]
+  },
+  {
+    "timestamp": "2026-07-06T14:09:23.142147+00:00",
+    "sku": "tx6mr531ee",
+    "name": "Frigorífico americano de libre instalación Serie 6000 Negro de 177 cm",
+    "url": "https://www.aeg.com.es/kitchen/cooling/fridge-freezers/side-by-side-fridge-freezer/tx6mr531ee/",
+    "price": 425.0,
+    "reference_price": 971.4,
+    "discount_pct": 0.5625,
+    "reasons": [
+      "ha bajado un 56% respecto a su precio de referencia (971.40 €)"
+    ]
   }
 ]
