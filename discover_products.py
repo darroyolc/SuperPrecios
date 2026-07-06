@@ -38,6 +38,8 @@ from urllib.parse import urlsplit, urlunsplit, parse_qs, urlencode
 
 from playwright.sync_api import sync_playwright
 
+from price_utils import extract_product_price
+
 BASE_URL = "https://www.aeg.com.es"
 CHANNEL_PARAM = "cs02_corporatebenefits"
 DOMAIN = "www.aeg.com.es"
@@ -117,41 +119,9 @@ def dismiss_cookie_banner(page):
             continue
 
 
-# Pistas de financiación. Las de SUFIJO van justo DESPUÉS de la cifra
-# ("24,90 €/mes", "€ al mes"); la de PREFIJO ("12 cuotas de 41,58 €") va antes
-# del importe. El "0€ de entrada" no necesita pista: se descarta por ser 0.
-FINANCING_SUFFIX = ("/mes", "al mes", "mensual")
-FINANCING_PREFIX = ("cuota",)
-
-
-def extract_selling_price(text: str):
-    """
-    Devuelve el primer precio "real" de la página (float) o None.
-    Ignora cifras de financiación (0€ de entrada, X€/mes, cuotas...) y ceros.
-
-    Para no confundir el precio real con la letra pequeña de financiación, a
-    cada cifra se le mira una ventana CORTA por detrás (por el sufijo "/mes")
-    y el hueco desde la cifra anterior (por el prefijo "cuota"). Así "/mes"
-    no se contamina con el precio siguiente y "cuota" no salta al total real.
-    """
-    prev_end = 0
-    for m in PRICE_PATTERN.finditer(text):
-        after = text[m.end():m.end() + 8].lower()
-        between = text[prev_end:m.start()].lower()
-        prev_end = m.end()
-        if any(h in after for h in FINANCING_SUFFIX):
-            continue
-        if any(h in between for h in FINANCING_PREFIX):
-            continue
-        raw = m.group(0).replace("€", "").strip().replace(".", "").replace(",", ".")
-        try:
-            val = float(raw)
-        except ValueError:
-            continue
-        if val <= 0:
-            continue
-        return val
-    return None
+# Fragmentos de URL que NO son fichas de producto reales aunque acaben en algo
+# con pinta de código: redirecciones del CMS y páginas .aspx.
+JUNK_URL_FRAGMENTS = ("~/link/", "/~/", ".aspx")
 
 
 def looks_like_product_url(path: str) -> bool:
@@ -166,6 +136,9 @@ def looks_like_product_url(path: str) -> bool:
     porque las fichas de producto reales muestran precio actual + precio
     anterior + financiación, superando el tope y quedando descartadas.
     """
+    lower = path.lower()
+    if any(frag in lower for frag in JUNK_URL_FRAGMENTS):
+        return False
     segments = [s for s in path.strip("/").split("/") if s]
     if len(segments) < 2:
         return False
@@ -236,12 +209,12 @@ def crawl():
                     name = page.locator("h1").first.inner_text(timeout=2000).strip()
                 except Exception:
                     name = page.title().strip()
-                price = extract_selling_price(body_text)
+                price, method = extract_product_price(page)
                 canon = canonical_url(raw_url)
                 segments = [s for s in urlsplit(canon).path.strip("/").split("/") if s]
                 sku = segments[-1] if segments else canon
                 products[canon] = {"url": canon, "name": name, "sku": sku}
-                price_txt = f"{price:.2f} €" if price is not None else "precio no detectado"
+                price_txt = f"{price:.2f} € [{method}]" if price is not None else "precio no detectado"
                 print(f"[producto] {name} -> {price_txt} ({canon})")
 
             for link in links:
