@@ -29,17 +29,12 @@ from urllib.parse import urlsplit, urlunsplit, parse_qs, urlencode
 import requests
 from playwright.sync_api import sync_playwright
 
+from price_utils import PRICE_PATTERN, extract_product_price
+
 PRICE_THRESHOLD = 100.0
 DISCOUNT_THRESHOLD = 0.50  # 50%
 CHANNEL_PARAM = "cs02_corporatebenefits"
-PRICE_PATTERN = re.compile(r"\d{1,3}(?:\.\d{3})*(?:,\d{2})?\s?€")
 REQUEST_DELAY = 0.3
-
-# Pistas de financiación. Las de SUFIJO van justo DESPUÉS de la cifra
-# ("24,90 €/mes", "€ al mes"); la de PREFIJO ("12 cuotas de 41,58 €") va antes
-# del importe. El "0€ de entrada" no necesita pista: se descarta por ser 0.
-FINANCING_SUFFIX = ("/mes", "al mes", "mensual")
-FINANCING_PREFIX = ("cuota",)
 
 TELEGRAM_TOKEN = os.environ.get("TELEGRAM_BOT_TOKEN")
 TELEGRAM_CHAT_ID = os.environ.get("TELEGRAM_CHAT_ID")
@@ -93,32 +88,14 @@ def find_original_price(page):
 
 
 def extract_prices(page):
-    """Devuelve (precio_actual, precio_original_o_None)."""
+    """Devuelve (precio_actual, precio_original_o_None).
+
+    El precio actual sale del extractor robusto (JSON-LD -> meta -> texto
+    recortado), que evita coger precios de servicio/garantía/financiación.
+    El precio original (tachado) se detecta aparte por el estilo CSS.
+    """
     original = find_original_price(page)
-    try:
-        text = page.inner_text("body")
-    except Exception:
-        text = ""
-    current = None
-    prev_end = 0
-    for m in PRICE_PATTERN.finditer(text):
-        after = text[m.end():m.end() + 8].lower()
-        between = text[prev_end:m.start()].lower()
-        prev_end = m.end()
-        if any(h in after for h in FINANCING_SUFFIX):
-            continue  # "24,90 €/mes" -> financiación, no el precio
-        if any(h in between for h in FINANCING_PREFIX):
-            continue  # "12 cuotas de 41,58 €" -> importe de cuota, no el precio
-        try:
-            val = parse_price(m.group(0))
-        except ValueError:
-            continue
-        if val <= 0:
-            continue  # "0€ de entrada"
-        if original is not None and abs(val - original) < 0.01:
-            continue  # es el mismo precio tachado, no el actual
-        current = val
-        break
+    current, _method = extract_product_price(page, exclude=original)
     return current, original
 
 
