@@ -44,12 +44,31 @@ BASE_URL = "https://www.aeg.com.es"
 CHANNEL_PARAM = "cs02_corporatebenefits"
 DOMAIN = "www.aeg.com.es"
 
-# Únicas secciones por las que merece la pena rastrear (confirmado por log real)
-INCLUDE_PATH_PREFIXES = ["/kitchen/", "/laundry/", "/aspiradoras/"]
+# --- Qué se ignora del rastreo (enfoque de LISTA NEGRA) --------------------
+# Antes el crawler solo entraba en 3 secciones (lista blanca), lo que dejaba
+# fuera cualquier producto de otra zona. Ahora rastrea TODO el dominio y solo
+# ignora lo que se lista aquí.
 
-# Exclusiones confirmadas por RUTA en dos rastreos reales distintos.
-# Esta es la única fuente de exclusión — el texto de los enlaces no es fiable.
-EXCLUDE_PATH_FRAGMENTS = ["/accessories/", "/kitchen/small-kitchen-appliances"]
+# Rutas de PRODUCTO que se ignoran (las que pediste). Se comparan como prefijo
+# de ruta, así que cubren todo lo que cuelgue de ellas.
+EXCLUDE_PATH_FRAGMENTS = [
+    "/accessories/accessories",
+    "/kitchen/small-kitchen-appliances",
+    "/laundry/laundry/irons",
+    "/laundry/laundry/garment-steamer",
+]
+
+# Secciones que NO son de producto (soporte, ayuda, blog, etc.). No contienen
+# fichas; se saltan únicamente para que el rastreo semanal no se vaya de tiempo
+# entrando en cientos de páginas irrelevantes. Confirmado: en aeg.com.es todos
+# los productos cuelgan de /kitchen/, /laundry/ y /aspiradoras/, y lo no-producto
+# vive bajo /support/ y el subdominio support.aeg.com.es (este último ni se sigue
+# porque no es www.aeg.com.es). Si algún día hubiera productos en otra sección,
+# basta con quitarla de esta lista.
+NON_PRODUCT_PREFIXES = [
+    "/support", "/about-aeg", "/about", "/faq", "/local",
+    "/legal", "/promotions", "/store", "/newsletter", "/campaigns",
+]
 
 # Rutas que nunca son fichas de producto (assets, PDFs, avisos legales)
 NON_PAGE_PATH_FRAGMENTS = ["/siteassets/", "/external/", "/overlays/"]
@@ -99,12 +118,16 @@ def is_non_page(path: str) -> bool:
 
 
 def is_in_scope(path: str) -> bool:
+    """Lista negra: entra cualquier ruta del dominio salvo las rutas de
+    producto excluidas, las secciones que no son de producto y los assets."""
     lower = path.lower()
-    if any(frag in lower for frag in EXCLUDE_PATH_FRAGMENTS):
+    if any(lower.startswith(frag) for frag in EXCLUDE_PATH_FRAGMENTS):
+        return False
+    if any(lower == p or lower.startswith(p + "/") for p in NON_PRODUCT_PREFIXES):
         return False
     if is_non_page(lower):
         return False
-    return any(lower.startswith(prefix) for prefix in INCLUDE_PATH_PREFIXES)
+    return True
 
 
 def dismiss_cookie_banner(page):
@@ -117,6 +140,23 @@ def dismiss_cookie_banner(page):
                 return
         except Exception:
             continue
+
+
+def autoscroll(page, rounds=6, pause=500):
+    """Baja la página varias veces para forzar la carga de rejillas de producto
+    que solo aparecen al hacer scroll (lazy-load). Para en cuanto la altura de
+    la página deja de crecer, así no gasta tiempo de más."""
+    try:
+        last_height = 0
+        for _ in range(rounds):
+            page.evaluate("window.scrollTo(0, document.body.scrollHeight)")
+            page.wait_for_timeout(pause)
+            height = page.evaluate("document.body.scrollHeight")
+            if height == last_height:
+                break
+            last_height = height
+    except Exception:
+        pass
 
 
 # Fragmentos de URL que NO son fichas de producto reales aunque acaben en algo
@@ -192,6 +232,12 @@ def crawl():
                 dismiss_cookie_banner(page)
                 first_page = False
 
+            # En páginas de listado/categoría, bajar para cargar toda la rejilla
+            # de productos (lazy-load). En fichas de producto no hace falta.
+            is_product_page = looks_like_product_url(path)
+            if not is_product_page:
+                autoscroll(page)
+
             try:
                 links = page.eval_on_selector_all(
                     "a[href]", "els => els.map(e => ({href: e.href, text: e.innerText || ''}))"
@@ -199,12 +245,7 @@ def crawl():
             except Exception:
                 links = []
 
-            try:
-                body_text = page.inner_text("body")
-            except Exception:
-                body_text = ""
-
-            if looks_like_product_url(path):
+            if is_product_page:
                 try:
                     name = page.locator("h1").first.inner_text(timeout=2000).strip()
                 except Exception:
@@ -247,7 +288,8 @@ def crawl():
         browser.close()
 
     print(f"\n[info] Enlaces a PDF/assets descartados sin visitar: {pdf_skipped}")
-    print(f"[info] Rutas excluidas por configuración: {', '.join(EXCLUDE_PATH_FRAGMENTS)}")
+    print(f"[info] Rutas de producto ignoradas: {', '.join(EXCLUDE_PATH_FRAGMENTS)}")
+    print(f"[info] Secciones no-producto saltadas: {', '.join(NON_PRODUCT_PREFIXES)}")
     if suspicious_text_seen:
         print(
             "[info] Enlaces DENTRO del catálogo cuyo texto menciona "
