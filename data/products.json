@@ -45,11 +45,6 @@
     "sku": "tp9sb831ab"
   },
   {
-    "url": "https://www.aeg.com.es/kitchen/cooking/ovens/oven/~/link/f4f1068307b24fe5b5434558b2785eed.aspx/",
-    "name": "Hornos multifunción",
-    "sku": "f4f1068307b24fe5b5434558b2785eed.aspx"
-  },
-  {
     "url": "https://www.aeg.com.es/kitchen/cooking/hobs/induction-hob/ti63iq10iz/",
     "name": "Placa de inducción SaphirMatt® Serie 7000 Sense de 60 cm",
     "sku": "ti63iq10iz"
@@ -63,6 +58,76 @@
     "url": "https://www.aeg.com.es/kitchen/cooking/hobs/induction-hob/i64av423fb/",
     "name": "Placas de Inducción",
     "sku": "i64av423fb"
+  },
+  {
+    "url": "https://www.aeg.com.es/kitchen/dishwashing/dishwashers/free-standing-dishwasher/gf6100c2snm/",
+    "name": "Lavavajillas integrable de 60 cm Serie 6000 SmartSelect para 13 cubiertos",
+    "sku": "gf6100c2snm"
+  },
+  {
+    "url": "https://www.aeg.com.es/kitchen/dishwashing/dishwashers/free-standing-dishwasher/gf6100c2snw/",
+    "name": "Lavavajillas integrable de 60 cm Serie 6000 SmartSelect para 13 cubiertos",
+    "sku": "gf6100c2snw"
+  },
+  {
+    "url": "https://www.aeg.com.es/kitchen/dishwashing/dishwashers/free-standing-dishwasher/ffb62427zw/",
+    "name": "Lavavajillas de 45 cm Serie 6000 SatelliteClean para 9 cubiertos",
+    "sku": "ffb62427zw"
+  },
+  {
+    "url": "https://www.aeg.com.es/kitchen/dishwashing/dishwashers/free-standing-dishwasher/ffb62427zm/",
+    "name": "Lavavajillas de 45 cm Serie 6000 SatelliteClean para 9 cubiertos",
+    "sku": "ffb62427zm"
+  },
+  {
+    "url": "https://www.aeg.com.es/kitchen/dishwashing/dishwashers/built-in-dishwasher/gi6200b2sn/",
+    "name": "Lavavajillas integrable de 60 cm Serie 6000 SmartSelect para 14 cubiertos",
+    "sku": "gi6200b2sn"
+  },
+  {
+    "url": "https://www.aeg.com.es/kitchen/dishwashing/dishwashers/free-standing-dishwasher/ffb53627zm/",
+    "name": "Lavavajillas de 60 cm Serie 6000 SatelliteClean para 13 cubiertos",
+    "sku": "ffb53627zm"
+  },
+  {
+    "url": "https://www.aeg.com.es/kitchen/dishwashing/dishwashers/free-standing-dishwasher/ffb75717pw/",
+    "name": "Lavavajillas de 60 cm Serie 7000 GlassCare para 14 cubiertos",
+    "sku": "ffb75717pw"
+  },
+  {
+    "url": "https://www.aeg.com.es/kitchen/dishwashing/dishwashers/free-standing-dishwasher/ffb76717pm/",
+    "name": "Lavavajillas de 60 cm Serie 7000 GlassCare para 14 cubiertos",
+    "sku": "ffb76717pm"
+  },
+  {
+    "url": "https://www.aeg.com.es/kitchen/dishwashing/dishwashers/built-in-dishwasher/fsb34707z/",
+    "name": "Lavavajillas integrable de 60 cm Serie 5000 AirDry para 14 cubiertos",
+    "sku": "fsb34707z"
+  },
+  {
+    "url": "https://www.aeg.com.es/kitchen/dishwashing/dishwashers/built-in-dishwasher/fsb53617z2/",
+    "name": "Lavavajillas integrable de 60 cm Serie 6000 SatelliteClean para 13 cubiertos",
+    "sku": "fsb53617z2"
+  },
+  {
+    "url": "https://www.aeg.com.es/kitchen/dishwashing/dishwashers/built-in-dishwasher/fsb32610z2/",
+    "name": "Lavavajillas integrable de 60 cm Serie 5000 AirDry para 13 cubiertos",
+    "sku": "fsb32610z2"
+  },
+  {
+    "url": "https://www.aeg.com.es/kitchen/dishwashing/dishwashers/free-standing-dishwasher/ffb53627zw/",
+    "name": "Lavavajillas de 60 cm Serie 6000 SatelliteClean para 13 cubiertos",
+    "sku": "ffb53627zw"
+  },
+  {
+    "url": "https://www.aeg.com.es/kitchen/dishwashing/dishwashers/free-standing-dishwasher/ffb64627zw/",
+    "name": "Lavavajillas de 60 cm Serie 6000 SatelliteClean para 13 cubiertos",
+    "sku": "ffb64627zw"
+  },
+  {
+    "url": "https://www.aeg.com.es/kitchen/dishwashing/dishwashers/free-standing-dishwasher/ffb75717pm/",
+    "name": "Lavavajillas de 60 cm Serie 7000 GlassCare para 14 cubiertos",
+    "sku": "ffb75717pm"
   },
   {
     "url": "https://www.aeg.com.es/kitchen/dishwashing/dishwashers/built-in-dishwasher/gx970xt/",
@@ -148,20 +213,5 @@
     "url": "https://www.aeg.com.es/aspiradoras/air-comfort/air-conditioners/portable-air-conditioner/acu7878csw/",
     "name": "Aire acondicionado portátil Comfort 7000 de 12.000 BTUs para 41-49 m²",
     "sku": "acu7878csw"
-  },
-  {
-    "url": "https://www.aeg.com.es/laundry/laundry/irons/steam-iron/si6-1-4mn/",
-    "name": "Plancha de vapor AEG Delicate 6000 y 200 g/mm de golpe de vapor",
-    "sku": "si6-1-4mn"
-  },
-  {
-    "url": "https://www.aeg.com.es/laundry/laundry/irons/steam-iron/si6-1-2mn/",
-    "name": "Plancha de vapor AEG Delicate 6000 de 2400 W y 160 g/mm de golpe de vapor",
-    "sku": "si6-1-2mn"
-  },
-  {
-    "url": "https://www.aeg.com.es/laundry/laundry/irons/steam-iron/db1730/",
-    "name": "Plancha de vapor AEG Easyline de 2300 W y 100 g/mm de golpe de vapor",
-    "sku": "db1730"
   }
 ]
