@@ -1321,5 +1321,12 @@
     "reference_price": 529.0,
     "was_under_100": false,
     "was_big_discount": false
+  },
+  "vx83-2ebr": {
+    "name": "Aspiradora con bolsa VX8 de 600 W y 64 dB(A)",
+    "last_price": 148.85,
+    "reference_price": 148.85,
+    "was_under_100": false,
+    "was_big_discount": false
   }
 }
