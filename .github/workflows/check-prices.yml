@@ -2,7 +2,7 @@ name: Revisar precios AEG
 
 on:
   schedule:
-    - cron: "5 */01 * * *" # cada 6 horas
+    - cron: "5 * * * *" # 
   workflow_dispatch: {} # permite lanzarlo a mano desde la pestaña Actions
 
 permissions:
