@@ -477,7 +477,7 @@
   },
   "avfk1": {
     "name": "Envasadora al vacío portátil y accesorios",
-    "last_price": 57.85,
+    "last_price": 54.0,
     "reference_price": 57.85,
     "was_under_100": true,
     "was_big_discount": false
@@ -1051,7 +1051,7 @@
   },
   "ar71hw1dg": {
     "name": "Robot aspirador 7000 con 125 min de autonomía",
-    "last_price": 229.0,
+    "last_price": 199.0,
     "reference_price": 229.0,
     "was_under_100": false,
     "was_big_discount": false
@@ -1065,21 +1065,21 @@
   },
   "ab51c2sw": {
     "name": "Aspiradora con bolsa 5000 de 650 W y 78 dB(A)",
-    "last_price": 104.0,
+    "last_price": 99.0,
     "reference_price": 104.0,
-    "was_under_100": false,
+    "was_under_100": true,
     "was_big_discount": false
   },
   "ap61cb21og": {
     "name": "Aspiradora sin cable 6000 de 40 min de autonomía",
-    "last_price": 142.35,
+    "last_price": 139.0,
     "reference_price": 142.35,
     "was_under_100": false,
     "was_big_discount": false
   },
   "al51c2sw": {
     "name": "Aspiradora sin bolsa 5000 de 850 W y 78 dB(A)",
-    "last_price": 111.2,
+    "last_price": 104.0,
     "reference_price": 111.2,
     "was_under_100": false,
     "was_big_discount": false
@@ -1107,7 +1107,7 @@
   },
   "vx82-1-5db2": {
     "name": "Aspiradora con bolsa VX8 de 500 W y 57 dB(A)",
-    "last_price": 180.95,
+    "last_price": 169.0,
     "reference_price": 180.95,
     "was_under_100": false,
     "was_big_discount": false
@@ -1254,14 +1254,14 @@
   },
   "as52cb18db": {
     "name": "Aspiradora sin cable 5000 de 45 min de autonomía",
-    "last_price": 160.3,
+    "last_price": 159.0,
     "reference_price": 160.3,
     "was_under_100": false,
     "was_big_discount": false
   },
   "ap31cb18iw": {
     "name": "Aspiradora sin cable Serie 3000 de 30 min de autonomía",
-    "last_price": 99.0,
+    "last_price": 85.0,
     "reference_price": 99.0,
     "was_under_100": true,
     "was_big_discount": false
@@ -1333,6 +1333,279 @@
     "name": "Aspiradora sin bolsa 5000 de 850 W y 78 dB(A)",
     "last_price": 103.2,
     "reference_price": 103.2,
+    "was_under_100": false,
+    "was_big_discount": false
+  },
+  "gb67d61hl": {
+    "name": "Campana extractora decorativa Serie 6000 Hob2Hood de 60 cm",
+    "last_price": 374.25,
+    "reference_price": 374.25,
+    "was_under_100": false,
+    "was_big_discount": false
+  },
+  "dbb3651m": {
+    "name": "Campana extractora de pared Serie 5000 ExtractionTech de 60 cm",
+    "last_price": 303.2,
+    "reference_price": 303.2,
+    "was_under_100": false,
+    "was_big_discount": false
+  },
+  "gv77d61sb": {
+    "name": "Campana de diseño vertical Serie 7000 SilenceTech de 60 cm",
+    "last_price": 415.35,
+    "reference_price": 415.35,
+    "was_under_100": false,
+    "was_big_discount": false
+  },
+  "gv77d61st": {
+    "name": "Campana de diseño vertical Serie 7000 SilenceTech de 60 cm",
+    "last_price": 554.25,
+    "reference_price": 554.25,
+    "was_under_100": false,
+    "was_big_discount": false
+  },
+  "dgb2531m": {
+    "name": "Campana extractora integrada Serie 3000 Extractor de 52 cm",
+    "last_price": 125.95,
+    "reference_price": 125.95,
+    "was_under_100": false,
+    "was_big_discount": false
+  },
+  "gde686hm2": {
+    "name": "Campana extractora integrada Serie 6000 Hob2Hood de 60 cm",
+    "last_price": 350.35,
+    "reference_price": 350.35,
+    "was_under_100": false,
+    "was_big_discount": false
+  },
+  "dpe4941m": {
+    "name": "Campana extractora extraíble Serie 5000 Extractor de 90 cm",
+    "last_price": 336.75,
+    "reference_price": 336.75,
+    "was_under_100": false,
+    "was_big_discount": false
+  },
+  "dge5661hm2": {
+    "name": "Campana extractora integrada Serie 6000 Hob2Hood de 54 cm",
+    "last_price": 265.85,
+    "reference_price": 265.85,
+    "was_under_100": false,
+    "was_big_discount": false
+  },
+  "dge5861hm2": {
+    "name": "Campana extractora integrada Serie 6000 Hob2Hood de 80 cm",
+    "last_price": 285.35,
+    "reference_price": 285.35,
+    "was_under_100": false,
+    "was_big_discount": false
+  },
+  "dpe4641m": {
+    "name": "Campana extractora extraíble Serie 5000 Extractor de 60 cm",
+    "last_price": 291.75,
+    "reference_price": 291.75,
+    "was_under_100": false,
+    "was_big_discount": false
+  },
+  "gde689hm2": {
+    "name": "Campana extractora integrada Serie 6000 Hob2Hood de 90 cm",
+    "last_price": 376.35,
+    "reference_price": 376.35,
+    "was_under_100": false,
+    "was_big_discount": false
+  },
+  "dpe5960m": {
+    "name": "Campana extractora extraíble Serie 5000 Extractor de 90 cm",
+    "last_price": 299.25,
+    "reference_price": 299.25,
+    "was_under_100": false,
+    "was_big_discount": false
+  },
+  "ge68d2hb": {
+    "name": "Campana extractora integrada Serie 6000 Hob2Hood de 120 cm",
+    "last_price": 440.3,
+    "reference_price": 440.3,
+    "was_under_100": false,
+    "was_big_discount": false
+  },
+  "gde682hm2": {
+    "name": "Campana extractora integrada Serie 6000 Hob2Hood de 120 cm",
+    "last_price": 408.85,
+    "reference_price": 408.85,
+    "was_under_100": false,
+    "was_big_discount": false
+  },
+  "dpe5660m": {
+    "name": "Campana extractora extraíble Serie 5000 Extractor de 60 cm",
+    "last_price": 254.25,
+    "reference_price": 339.0,
+    "was_under_100": false,
+    "was_big_discount": false
+  },
+  "tm5nk401b": {
+    "name": "Horno compacto Serie 5000 Microondas con Display LED Explore",
+    "last_price": 489.3,
+    "reference_price": 489.3,
+    "was_under_100": false,
+    "was_big_discount": false
+  },
+  "tm7nk721b": {
+    "name": "Horno compacto Serie 7000 MealAssist con Display CookSmart Touch 4,3 '', con WiFi",
+    "last_price": 559.3,
+    "reference_price": 559.3,
+    "was_under_100": false,
+    "was_big_discount": false
+  },
+  "ffb74917zm2": {
+    "name": "Lavavajillas de 60 cm Serie 6000 SatelliteClean para 14 cubiertos",
+    "last_price": 554.25,
+    "reference_price": 739.0,
+    "was_under_100": false,
+    "was_big_discount": false
+  },
+  "lta6g7331e": {
+    "name": "Lavadora de carga superior Serie 6000 ProSense® de 7.0 kg",
+    "last_price": 509.25,
+    "reference_price": 679.0,
+    "was_under_100": false,
+    "was_big_discount": false
+  },
+  "lta5n6230e": {
+    "name": "Lavadora de carga superior de 6.0 kg",
+    "last_price": 492.15,
+    "reference_price": 579.0,
+    "was_under_100": false,
+    "was_big_discount": false
+  },
+  "lta7e7231e": {
+    "name": "Lavadora de carga superior Serie 7000 ProSteam® de 7.0 kg",
+    "last_price": 524.25,
+    "reference_price": 699.0,
+    "was_under_100": false,
+    "was_big_discount": false
+  },
+  "lte6k7230e": {
+    "name": "Lavadora de carga superior Serie 6000 ProSense® de 7.0 kg",
+    "last_price": 487.0,
+    "reference_price": 649.0,
+    "was_under_100": false,
+    "was_big_discount": false
+  },
+  "lfn7g8434f": {
+    "name": "Lavadora integrable Serie 7000 ProSteam® de 8.0 kg",
+    "last_price": 608.3,
+    "reference_price": 608.3,
+    "was_under_100": false,
+    "was_big_discount": false
+  },
+  "lfn7e8436f": {
+    "name": "Lavadora integrable Serie 7000 ProSteam® de 8.0 kg",
+    "last_price": 622.3,
+    "reference_price": 622.3,
+    "was_under_100": false,
+    "was_big_discount": false
+  },
+  "lfn8e8436c": {
+    "name": "Lavadora integrable Serie 8000 PowerCare de 8.0 kg",
+    "last_price": 685.3,
+    "reference_price": 685.3,
+    "was_under_100": false,
+    "was_big_discount": false
+  },
+  "lfn6g7434f": {
+    "name": "Lavadora integrable Serie 6000 ProSense® de 7.0 kg",
+    "last_price": 621.75,
+    "reference_price": 621.75,
+    "was_under_100": false,
+    "was_big_discount": false
+  },
+  "lwn8e8636f": {
+    "name": "Lavadora secadora integrable Serie 8000 PowerCare de 8.0 kg",
+    "last_price": 895.3,
+    "reference_price": 895.3,
+    "was_under_100": false,
+    "was_big_discount": false
+  },
+  "lwn7e8636f": {
+    "name": "Lavadora secadora integrable Serie 7000 ProSteam® de 8.0 kg",
+    "last_price": 825.3,
+    "reference_price": 825.3,
+    "was_under_100": false,
+    "was_big_discount": false
+  },
+  "oag7m281ew": {
+    "name": "Congelador vertical de libre instalación de 1860 mm",
+    "last_price": 771.75,
+    "reference_price": 771.75,
+    "was_under_100": false,
+    "was_big_discount": false
+  },
+  "oag7m281ex": {
+    "name": "Congelador vertical de libre instalación de 1860 mm",
+    "last_price": 816.75,
+    "reference_price": 816.75,
+    "was_under_100": false,
+    "was_big_discount": false
+  },
+  "atb48e1aw": {
+    "name": "Congelador vertical de libre instalación de 845 mm",
+    "last_price": 366.75,
+    "reference_price": 366.75,
+    "was_under_100": false,
+    "was_big_discount": false
+  },
+  "ap72ub21am": {
+    "name": "Aspiradora sin cable Serie 7000 de 40 min de autonomía",
+    "last_price": 191.95,
+    "reference_price": 191.95,
+    "was_under_100": false,
+    "was_big_discount": false
+  },
+  "ap61cb21dg": {
+    "name": "Aspiradora sin cable 6000 de 40 min de autonomía",
+    "last_price": 121.0,
+    "reference_price": 121.0,
+    "was_under_100": false,
+    "was_big_discount": false
+  },
+  "fse73507p2": {
+    "name": "Lavavajillas integrable de 45 cm Serie 7000 GlassCare para 10 cubiertos",
+    "last_price": 516.75,
+    "reference_price": 516.75,
+    "was_under_100": false,
+    "was_big_discount": false
+  },
+  "ffb73527zm": {
+    "name": "Lavavajillas de 45 cm Serie 7000 GlassCare para 10 cubiertos",
+    "last_price": 543.2,
+    "reference_price": 679.0,
+    "was_under_100": false,
+    "was_big_discount": false
+  },
+  "ffb76717pw": {
+    "name": "Lavavajillas de 60 cm Serie 7000 GlassCare para 14 cubiertos",
+    "last_price": 629.25,
+    "reference_price": 839.0,
+    "was_under_100": false,
+    "was_big_discount": false
+  },
+  "ffb64627zm": {
+    "name": "Lavavajillas de 60 cm Serie 6000 SatelliteClean para 13 cubiertos",
+    "last_price": 516.75,
+    "reference_price": 689.0,
+    "was_under_100": false,
+    "was_big_discount": false
+  },
+  "os7k10b": {
+    "name": "Cajón de almacenamiento de 141 mm Negro",
+    "last_price": 471.75,
+    "reference_price": 471.75,
+    "was_under_100": false,
+    "was_big_discount": false
+  },
+  "ti63iq30fz": {
+    "name": "Placa de inducción SaphirMatt® Serie 8000 Sense Boil&Fry de 60 cm",
+    "last_price": 559.3,
+    "reference_price": 559.3,
     "was_under_100": false,
     "was_big_discount": false
   }

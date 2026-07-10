@@ -352,5 +352,17 @@
     "reasons": [
       "por debajo de 100 €"
     ]
+  },
+  {
+    "timestamp": "2026-07-10T21:05:49.092053+00:00",
+    "sku": "ab51c2sw",
+    "name": "Aspiradora con bolsa 5000 de 650 W y 78 dB(A)",
+    "url": "https://www.aeg.com.es/aspiradoras/vacuum-cleaners/vacuum-cleaners/vacuum-cleaner/ab51c2sw/",
+    "price": 99.0,
+    "reference_price": 104.0,
+    "discount_pct": 0.0481,
+    "reasons": [
+      "por debajo de 100 €"
+    ]
   }
 ]
