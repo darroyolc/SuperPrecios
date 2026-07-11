@@ -1346,7 +1346,7 @@
   "dbb3651m": {
     "name": "Campana extractora de pared Serie 5000 ExtractionTech de 60 cm",
     "last_price": 303.2,
-    "reference_price": 303.2,
+    "reference_price": 379.0,
     "was_under_100": false,
     "was_big_discount": false
   },
@@ -1367,14 +1367,14 @@
   "dgb2531m": {
     "name": "Campana extractora integrada Serie 3000 Extractor de 52 cm",
     "last_price": 125.95,
-    "reference_price": 125.95,
+    "reference_price": 179.9,
     "was_under_100": false,
     "was_big_discount": false
   },
   "gde686hm2": {
     "name": "Campana extractora integrada Serie 6000 Hob2Hood de 60 cm",
     "last_price": 350.35,
-    "reference_price": 350.35,
+    "reference_price": 539.0,
     "was_under_100": false,
     "was_big_discount": false
   },
@@ -1606,6 +1606,55 @@
     "name": "Placa de inducción SaphirMatt® Serie 8000 Sense Boil&Fry de 60 cm",
     "last_price": 559.3,
     "reference_price": 559.3,
+    "was_under_100": false,
+    "was_big_discount": false
+  },
+  "ti63iq30fb": {
+    "name": "Placa de inducción Serie 8000 Sense Boil&Fry de 60 cm",
+    "last_price": 447.3,
+    "reference_price": 447.3,
+    "was_under_100": false,
+    "was_big_discount": false
+  },
+  "ti84ib30fb": {
+    "name": "Placa de inducción Serie 8000 Sense Boil&Fry de 80 cm",
+    "last_price": 664.3,
+    "reference_price": 664.3,
+    "was_under_100": false,
+    "was_big_discount": false
+  },
+  "iks42640kb": {
+    "name": "Placa de inducción Modular de 36 cm",
+    "last_price": 389.35,
+    "reference_price": 389.35,
+    "was_under_100": false,
+    "was_big_discount": false
+  },
+  "to63iv00ib": {
+    "name": "Placa de inducción Serie 6000 Induction de 60 cm",
+    "last_price": 398.3,
+    "reference_price": 398.3,
+    "was_under_100": false,
+    "was_big_discount": false
+  },
+  "ffb74917zw2": {
+    "name": "Lavavajillas de 60 cm Serie 6000 SatelliteClean para 14 cubiertos",
+    "last_price": 531.75,
+    "reference_price": 709.0,
+    "was_under_100": false,
+    "was_big_discount": false
+  },
+  "gi8200x5tn": {
+    "name": "Lavavajillas integrable de 60 cm Serie 8000 Cleaning Performance para 14 cubiertos",
+    "last_price": 905.4,
+    "reference_price": 905.4,
+    "was_under_100": false,
+    "was_big_discount": false
+  },
+  "fse77707p": {
+    "name": "Lavavajillas integrable de 60 cm Serie 7000 GlassCare para 14 cubiertos",
+    "last_price": 594.3,
+    "reference_price": 594.3,
     "was_under_100": false,
     "was_big_discount": false
   }
