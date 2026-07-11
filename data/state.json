@@ -1381,7 +1381,7 @@
   "dpe4941m": {
     "name": "Campana extractora extraíble Serie 5000 Extractor de 90 cm",
     "last_price": 336.75,
-    "reference_price": 336.75,
+    "reference_price": 449.0,
     "was_under_100": false,
     "was_big_discount": false
   },
@@ -1409,14 +1409,14 @@
   "gde689hm2": {
     "name": "Campana extractora integrada Serie 6000 Hob2Hood de 90 cm",
     "last_price": 376.35,
-    "reference_price": 376.35,
+    "reference_price": 579.0,
     "was_under_100": false,
     "was_big_discount": false
   },
   "dpe5960m": {
     "name": "Campana extractora extraíble Serie 5000 Extractor de 90 cm",
     "last_price": 299.25,
-    "reference_price": 299.25,
+    "reference_price": 399.0,
     "was_under_100": false,
     "was_big_discount": false
   },
@@ -1655,6 +1655,27 @@
     "name": "Lavavajillas integrable de 60 cm Serie 7000 GlassCare para 14 cubiertos",
     "last_price": 594.3,
     "reference_price": 594.3,
+    "was_under_100": false,
+    "was_big_discount": false
+  },
+  "tn63raf2cb": {
+    "name": "Placa vitrocerámica Serie 3000 Radiant de 60 cm",
+    "last_price": 231.2,
+    "reference_price": 231.2,
+    "was_under_100": false,
+    "was_big_discount": false
+  },
+  "ta7pk721b": {
+    "name": "Horno compacto Serie 7000 MealAssist con SteamBake con Display CookSmart Touch 4,3 '', con WiFi",
+    "last_price": 551.85,
+    "reference_price": 551.85,
+    "was_under_100": false,
+    "was_big_discount": false
+  },
+  "ta5pk401b": {
+    "name": "Horno compacto Serie 5000 SurroundCook con SteamBake con Display LED Explore",
+    "last_price": 486.75,
+    "reference_price": 486.75,
     "was_under_100": false,
     "was_big_discount": false
   }
