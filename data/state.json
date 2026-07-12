@@ -1423,14 +1423,14 @@
   "ge68d2hb": {
     "name": "Campana extractora integrada Serie 6000 Hob2Hood de 120 cm",
     "last_price": 440.3,
-    "reference_price": 440.3,
+    "reference_price": 629.0,
     "was_under_100": false,
     "was_big_discount": false
   },
   "gde682hm2": {
     "name": "Campana extractora integrada Serie 6000 Hob2Hood de 120 cm",
     "last_price": 408.85,
-    "reference_price": 408.85,
+    "reference_price": 629.0,
     "was_under_100": false,
     "was_big_discount": false
   },
@@ -1676,6 +1676,41 @@
     "name": "Horno compacto Serie 5000 SurroundCook con SteamBake con Display LED Explore",
     "last_price": 486.75,
     "reference_price": 486.75,
+    "was_under_100": false,
+    "was_big_discount": false
+  },
+  "ti63iq1bfb": {
+    "name": "Placa de inducción Serie 7000 Sense de 60 cm",
+    "last_price": 384.3,
+    "reference_price": 384.3,
+    "was_under_100": false,
+    "was_big_discount": false
+  },
+  "v84iib10fb": {
+    "name": "Placa de inducción Serie 7000 Sense de 80 cm",
+    "last_price": 539.4,
+    "reference_price": 539.4,
+    "was_under_100": false,
+    "was_big_discount": false
+  },
+  "lfr7294o2b": {
+    "name": "Lavadora de libre instalación Serie 7000 ProSteam® de 9.0 kg",
+    "last_price": 599.0,
+    "reference_price": 819.0,
+    "was_under_100": false,
+    "was_big_discount": false
+  },
+  "lfr7394o4b": {
+    "name": "Lavadora de libre instalación Serie 7000 ProSteam® de 9.0 kg",
+    "last_price": 573.3,
+    "reference_price": 819.0,
+    "was_under_100": false,
+    "was_big_discount": false
+  },
+  "lfr7394o4v": {
+    "name": "Lavadora de libre instalación Serie 7000 ProSteam® UniversalDose de 9.0 kg",
+    "last_price": 569.0,
+    "reference_price": 809.0,
     "was_under_100": false,
     "was_big_discount": false
   }
