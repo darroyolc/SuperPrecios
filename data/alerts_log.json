@@ -364,5 +364,77 @@
     "reasons": [
       "por debajo de 100 €"
     ]
+  },
+  {
+    "timestamp": "2026-07-14T06:46:21.889743+00:00",
+    "sku": "al51c1og",
+    "name": "Aspiradora sin bolsa 5000 de 850 W y 78 dB(A)",
+    "url": "https://www.aeg.com.es/aspiradoras/vacuum-cleaners/bagless-vacuum-cleaners/bagless-vacuum-cleaner/al51c1og/",
+    "price": 84.0,
+    "reference_price": 129.0,
+    "discount_pct": 0.3488,
+    "reasons": [
+      "por debajo de 100 €"
+    ]
+  },
+  {
+    "timestamp": "2026-07-14T06:46:51.167682+00:00",
+    "sku": "ab51c2sw",
+    "name": "Aspiradora con bolsa 5000 de 650 W y 78 dB(A)",
+    "url": "https://www.aeg.com.es/aspiradoras/vacuum-cleaners/vacuum-cleaners/vacuum-cleaner/ab51c2sw/",
+    "price": 99.0,
+    "reference_price": 139.0,
+    "discount_pct": 0.2878,
+    "reasons": [
+      "por debajo de 100 €"
+    ]
+  },
+  {
+    "timestamp": "2026-07-14T06:47:10.533627+00:00",
+    "sku": "ab31c1gg",
+    "name": "Aspiradora con bolsa 3000 de 650 W y 78 dB(A)",
+    "url": "https://www.aeg.com.es/aspiradoras/vacuum-cleaners/vacuum-cleaners/vacuum-cleaner/ab31c1gg/",
+    "price": 81.75,
+    "reference_price": 109.0,
+    "discount_pct": 0.25,
+    "reasons": [
+      "por debajo de 100 €"
+    ]
+  },
+  {
+    "timestamp": "2026-07-14T06:47:24.563827+00:00",
+    "sku": "ab51c1gg",
+    "name": "Aspiradora con bolsa 5000 de 650 W y 78 dB(A)",
+    "url": "https://www.aeg.com.es/aspiradoras/vacuum-cleaners/vacuum-cleaners/vacuum-cleaner/ab51c1gg/",
+    "price": 83.85,
+    "reference_price": 129.0,
+    "discount_pct": 0.35,
+    "reasons": [
+      "por debajo de 100 €"
+    ]
+  },
+  {
+    "timestamp": "2026-07-14T06:48:06.387691+00:00",
+    "sku": "ap31cb21tg",
+    "name": "Aspiradora sin cable Serie 3000 de 40 min de autonomía",
+    "url": "https://www.aeg.com.es/aspiradoras/vacuum-cleaners/stick-vacuum-cleaners/cordless-sticks/ap31cb21tg/",
+    "price": 92.95,
+    "reference_price": 169.0,
+    "discount_pct": 0.45,
+    "reasons": [
+      "por debajo de 100 €"
+    ]
+  },
+  {
+    "timestamp": "2026-07-14T06:48:19.124537+00:00",
+    "sku": "ap31cb18iw",
+    "name": "Aspiradora sin cable Serie 3000 de 30 min de autonomía",
+    "url": "https://www.aeg.com.es/aspiradoras/vacuum-cleaners/stick-vacuum-cleaners/cordless-sticks/ap31cb18iw/",
+    "price": 85.0,
+    "reference_price": 149.0,
+    "discount_pct": 0.4295,
+    "reasons": [
+      "por debajo de 100 €"
+    ]
   }
 ]
