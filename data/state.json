@@ -1720,5 +1720,12 @@
     "reference_price": 1239.0,
     "was_under_100": false,
     "was_big_discount": false
+  },
+  "ap51uh18st": {
+    "name": "Aspiradora sin cable Serie 5000 de 50 min de autonomía",
+    "last_price": 98.45,
+    "reference_price": 98.45,
+    "was_under_100": true,
+    "was_big_discount": false
   }
 }
