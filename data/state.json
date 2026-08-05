@@ -798,7 +798,7 @@
     "was_big_discount": false
   },
   "orx9v351db": {
-    "name": "Frigorífico americano de libre instalación Serie 9000 Negro de 177 cm",
+    "name": "Frigorífico americano de libre instalación Serie 9000 Negro de 177,5 cm",
     "last_price": 1139.4,
     "reference_price": 1899.0,
     "was_under_100": false,
@@ -1726,6 +1726,13 @@
     "last_price": 98.45,
     "reference_price": 98.45,
     "was_under_100": true,
+    "was_big_discount": false
+  },
+  "tr64it00fb": {
+    "name": "Placa de inducción Serie 6000 TotalFlex de 60 cm",
+    "last_price": 713.4,
+    "reference_price": 713.4,
+    "was_under_100": false,
     "was_big_discount": false
   }
 }
