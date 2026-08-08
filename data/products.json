@@ -40,11 +40,6 @@
     "sku": "aw82u1db"
   },
   {
-    "url": "https://www.aeg.com.es/kitchen/cooking/cooker-hoods/chimney-hood/dbb3951m/",
-    "name": "Campana extractora de pared Serie 5000 ExtractionTech de 90 cm",
-    "sku": "dbb3951m"
-  },
-  {
     "url": "https://www.aeg.com.es/kitchen/cooking/ovens/steam-oven/tp9sb831ab/",
     "name": "Horno de vapor Serie 9000 ProAssist con SteamPro con Display CookSmart Touch+ 7,8 '', con WiFi",
     "sku": "tp9sb831ab"
@@ -230,11 +225,6 @@
     "sku": "pk9001wt"
   },
   {
-    "url": "https://www.aeg.com.es/kitchen/cooking/hobs/induction-hob/ti63if00iz/",
-    "name": "Placa de inducción SaphirMatt® Serie 6000 Flex Bridge de 60 cm",
-    "sku": "ti63if00iz"
-  },
-  {
     "url": "https://www.aeg.com.es/kitchen/cooking/hobs/gas-hob/hkb63320nb/",
     "name": "Placa de gas Serie 6000 Gas on Glass de 60 cm",
     "sku": "hkb63320nb"
@@ -305,6 +295,11 @@
     "sku": "iks42640kb"
   },
   {
+    "url": "https://www.aeg.com.es/kitchen/cooking/hobs/induction-hob/tk95in00fb/",
+    "name": "Placa de inducción Serie 6000 MultiBridge de 90 cm",
+    "sku": "tk95in00fb"
+  },
+  {
     "url": "https://www.aeg.com.es/kitchen/cooking/hobs/induction-hob/i84av423fb/",
     "name": "Placas de Inducción",
     "sku": "i84av423fb"
@@ -315,11 +310,6 @@
     "sku": "i64av423fb"
   },
   {
-    "url": "https://www.aeg.com.es/kitchen/cooking/hobs/induction-hob/tk95in00fb/",
-    "name": "Placa de inducción Serie 6000 MultiBridge de 90 cm",
-    "sku": "tk95in00fb"
-  },
-  {
     "url": "https://www.aeg.com.es/kitchen/cooking/hobs/induction-hob/tr64it00fb/",
     "name": "Placa de inducción Serie 6000 TotalFlex de 60 cm",
     "sku": "tr64it00fb"
@@ -328,6 +318,11 @@
     "url": "https://www.aeg.com.es/kitchen/cooking/hobs/induction-hob/v64iib10fb/",
     "name": "Placa de inducción Serie 7000 Sense de 60 cm",
     "sku": "v64iib10fb"
+  },
+  {
+    "url": "https://www.aeg.com.es/kitchen/cooking/hobs/induction-hob/v63ioq00fb/",
+    "name": "Placa de inducción Serie 6000 Flex de 60 cm",
+    "sku": "v63ioq00fb"
   },
   {
     "url": "https://www.aeg.com.es/kitchen/cooking/cooker-hoods/combo-hob-hood/tch74b01fb/",
@@ -443,6 +438,11 @@
     "url": "https://www.aeg.com.es/kitchen/cooking/cooker-hoods/chimney-hood/gb67d91hl/",
     "name": "Campana extractora decorativa Serie 6000 Hob2Hood de 90 cm",
     "sku": "gb67d91hl"
+  },
+  {
+    "url": "https://www.aeg.com.es/kitchen/cooking/cooker-hoods/chimney-hood/dbb3951m/",
+    "name": "Campana extractora de pared Serie 5000 ExtractionTech de 90 cm",
+    "sku": "dbb3951m"
   },
   {
     "url": "https://www.aeg.com.es/kitchen/cooking/cooker-hoods/chimney-hood/gv77d61sb/",
@@ -845,6 +845,21 @@
     "sku": "lta7e7231e"
   },
   {
+    "url": "https://www.aeg.com.es/laundry/laundry/dryers/heat-pump-dryer/tr959m6obc/",
+    "name": "Secadora con Bomba de Calor Serie 9000 AbsoluteCare® Plus de 9 kg",
+    "sku": "tr959m6obc"
+  },
+  {
+    "url": "https://www.aeg.com.es/laundry/laundry/dryers/heat-pump-dryer/tr818a2pb/",
+    "name": "Secadora con Bomba de Calor Serie 8000 AbsoluteCare® de 8 kg",
+    "sku": "tr818a2pb"
+  },
+  {
+    "url": "https://www.aeg.com.es/laundry/laundry/dryers/heat-pump-dryer/tr719g4pb/",
+    "name": "Secadora con Bomba de Calor Serie 7000 SensiDry® de 9 kg",
+    "sku": "tr719g4pb"
+  },
+  {
     "url": "https://www.aeg.com.es/laundry/laundry/dryers/heat-pump-dryer/tr959v6pbc/",
     "name": "Secadora con Bomba de Calor Serie 9000X AbsoluteCare® Pro de 9 kg",
     "sku": "tr959v6pbc"
@@ -853,21 +868,6 @@
     "url": "https://www.aeg.com.es/laundry/laundry/dryers/heat-pump-dryer/tr839t4pbcp/",
     "name": "Secadora con Bomba de Calor Serie 8000 AbsoluteCare® de 9 kg",
     "sku": "tr839t4pbcp"
-  },
-  {
-    "url": "https://www.aeg.com.es/laundry/laundry/dryers/heat-pump-dryer/tr719g4pb/",
-    "name": "Secadora con Bomba de Calor Serie 7000 SensiDry® de 9 kg",
-    "sku": "tr719g4pb"
-  },
-  {
-    "url": "https://www.aeg.com.es/laundry/laundry/dryers/heat-pump-dryer/tr818a2pb/",
-    "name": "Secadora con Bomba de Calor Serie 8000 AbsoluteCare® de 8 kg",
-    "sku": "tr818a2pb"
-  },
-  {
-    "url": "https://www.aeg.com.es/laundry/laundry/dryers/heat-pump-dryer/tr959m6obc/",
-    "name": "Secadora con Bomba de Calor Serie 9000 AbsoluteCare® Plus de 9 kg",
-    "sku": "tr959m6obc"
   },
   {
     "url": "https://www.aeg.com.es/laundry/laundry/washer-dryers/built-in-washer-dryer/lwn7e8636f/",
@@ -1470,36 +1470,6 @@
     "sku": "tr7pb73fsb"
   },
   {
-    "url": "https://www.aeg.com.es/kitchen/cooking/ovens/oven/tp9sb831ab/",
-    "name": "Horno de vapor Serie 9000 ProAssist con SteamPro con Display CookSmart Touch+ 7,8 '', con WiFi",
-    "sku": "tp9sb831ab"
-  },
-  {
-    "url": "https://www.aeg.com.es/kitchen/cooking/ovens/oven/gr6pb53fsb/",
-    "name": "Horno de vapor Serie 6000 SenseCook con SteamCrisp con Display LED Explore",
-    "sku": "gr6pb53fsb"
-  },
-  {
-    "url": "https://www.aeg.com.es/kitchen/cooking/compact-built-in-range/compact-oven/cp7400t/",
-    "name": "Horno compacto Serie 7000 MealAssist con SteamBake con Display CookSmart Touch 4,3 '', con WiFi",
-    "sku": "cp7400t"
-  },
-  {
-    "url": "https://www.aeg.com.es/kitchen/cooking/compact-built-in-range/compact-oven/cs7900t/",
-    "name": "Horno compacto de vapor Serie 8000 MealAssist con SteamPro con Display CookSmart Touch 4,3 '', con WiFi",
-    "sku": "cs7900t"
-  },
-  {
-    "url": "https://www.aeg.com.es/kitchen/cooking/ovens/oven/or6pb51wsb/",
-    "name": "Horno de vapor Serie 6000 SenseCook con SteamCrisp con Display LED Explore",
-    "sku": "or6pb51wsb"
-  },
-  {
-    "url": "https://www.aeg.com.es/kitchen/cooking/compact-built-in-range/compact-oven/nkp8s721b/",
-    "name": "Horno compacto de vapor Serie 8000 MealAssist con SteamPro con Display CookSmart Touch 4,3 '', con WiFi",
-    "sku": "nkp8s721b"
-  },
-  {
     "url": "https://www.aeg.com.es/kitchen/cooking/ovens/steam-oven/tr7pb73fsb/",
     "name": "Horno de vapor Serie 7000 MealAssist con SteamCrisp con Display CookSmart Touch 4,3 '', con WiFi",
     "sku": "tr7pb73fsb"
@@ -1660,24 +1630,24 @@
     "sku": "lfr7394o4v"
   },
   {
-    "url": "https://www.aeg.com.es/laundry/laundry/washing-machines/front-loader-washing-machine/lfr7314o4c/",
-    "name": "Lavadora de libre instalación Serie 7000 ProSteam® de 10.0 kg",
-    "sku": "lfr7314o4c"
-  },
-  {
-    "url": "https://www.aeg.com.es/laundry/laundry/washing-machines/front-loader-washing-machine/lfr9514l6u/",
-    "name": "Lavadora de libre instalación Serie 9000 AbsoluteCare® de 10.0 kg",
-    "sku": "lfr9514l6u"
-  },
-  {
     "url": "https://www.aeg.com.es/laundry/laundry/washing-machines/front-loader-washing-machine/lfr6214o4b/",
     "name": "Lavadora de libre instalación Serie 6000 ProSense® de 10.0 kg",
     "sku": "lfr6214o4b"
   },
   {
+    "url": "https://www.aeg.com.es/laundry/laundry/washing-machines/front-loader-washing-machine/lfr7314o4c/",
+    "name": "Lavadora de libre instalación Serie 7000 ProSteam® de 10.0 kg",
+    "sku": "lfr7314o4c"
+  },
+  {
     "url": "https://www.aeg.com.es/laundry/laundry/washing-machines/front-loader-washing-machine/l6fbi147p2/",
     "name": "Lavadora de libre instalación Serie 6000 ProSense® de 10.0 kg",
     "sku": "l6fbi147p2"
+  },
+  {
+    "url": "https://www.aeg.com.es/laundry/laundry/washing-machines/front-loader-washing-machine/lfr9514l6u/",
+    "name": "Lavadora de libre instalación Serie 9000 AbsoluteCare® de 10.0 kg",
+    "sku": "lfr9514l6u"
   },
   {
     "url": "https://www.aeg.com.es/laundry/laundry/washing-machines/front-loader-washing-machine/lfr6214o2b/",
@@ -1715,14 +1685,14 @@
     "sku": "lfa6i8275a"
   },
   {
-    "url": "https://www.aeg.com.es/laundry/laundry/washing-machines/front-loader-washing-machine/lfa5i82wre/",
-    "name": "Lavadora de libre instalación de 8.0 kg",
-    "sku": "lfa5i82wre"
-  },
-  {
     "url": "https://www.aeg.com.es/laundry/laundry/washing-machines/front-loader-washing-machine/lfe6d84n4b/",
     "name": "Lavadora de libre instalación Serie 6000 ProSense® de 8.0 kg",
     "sku": "lfe6d84n4b"
+  },
+  {
+    "url": "https://www.aeg.com.es/laundry/laundry/washing-machines/front-loader-washing-machine/lfa6i8472a/",
+    "name": "Lavadora de libre instalación Serie 6000 ProSense® de 8.0 kg",
+    "sku": "lfa6i8472a"
   },
   {
     "url": "https://www.aeg.com.es/laundry/laundry/washing-machines/front-loader-washing-machine/lfa6i8272a/",
@@ -1730,14 +1700,14 @@
     "sku": "lfa6i8272a"
   },
   {
+    "url": "https://www.aeg.com.es/laundry/laundry/washing-machines/front-loader-washing-machine/lfa5i82wre/",
+    "name": "Lavadora de libre instalación de 8.0 kg",
+    "sku": "lfa5i82wre"
+  },
+  {
     "url": "https://www.aeg.com.es/laundry/laundry/washing-machines/front-loader-washing-machine/lfa6k8241b/",
     "name": "Lavadora de libre instalación Serie 6000 ProSense® de 8.0 kg",
     "sku": "lfa6k8241b"
-  },
-  {
-    "url": "https://www.aeg.com.es/laundry/laundry/washing-machines/front-loader-washing-machine/lfa6i8472a/",
-    "name": "Lavadora de libre instalación Serie 6000 ProSense® de 8.0 kg",
-    "sku": "lfa6i8472a"
   },
   {
     "url": "https://www.aeg.com.es/laundry/laundry/washing-machines/front-loader-washing-machine/l6fbk841p/",
