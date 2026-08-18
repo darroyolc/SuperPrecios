@@ -1734,5 +1734,12 @@
     "reference_price": 1189.0,
     "was_under_100": false,
     "was_big_discount": false
+  },
+  "pk9001wt": {
+    "name": "Horno compacto Serie 9000 ProAssist CombiQuick con Display CookSmart Touch+ 7,8 '', con WiFi",
+    "last_price": 733.85,
+    "reference_price": 733.85,
+    "was_under_100": false,
+    "was_big_discount": false
   }
 }
