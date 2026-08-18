@@ -1596,7 +1596,7 @@
     "was_big_discount": false
   },
   "os7k10b": {
-    "name": "",
+    "name": "Cajón de almacenamiento de 141 mm Negro",
     "last_price": 471.75,
     "reference_price": 629.0,
     "was_under_100": false,
@@ -1739,6 +1739,13 @@
     "name": "Horno compacto Serie 9000 ProAssist CombiQuick con Display CookSmart Touch+ 7,8 '', con WiFi",
     "last_price": 733.85,
     "reference_price": 733.85,
+    "was_under_100": false,
+    "was_big_discount": false
+  },
+  "po9000sct": {
+    "name": "Horno de vapor Serie 9000 ProAssist con SteamPro con Display CookSmart Touch PRO 7,8 '', con WiFi",
+    "last_price": 1071.85,
+    "reference_price": 1071.85,
     "was_under_100": false,
     "was_big_discount": false
   }
