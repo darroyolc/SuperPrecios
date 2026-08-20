@@ -655,11 +655,6 @@
     "sku": "ffb64627zw"
   },
   {
-    "url": "https://www.aeg.com.es/kitchen/dishwashing/dishwashers/built-in-dishwasher/fse73507p2/",
-    "name": "Lavavajillas integrable de 45 cm Serie 7000 GlassCare para 10 cubiertos",
-    "sku": "fse73507p2"
-  },
-  {
     "url": "https://www.aeg.com.es/kitchen/dishwashing/dishwashers/built-in-dishwasher/gx970xt/",
     "name": "Lavavajillas integrable de 60 cm Serie 9000 XXL Flexibility para 15 cubiertos",
     "sku": "gx970xt"
@@ -698,6 +693,11 @@
     "url": "https://www.aeg.com.es/kitchen/dishwashing/dishwashers/free-standing-dishwasher/ffb74917zw2/",
     "name": "Lavavajillas de 60 cm Serie 6000 SatelliteClean para 14 cubiertos",
     "sku": "ffb74917zw2"
+  },
+  {
+    "url": "https://www.aeg.com.es/kitchen/dishwashing/dishwashers/built-in-dishwasher/fse73507p2/",
+    "name": "Lavavajillas integrable de 45 cm Serie 7000 GlassCare para 10 cubiertos",
+    "sku": "fse73507p2"
   },
   {
     "url": "https://www.aeg.com.es/kitchen/dishwashing/dishwashers/built-in-dishwasher/gi8200x5tn/",
@@ -975,14 +975,14 @@
     "sku": "tk6ds181es"
   },
   {
-    "url": "https://www.aeg.com.es/kitchen/cooling/refrigerators/free-standing-refrigerator/ork7m391ew/",
-    "name": "Frigorífico 1 puerta de libre instalación de 1860 mm",
-    "sku": "ork7m391ew"
-  },
-  {
     "url": "https://www.aeg.com.es/kitchen/cooling/refrigerators/free-standing-refrigerator/rtb411e1aw/",
     "name": "Frigorífico 1 puerta de libre instalación de 845 mm",
     "sku": "rtb411e1aw"
+  },
+  {
+    "url": "https://www.aeg.com.es/kitchen/cooling/refrigerators/free-standing-refrigerator/ork7m391ew/",
+    "name": "Frigorífico 1 puerta de libre instalación de 1860 mm",
+    "sku": "ork7m391ew"
   },
   {
     "url": "https://www.aeg.com.es/kitchen/cooling/refrigerators/free-standing-refrigerator/ork7m391ex/",
@@ -1035,11 +1035,6 @@
     "sku": "orc6m341cv"
   },
   {
-    "url": "https://www.aeg.com.es/kitchen/cooling/fridge-freezers/free-standing-fridge-freezer/orc6m341dw/",
-    "name": "Frigorífico combi de libre instalación Serie 6000 Blanco de 200,4 cm",
-    "sku": "orc6m341dw"
-  },
-  {
     "url": "https://www.aeg.com.es/kitchen/cooling/fridge-freezers/free-standing-fridge-freezer/orc6m301dv/",
     "name": "Frigorífico combi de libre instalación Serie 6000 Gris de 186 cm",
     "sku": "orc6m301dv"
@@ -1065,9 +1060,19 @@
     "sku": "orc8m361dt"
   },
   {
+    "url": "https://www.aeg.com.es/kitchen/cooling/fridge-freezers/free-standing-fridge-freezer/orc6m481ex/",
+    "name": "Frigorífico combi de libre instalación Serie 6000 Inox Antihuellas de 192 cm",
+    "sku": "orc6m481ex"
+  },
+  {
     "url": "https://www.aeg.com.es/kitchen/cooling/fridge-freezers/free-standing-fridge-freezer/orc8m361ee/",
     "name": "Frigorífico combi de libre instalación Serie 8000 Negro de 201 cm",
     "sku": "orc8m361ee"
+  },
+  {
+    "url": "https://www.aeg.com.es/kitchen/cooling/fridge-freezers/free-standing-fridge-freezer/orc6m341dw/",
+    "name": "Frigorífico combi de libre instalación Serie 6000 Blanco de 200,4 cm",
+    "sku": "orc6m341dw"
   },
   {
     "url": "https://www.aeg.com.es/kitchen/cooling/fridge-freezers/free-standing-fridge-freezer/orc6m341dv/",
@@ -1078,141 +1083,6 @@
     "url": "https://www.aeg.com.es/kitchen/cooling/fridge-freezers/built-in-fridge-freezer/tc7cs181ds/",
     "name": "Frigorífico combi de integración Serie 7000 de 177,2 cm",
     "sku": "tc7cs181ds"
-  },
-  {
-    "url": "https://www.aeg.com.es/kitchen/cooling/fridge-freezers/free-standing-fridge-freezer/orc6m301dw/",
-    "name": "Frigorífico combi de libre instalación Serie 6000 Blanco de 186 cm",
-    "sku": "orc6m301dw"
-  },
-  {
-    "url": "https://www.aeg.com.es/kitchen/cooling/fridge-freezers/side-by-side-fridge-freezer/orx9v351du/",
-    "name": "Frigorífico americano de libre instalación Serie 8000 Inox de 177,5 cm",
-    "sku": "orx9v351du"
-  },
-  {
-    "url": "https://www.aeg.com.es/kitchen/cooling/fridge-freezers/side-by-side-fridge-freezer/rmb952d6vu/",
-    "name": "Frigorífico americano Multi Door de libre instalación Serie 9000 Inox de 190 cm",
-    "sku": "rmb952d6vu"
-  },
-  {
-    "url": "https://www.aeg.com.es/kitchen/cooling/fridge-freezers/side-by-side-fridge-freezer/rmb954e9vx/",
-    "name": "Frigorífico americano Multi Door de libre instalación Serie 9000 Inox Antihuellas de 178,1 cm",
-    "sku": "rmb954e9vx"
-  },
-  {
-    "url": "https://www.aeg.com.es/kitchen/cooling/fridge-freezers/side-by-side-fridge-freezer/orx9v351db/",
-    "name": "Frigorífico americano de libre instalación Serie 8000 Negro de 177,5 cm",
-    "sku": "orx9v351db"
-  },
-  {
-    "url": "https://www.aeg.com.es/kitchen/cooling/fridge-freezers/free-standing-fridge-freezer/orc6n361es/",
-    "name": "Frigoríficos combi de libre instalación",
-    "sku": "orc6n361es"
-  },
-  {
-    "url": "https://www.aeg.com.es/kitchen/cooling/fridge-freezers/free-standing-fridge-freezer/orc6m481ex/",
-    "name": "Frigorífico combi de libre instalación Serie 6000 Inox Antihuellas de 192 cm",
-    "sku": "orc6m481ex"
-  },
-  {
-    "url": "https://www.aeg.com.es/kitchen/cooling/fridge-freezers/built-in-fridge-freezer/osd5s161es/",
-    "name": "Frigoríficos combi integrables",
-    "sku": "osd5s161es"
-  },
-  {
-    "url": "https://www.aeg.com.es/kitchen/cooling/fridge-freezers/built-in-fridge-freezer/nsc7c18ges/",
-    "name": "Frigorífico combi de integración Serie 7000 de 177,2 cm",
-    "sku": "nsc7c18ges"
-  },
-  {
-    "url": "https://www.aeg.com.es/kitchen/cooling/fridge-freezers/built-in-fridge-freezer/tc7cs181es/",
-    "name": "Frigorífico combi de integración Serie 7000 de 177,2 cm",
-    "sku": "tc7cs181es"
-  },
-  {
-    "url": "https://www.aeg.com.es/kitchen/cooling/fridge-freezers/built-in-fridge-freezer/nsc7c191ds/",
-    "name": "Frigorífico combi de integración Serie 7000 de 188,4 cm",
-    "sku": "nsc7c191ds"
-  },
-  {
-    "url": "https://www.aeg.com.es/kitchen/cooling/fridge-freezers/built-in-fridge-freezer/pcb9000sb/",
-    "name": "Frigorífico combi de integración Serie 9000 de 177,2 cm",
-    "sku": "pcb9000sb"
-  },
-  {
-    "url": "https://www.aeg.com.es/kitchen/cooling/fridge-freezers/built-in-fridge-freezer/nsc6l181es/",
-    "name": "Frigorífico combi de integración Serie 6000 de 177,2 cm",
-    "sku": "nsc6l181es"
-  },
-  {
-    "url": "https://www.aeg.com.es/kitchen/cooling/fridge-freezers/built-in-fridge-freezer/nsc7c181ds/",
-    "name": "Frigorífico combi de integración Serie 7000 de 177,2 cm",
-    "sku": "nsc7c181ds"
-  },
-  {
-    "url": "https://www.aeg.com.es/kitchen/cooling/fridge-freezers/built-in-fridge-freezer/tc3ns181es/",
-    "name": "Frigorífico combi de integración Serie 3000 de 177,2 cm",
-    "sku": "tc3ns181es"
-  },
-  {
-    "url": "https://www.aeg.com.es/kitchen/cooling/fridge-freezers/built-in-fridge-freezer/tctcs191es/",
-    "name": "Frigorífico combi de integración Serie 7000 de 188,4 cm",
-    "sku": "tctcs191es"
-  },
-  {
-    "url": "https://www.aeg.com.es/kitchen/cooling/fridge-freezers/built-in-fridge-freezer/pcb9000/",
-    "name": "Frigorífico combi de integración Serie 9000 de 177,2 cm",
-    "sku": "pcb9000"
-  },
-  {
-    "url": "https://www.aeg.com.es/kitchen/cooling/freezers/built-in-freezer/tab7n12ef/",
-    "name": "Congelador vertical integrable de 1224 mm",
-    "sku": "tab7n12ef"
-  },
-  {
-    "url": "https://www.aeg.com.es/kitchen/cooling/freezers/free-standing-freezer/oag7m281ew/",
-    "name": "Congelador vertical de libre instalación de 1860 mm",
-    "sku": "oag7m281ew"
-  },
-  {
-    "url": "https://www.aeg.com.es/kitchen/cooling/freezers/built-in-freezer/tb7na181es/",
-    "name": "Congelador vertical integrable de 1772 mm",
-    "sku": "tb7na181es"
-  },
-  {
-    "url": "https://www.aeg.com.es/kitchen/cooling/freezers/free-standing-freezer/oag7m281ex/",
-    "name": "Congelador vertical de libre instalación de 1860 mm",
-    "sku": "oag7m281ex"
-  },
-  {
-    "url": "https://www.aeg.com.es/kitchen/cooling/freezers/free-standing-freezer/atb48e1aw/",
-    "name": "Congelador vertical de libre instalación de 845 mm",
-    "sku": "atb48e1aw"
-  },
-  {
-    "url": "https://www.aeg.com.es/kitchen/cooling/freezers/free-standing-freezer/oag7m281dx/",
-    "name": "Congelador vertical de libre instalación de 1860 mm",
-    "sku": "oag7m281dx"
-  },
-  {
-    "url": "https://www.aeg.com.es/kitchen/cooling/freezers/built-in-freezer/nab7n181dc/",
-    "name": "Congelador vertical integrable de 1769 mm",
-    "sku": "nab7n181dc"
-  },
-  {
-    "url": "https://www.aeg.com.es/kitchen/cooling/freezers/built-in-freezer/pca7000f/",
-    "name": "Congelador vertical integrable de 1769 mm",
-    "sku": "pca7000f"
-  },
-  {
-    "url": "https://www.aeg.com.es/kitchen/cooling/freezers/built-in-freezer/nab7n181es/",
-    "name": "Congelador vertical integrable de 1772 mm",
-    "sku": "nab7n181es"
-  },
-  {
-    "url": "https://www.aeg.com.es/kitchen/cooling/freezers/built-in-freezer/oab6i82ef2/",
-    "name": "Congelador vertical integrable de 819 mm",
-    "sku": "oab6i82ef2"
   },
   {
     "url": "https://www.aeg.com.es/aspiradoras/vacuum-cleaners/robotic-vacuum-cleaners/robotic-vacuum-cleaner/ar81uw3sw/",
@@ -1265,6 +1135,11 @@
     "sku": "ar71uw2sw"
   },
   {
+    "url": "https://www.aeg.com.es/aspiradoras/vacuum-cleaners/robotic-vacuum-cleaners/robotic-vacuum-cleaner/ar71hw1dg/",
+    "name": "Robot aspirador 7000 con 125 min de autonomía",
+    "sku": "ar71hw1dg"
+  },
+  {
     "url": "https://www.aeg.com.es/aspiradoras/vacuum-cleaners/wet--dry-cordless-cleaner/wet--dry-cordless-cleaner/aw82u2dg/",
     "name": "Aspiradora sin cable Wet&Dry 8000 de 80 min de autonomía",
     "sku": "aw82u2dg"
@@ -1273,11 +1148,6 @@
     "url": "https://www.aeg.com.es/aspiradoras/vacuum-cleaners/bagless-vacuum-cleaners/bagless-vacuum-cleaner/al61c3db/",
     "name": "Aspiradora sin bolsa 6000 de 550 W y 74 dB(A)",
     "sku": "al61c3db"
-  },
-  {
-    "url": "https://www.aeg.com.es/aspiradoras/vacuum-cleaners/robotic-vacuum-cleaners/robotic-vacuum-cleaner/ar71hw1dg/",
-    "name": "Robot aspirador 7000 con 125 min de autonomía",
-    "sku": "ar71hw1dg"
   },
   {
     "url": "https://www.aeg.com.es/aspiradoras/vacuum-cleaners/stick-vacuum-cleaners/cordless-sticks/ap61cb21og/",
@@ -1665,19 +1535,14 @@
     "sku": "lfr7394o4v"
   },
   {
-    "url": "https://www.aeg.com.es/laundry/laundry/washing-machines/front-loader-washing-machine/lfr7314o4c/",
-    "name": "Lavadora de libre instalación Serie 7000 ProSteam® de 10.0 kg",
-    "sku": "lfr7314o4c"
-  },
-  {
-    "url": "https://www.aeg.com.es/laundry/laundry/washing-machines/front-loader-washing-machine/lfr9514l6u/",
-    "name": "Lavadora de libre instalación Serie 9000 AbsoluteCare® de 10.0 kg",
-    "sku": "lfr9514l6u"
-  },
-  {
     "url": "https://www.aeg.com.es/laundry/laundry/washing-machines/front-loader-washing-machine/lfr6214o4b/",
     "name": "Lavadora de libre instalación Serie 6000 ProSense® de 10.0 kg",
     "sku": "lfr6214o4b"
+  },
+  {
+    "url": "https://www.aeg.com.es/laundry/laundry/washing-machines/front-loader-washing-machine/lfr7314o4c/",
+    "name": "Lavadora de libre instalación Serie 7000 ProSteam® de 10.0 kg",
+    "sku": "lfr7314o4c"
   },
   {
     "url": "https://www.aeg.com.es/laundry/laundry/washing-machines/front-loader-washing-machine/l6fbi147p2/",
@@ -1685,9 +1550,39 @@
     "sku": "l6fbi147p2"
   },
   {
+    "url": "https://www.aeg.com.es/laundry/laundry/washing-machines/front-loader-washing-machine/lfr9514l6u/",
+    "name": "Lavadora de libre instalación Serie 9000 AbsoluteCare® de 10.0 kg",
+    "sku": "lfr9514l6u"
+  },
+  {
     "url": "https://www.aeg.com.es/laundry/laundry/washing-machines/front-loader-washing-machine/lfr6214o2b/",
     "name": "Lavadora de libre instalación Serie 6000 ProSense® de 10.0 kg",
     "sku": "lfr6214o2b"
+  },
+  {
+    "url": "https://www.aeg.com.es/kitchen/cooling/freezers/built-in-freezer/tab7n12ef/",
+    "name": "Congelador vertical integrable de 1224 mm",
+    "sku": "tab7n12ef"
+  },
+  {
+    "url": "https://www.aeg.com.es/kitchen/cooling/freezers/built-in-freezer/tb7na181es/",
+    "name": "Congelador vertical integrable de 1772 mm",
+    "sku": "tb7na181es"
+  },
+  {
+    "url": "https://www.aeg.com.es/kitchen/cooling/freezers/free-standing-freezer/oag7m281ew/",
+    "name": "Congelador vertical de libre instalación de 1860 mm",
+    "sku": "oag7m281ew"
+  },
+  {
+    "url": "https://www.aeg.com.es/kitchen/cooling/freezers/free-standing-freezer/oag7m281ex/",
+    "name": "Congelador vertical de libre instalación de 1860 mm",
+    "sku": "oag7m281ex"
+  },
+  {
+    "url": "https://www.aeg.com.es/kitchen/cooling/freezers/free-standing-freezer/atb48e1aw/",
+    "name": "Congelador vertical de libre instalación de 845 mm",
+    "sku": "atb48e1aw"
   },
   {
     "url": "https://www.aeg.com.es/kitchen/cooking/ovens/steam-oven/bse892330m/",
@@ -1725,11 +1620,6 @@
     "sku": "lfr7184n2v"
   },
   {
-    "url": "https://www.aeg.com.es/laundry/laundry/washing-machines/front-loader-washing-machine/lfa5i82wre/",
-    "name": "Lavadora de libre instalación de 8.0 kg",
-    "sku": "lfa5i82wre"
-  },
-  {
     "url": "https://www.aeg.com.es/laundry/laundry/washing-machines/front-loader-washing-machine/lfe6d84n4b/",
     "name": "Lavadora de libre instalación Serie 6000 ProSense® de 8.0 kg",
     "sku": "lfe6d84n4b"
@@ -1738,6 +1628,11 @@
     "url": "https://www.aeg.com.es/laundry/laundry/washing-machines/front-loader-washing-machine/lfa6i8272a/",
     "name": "Lavadora de libre instalación Serie 6000 ProSense® de 8.0 kg",
     "sku": "lfa6i8272a"
+  },
+  {
+    "url": "https://www.aeg.com.es/laundry/laundry/washing-machines/front-loader-washing-machine/lfa5i82wre/",
+    "name": "Lavadora de libre instalación de 8.0 kg",
+    "sku": "lfa5i82wre"
   },
   {
     "url": "https://www.aeg.com.es/laundry/laundry/washing-machines/front-loader-washing-machine/lfa6k8241b/",
