@@ -190,11 +190,6 @@
     "sku": "ta5pk401b"
   },
   {
-    "url": "https://www.aeg.com.es/kitchen/cooking/ovens/oven/bse572360m/",
-    "name": "Horno de vapor Serie 7000 SteamCrisp con Display LED Explore",
-    "sku": "bse572360m"
-  },
-  {
     "url": "https://www.aeg.com.es/kitchen/cooking/ovens/oven/gu5pb43fsm/",
     "name": "Horno multifunción Serie 5000 SurroundCook con Display LED Explore",
     "sku": "gu5pb43fsm"
@@ -405,6 +400,11 @@
     "sku": "tn63raf2cb"
   },
   {
+    "url": "https://www.aeg.com.es/kitchen/cooking/cooker-hoods/integrated-hood/dgb2531m/",
+    "name": "Campana extractora integrada Serie 3000 Extractor de 52 cm",
+    "sku": "dgb2531m"
+  },
+  {
     "url": "https://www.aeg.com.es/kitchen/cooking/cooker-hoods/island-hood/ndc7792sm/",
     "name": "Campana extractora de techo Serie 7000 SilenceTech de 90 cm",
     "sku": "ndc7792sm"
@@ -415,9 +415,54 @@
     "sku": "gi87d91cb"
   },
   {
+    "url": "https://www.aeg.com.es/kitchen/cooking/cooker-hoods/chimney-hood/gb67d61hl/",
+    "name": "Campana extractora decorativa Serie 6000 Hob2Hood de 60 cm",
+    "sku": "gb67d61hl"
+  },
+  {
     "url": "https://www.aeg.com.es/kitchen/cooking/cooker-hoods/island-hood/ndc7792sw/",
     "name": "Campana extractora de techo Serie 7000 SilenceTech de 90 cm",
     "sku": "ndc7792sw"
+  },
+  {
+    "url": "https://www.aeg.com.es/kitchen/cooking/cooker-hoods/chimney-hood/dbb3651m/",
+    "name": "Campana extractora de pared Serie 5000 ExtractionTech de 60 cm",
+    "sku": "dbb3651m"
+  },
+  {
+    "url": "https://www.aeg.com.es/kitchen/cooking/cooker-hoods/chimney-hood/gv77d91sb/",
+    "name": "Campana de diseño vertical Serie 7000 SilenceTech de 90 cm",
+    "sku": "gv77d91sb"
+  },
+  {
+    "url": "https://www.aeg.com.es/kitchen/cooking/cooker-hoods/integrated-hood/dpe5660m/",
+    "name": "Campana extractora extraíble Serie 5000 Extractor de 60 cm",
+    "sku": "dpe5660m"
+  },
+  {
+    "url": "https://www.aeg.com.es/kitchen/cooking/cooker-hoods/chimney-hood/gb67d91hl/",
+    "name": "Campana extractora decorativa Serie 6000 Hob2Hood de 90 cm",
+    "sku": "gb67d91hl"
+  },
+  {
+    "url": "https://www.aeg.com.es/kitchen/cooking/cooker-hoods/chimney-hood/gb87d91cb/",
+    "name": "Campana extractora decorativa Serie 8000 AuroraTech de 90 cm",
+    "sku": "gb87d91cb"
+  },
+  {
+    "url": "https://www.aeg.com.es/kitchen/cooking/cooker-hoods/chimney-hood/dbb3951m/",
+    "name": "Campana extractora de pared Serie 5000 ExtractionTech de 90 cm",
+    "sku": "dbb3951m"
+  },
+  {
+    "url": "https://www.aeg.com.es/kitchen/cooking/cooker-hoods/integrated-hood/gde686hm2/",
+    "name": "Campana extractora integrada Serie 6000 Hob2Hood de 60 cm",
+    "sku": "gde686hm2"
+  },
+  {
+    "url": "https://www.aeg.com.es/kitchen/cooking/cooker-hoods/chimney-hood/gv77d61sb/",
+    "name": "Campana de diseño vertical Serie 7000 SilenceTech de 60 cm",
+    "sku": "gv77d61sb"
   },
   {
     "url": "https://www.aeg.com.es/kitchen/cooking/cooker-hoods/island-hood/ndi9791at/",
@@ -433,56 +478,6 @@
     "url": "https://www.aeg.com.es/kitchen/cooking/cooker-hoods/island-hood/ndc7722sm/",
     "name": "Campana extractora de techo Serie 7000 SilenceTech de 120 cm",
     "sku": "ndc7722sm"
-  },
-  {
-    "url": "https://www.aeg.com.es/kitchen/cooking/cooker-hoods/chimney-hood/gb67d61hl/",
-    "name": "Campana extractora decorativa Serie 6000 Hob2Hood de 60 cm",
-    "sku": "gb67d61hl"
-  },
-  {
-    "url": "https://www.aeg.com.es/kitchen/cooking/cooker-hoods/chimney-hood/dbb3651m/",
-    "name": "Campana extractora de pared Serie 5000 ExtractionTech de 60 cm",
-    "sku": "dbb3651m"
-  },
-  {
-    "url": "https://www.aeg.com.es/kitchen/cooking/cooker-hoods/chimney-hood/gv77d91sb/",
-    "name": "Campana de diseño vertical Serie 7000 SilenceTech de 90 cm",
-    "sku": "gv77d91sb"
-  },
-  {
-    "url": "https://www.aeg.com.es/kitchen/cooking/cooker-hoods/chimney-hood/gb67d91hl/",
-    "name": "Campana extractora decorativa Serie 6000 Hob2Hood de 90 cm",
-    "sku": "gb67d91hl"
-  },
-  {
-    "url": "https://www.aeg.com.es/kitchen/cooking/cooker-hoods/chimney-hood/gb87d91cb/",
-    "name": "Campana extractora decorativa Serie 8000 AuroraTech de 90 cm",
-    "sku": "gb87d91cb"
-  },
-  {
-    "url": "https://www.aeg.com.es/kitchen/cooking/cooker-hoods/chimney-hood/gv77d61sb/",
-    "name": "Campana de diseño vertical Serie 7000 SilenceTech de 60 cm",
-    "sku": "gv77d61sb"
-  },
-  {
-    "url": "https://www.aeg.com.es/kitchen/cooking/cooker-hoods/chimney-hood/dbb3951m/",
-    "name": "Campana extractora de pared Serie 5000 ExtractionTech de 90 cm",
-    "sku": "dbb3951m"
-  },
-  {
-    "url": "https://www.aeg.com.es/kitchen/cooking/cooker-hoods/integrated-hood/dgb2531m/",
-    "name": "Campana extractora integrada Serie 3000 Extractor de 52 cm",
-    "sku": "dgb2531m"
-  },
-  {
-    "url": "https://www.aeg.com.es/kitchen/cooking/cooker-hoods/integrated-hood/dpe5660m/",
-    "name": "Campana extractora extraíble Serie 5000 Extractor de 60 cm",
-    "sku": "dpe5660m"
-  },
-  {
-    "url": "https://www.aeg.com.es/kitchen/cooking/cooker-hoods/integrated-hood/gde686hm2/",
-    "name": "Campana extractora integrada Serie 6000 Hob2Hood de 60 cm",
-    "sku": "gde686hm2"
   },
   {
     "url": "https://www.aeg.com.es/kitchen/cooking/cooker-hoods/integrated-hood/dpe4941m/",
@@ -720,14 +715,14 @@
     "sku": "lfr6194o2q"
   },
   {
-    "url": "https://www.aeg.com.es/laundry/laundry/washing-machines/top-loader-washing-machine/lta5n6230e/",
-    "name": "Lavadora de carga superior de 6.0 kg",
-    "sku": "lta5n6230e"
-  },
-  {
     "url": "https://www.aeg.com.es/laundry/laundry/washing-machines/built-in-washing-machine/lfn7e8436f/",
     "name": "Lavadora integrable Serie 7000 ProSteam® de 8.0 kg",
     "sku": "lfn7e8436f"
+  },
+  {
+    "url": "https://www.aeg.com.es/laundry/laundry/washing-machines/top-loader-washing-machine/lta5n6230e/",
+    "name": "Lavadora de carga superior de 6.0 kg",
+    "sku": "lta5n6230e"
   },
   {
     "url": "https://www.aeg.com.es/laundry/laundry/washing-machines/built-in-washing-machine/lfn8e8436c/",
@@ -775,14 +770,14 @@
     "sku": "lfa6k8241c"
   },
   {
-    "url": "https://www.aeg.com.es/laundry/laundry/washing-machines/front-loader-washing-machine/lfe6g54h4b/",
-    "name": "Lavadora de libre instalación Serie 6000 ProSense® de 10.5 kg",
-    "sku": "lfe6g54h4b"
-  },
-  {
     "url": "https://www.aeg.com.es/laundry/laundry/washing-machines/front-loader-washing-machine/lfr7394o4v2/",
     "name": "Lavadora de libre instalación Serie 7000 ProSteam® UniversalDose de 9.0 kg",
     "sku": "lfr7394o4v2"
+  },
+  {
+    "url": "https://www.aeg.com.es/laundry/laundry/washing-machines/front-loader-washing-machine/lfr7394n4b/",
+    "name": "Lavadora de libre instalación Serie 7000 ProSteam® de 9.0 kg",
+    "sku": "lfr7394n4b"
   },
   {
     "url": "https://www.aeg.com.es/laundry/laundry/washing-machines/front-loader-washing-machine/lfr8504l6q/",
@@ -810,11 +805,6 @@
     "sku": "lfr6194o2v"
   },
   {
-    "url": "https://www.aeg.com.es/laundry/laundry/washing-machines/front-loader-washing-machine/lfr7394n4b/",
-    "name": "Lavadora de libre instalación Serie 7000 ProSteam® de 9.0 kg",
-    "sku": "lfr7394n4b"
-  },
-  {
     "url": "https://www.aeg.com.es/laundry/laundry/washing-machines/front-loader-washing-machine/lfr6194o2b/",
     "name": "Lavadora de libre instalación Serie 6000 ProSense® de 9.0 kg",
     "sku": "lfr6194o2b"
@@ -823,6 +813,11 @@
     "url": "https://www.aeg.com.es/laundry/laundry/washing-machines/front-loader-washing-machine/lfr7354o4b/",
     "name": "Lavadora de libre instalación Serie 7000 ProSteam® de 10.5 kg",
     "sku": "lfr7354o4b"
+  },
+  {
+    "url": "https://www.aeg.com.es/laundry/laundry/washing-machines/front-loader-washing-machine/lfr6186n2b/",
+    "name": "Lavadora de libre instalación Serie 6000 ProSense® de 8.0 kg",
+    "sku": "lfr6186n2b"
   },
   {
     "url": "https://www.aeg.com.es/laundry/laundry/washing-machines/top-loader-washing-machine/lte6k7230e/",
@@ -1113,6 +1108,56 @@
     "url": "https://www.aeg.com.es/kitchen/cooling/fridge-freezers/free-standing-fridge-freezer/orc6n361es/",
     "name": "Frigoríficos combi de libre instalación",
     "sku": "orc6n361es"
+  },
+  {
+    "url": "https://www.aeg.com.es/kitchen/cooling/fridge-freezers/built-in-fridge-freezer/osd5s161es/",
+    "name": "Frigoríficos combi integrables",
+    "sku": "osd5s161es"
+  },
+  {
+    "url": "https://www.aeg.com.es/kitchen/cooling/fridge-freezers/built-in-fridge-freezer/nsc7c18ges/",
+    "name": "Frigorífico combi de integración Serie 7000 de 177,2 cm",
+    "sku": "nsc7c18ges"
+  },
+  {
+    "url": "https://www.aeg.com.es/kitchen/cooling/fridge-freezers/built-in-fridge-freezer/tc7cs181es/",
+    "name": "Frigorífico combi de integración Serie 7000 de 177,2 cm",
+    "sku": "tc7cs181es"
+  },
+  {
+    "url": "https://www.aeg.com.es/kitchen/cooling/fridge-freezers/built-in-fridge-freezer/nsc7c191ds/",
+    "name": "Frigorífico combi de integración Serie 7000 de 188,4 cm",
+    "sku": "nsc7c191ds"
+  },
+  {
+    "url": "https://www.aeg.com.es/kitchen/cooling/fridge-freezers/built-in-fridge-freezer/pcb9000sb/",
+    "name": "Frigorífico combi de integración Serie 9000 de 177,2 cm",
+    "sku": "pcb9000sb"
+  },
+  {
+    "url": "https://www.aeg.com.es/kitchen/cooling/fridge-freezers/built-in-fridge-freezer/nsc6l181es/",
+    "name": "Frigorífico combi de integración Serie 6000 de 177,2 cm",
+    "sku": "nsc6l181es"
+  },
+  {
+    "url": "https://www.aeg.com.es/kitchen/cooling/fridge-freezers/built-in-fridge-freezer/nsc7c181ds/",
+    "name": "Frigorífico combi de integración Serie 7000 de 177,2 cm",
+    "sku": "nsc7c181ds"
+  },
+  {
+    "url": "https://www.aeg.com.es/kitchen/cooling/fridge-freezers/built-in-fridge-freezer/tc3ns181es/",
+    "name": "Frigorífico combi de integración Serie 3000 de 177,2 cm",
+    "sku": "tc3ns181es"
+  },
+  {
+    "url": "https://www.aeg.com.es/kitchen/cooling/fridge-freezers/built-in-fridge-freezer/tctcs191es/",
+    "name": "Frigorífico combi de integración Serie 7000 de 188,4 cm",
+    "sku": "tctcs191es"
+  },
+  {
+    "url": "https://www.aeg.com.es/kitchen/cooling/fridge-freezers/built-in-fridge-freezer/pcb9000/",
+    "name": "Frigorífico combi de integración Serie 9000 de 177,2 cm",
+    "sku": "pcb9000"
   },
   {
     "url": "https://www.aeg.com.es/kitchen/cooling/freezers/built-in-freezer/tab7n12ef/",
@@ -1440,6 +1485,11 @@
     "sku": "gr6pb53fsb"
   },
   {
+    "url": "https://www.aeg.com.es/kitchen/cooking/ovens/oven/bse572360m/",
+    "name": "Horno de vapor Serie 7000 SteamCrisp con Display LED Explore",
+    "sku": "bse572360m"
+  },
+  {
     "url": "https://www.aeg.com.es/kitchen/cooking/compact-built-in-range/compact-oven/cp7400t/",
     "name": "Horno compacto Serie 7000 MealAssist con SteamBake con Display CookSmart Touch 4,3 '', con WiFi",
     "sku": "cp7400t"
@@ -1493,46 +1543,6 @@
     "url": "https://www.aeg.com.es/laundry/laundry/washing-machines/front-loader-washing-machine/l9feb946/",
     "name": "Lavadoras de carga frontal",
     "sku": "l9feb946"
-  },
-  {
-    "url": "https://www.aeg.com.es/kitchen/cooking/microwaves/microwave-oven/nmb6g261ub/",
-    "name": "Microondas de 900 W con función microondas y grill",
-    "sku": "nmb6g261ub"
-  },
-  {
-    "url": "https://www.aeg.com.es/kitchen/cooking/microwaves/microwave-oven/psm6000t38/",
-    "name": "Microondas de 900 W con función microondas y grill",
-    "sku": "psm6000t38"
-  },
-  {
-    "url": "https://www.aeg.com.es/kitchen/cooking/microwaves/microwave-oven/nms5g25eb/",
-    "name": "Microondas de 900 W con función microondas y grill",
-    "sku": "nms5g25eb"
-  },
-  {
-    "url": "https://www.aeg.com.es/kitchen/cooking/microwaves/microwave-oven/nms5g20eb/",
-    "name": "Microondas de 800 W con función microondas y grill",
-    "sku": "nms5g20eb"
-  },
-  {
-    "url": "https://www.aeg.com.es/kitchen/cooking/microwaves/microwave-oven/nms5g25iem/",
-    "name": "Microondas de 900 W con función microondas y grill",
-    "sku": "nms5g25iem"
-  },
-  {
-    "url": "https://www.aeg.com.es/kitchen/cooking/microwaves/microwave-oven/nmb6g171sb/",
-    "name": "Microondas de 800 W con función microondas y grill",
-    "sku": "nmb6g171sb"
-  },
-  {
-    "url": "https://www.aeg.com.es/kitchen/cooking/microwaves/microwave-oven/nmb6g261tb/",
-    "name": "Microondas de 900 W con función microondas y grill",
-    "sku": "nmb6g261tb"
-  },
-  {
-    "url": "https://www.aeg.com.es/kitchen/cooking/microwaves/microwave-oven/msb2547d-m/",
-    "name": "Microondas de 900 W con función microondas y grill",
-    "sku": "msb2547d-m"
   },
   {
     "url": "https://www.aeg.com.es/kitchen/cooking/cookers/electric-cooker/cib6646abm/",
@@ -1620,24 +1630,24 @@
     "sku": "lfsr8514l6o"
   },
   {
-    "url": "https://www.aeg.com.es/laundry/laundry/washing-machines/front-loader-washing-machine/lfr7314o4c/",
-    "name": "Lavadora de libre instalación Serie 7000 ProSteam® de 10.0 kg",
-    "sku": "lfr7314o4c"
-  },
-  {
-    "url": "https://www.aeg.com.es/laundry/laundry/washing-machines/front-loader-washing-machine/lfr9514l6u/",
-    "name": "Lavadora de libre instalación Serie 9000 AbsoluteCare® de 10.0 kg",
-    "sku": "lfr9514l6u"
-  },
-  {
     "url": "https://www.aeg.com.es/laundry/laundry/washing-machines/front-loader-washing-machine/lfr6214o4b/",
     "name": "Lavadora de libre instalación Serie 6000 ProSense® de 10.0 kg",
     "sku": "lfr6214o4b"
   },
   {
+    "url": "https://www.aeg.com.es/laundry/laundry/washing-machines/front-loader-washing-machine/lfr7314o4c/",
+    "name": "Lavadora de libre instalación Serie 7000 ProSteam® de 10.0 kg",
+    "sku": "lfr7314o4c"
+  },
+  {
     "url": "https://www.aeg.com.es/laundry/laundry/washing-machines/front-loader-washing-machine/l6fbi147p2/",
     "name": "Lavadora de libre instalación Serie 6000 ProSense® de 10.0 kg",
     "sku": "l6fbi147p2"
+  },
+  {
+    "url": "https://www.aeg.com.es/laundry/laundry/washing-machines/front-loader-washing-machine/lfr9514l6u/",
+    "name": "Lavadora de libre instalación Serie 9000 AbsoluteCare® de 10.0 kg",
+    "sku": "lfr9514l6u"
   },
   {
     "url": "https://www.aeg.com.es/laundry/laundry/washing-machines/front-loader-washing-machine/lfr6214o2b/",
@@ -1665,19 +1675,9 @@
     "sku": "lfr7394o4q"
   },
   {
-    "url": "https://www.aeg.com.es/laundry/laundry/washing-machines/front-loader-washing-machine/lfr6186n2b/",
-    "name": "Lavadora de libre instalación Serie 6000 ProSense® de 8.0 kg",
-    "sku": "lfr6186n2b"
-  },
-  {
     "url": "https://www.aeg.com.es/laundry/laundry/washing-machines/front-loader-washing-machine/lfr7184n2v/",
     "name": "Lavadora de libre instalación Serie 7000 ProSteam® UniversalDose de 8.0 kg",
     "sku": "lfr7184n2v"
-  },
-  {
-    "url": "https://www.aeg.com.es/laundry/laundry/washing-machines/front-loader-washing-machine/lfa5i82wre/",
-    "name": "Lavadora de libre instalación de 8.0 kg",
-    "sku": "lfa5i82wre"
   },
   {
     "url": "https://www.aeg.com.es/laundry/laundry/washing-machines/front-loader-washing-machine/lfe6d84n4b/",
@@ -1688,6 +1688,11 @@
     "url": "https://www.aeg.com.es/laundry/laundry/washing-machines/front-loader-washing-machine/lfa6i8272a/",
     "name": "Lavadora de libre instalación Serie 6000 ProSense® de 8.0 kg",
     "sku": "lfa6i8272a"
+  },
+  {
+    "url": "https://www.aeg.com.es/laundry/laundry/washing-machines/front-loader-washing-machine/lfa5i82wre/",
+    "name": "Lavadora de libre instalación de 8.0 kg",
+    "sku": "lfa5i82wre"
   },
   {
     "url": "https://www.aeg.com.es/laundry/laundry/washing-machines/front-loader-washing-machine/lfa6k8241b/",
