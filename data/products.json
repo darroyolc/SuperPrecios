@@ -1035,11 +1035,6 @@
     "sku": "orc6m341dw"
   },
   {
-    "url": "https://www.aeg.com.es/kitchen/cooling/fridge-freezers/free-standing-fridge-freezer/orc6m301dv/",
-    "name": "Frigorífico combi de libre instalación Serie 6000 Gris de 186 cm",
-    "sku": "orc6m301dv"
-  },
-  {
     "url": "https://www.aeg.com.es/kitchen/cooling/fridge-freezers/built-in-fridge-freezer/tc7cs18ges/",
     "name": "Frigorífico combi de integración Serie 7000 de 177,2 cm",
     "sku": "tc7cs18ges"
@@ -1073,6 +1068,11 @@
     "url": "https://www.aeg.com.es/kitchen/cooling/fridge-freezers/free-standing-fridge-freezer/orc6m301cv/",
     "name": "Frigorífico combi de libre instalación Serie 6000 Gris de 186 cm",
     "sku": "orc6m301cv"
+  },
+  {
+    "url": "https://www.aeg.com.es/kitchen/cooling/fridge-freezers/free-standing-fridge-freezer/orc6m301dv/",
+    "name": "Frigorífico combi de libre instalación Serie 6000 Gris de 186 cm",
+    "sku": "orc6m301dv"
   },
   {
     "url": "https://www.aeg.com.es/kitchen/cooling/fridge-freezers/built-in-fridge-freezer/tc7cs181ds/",
