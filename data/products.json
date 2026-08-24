@@ -40,11 +40,6 @@
     "sku": "aw82u1db"
   },
   {
-    "url": "https://www.aeg.com.es/kitchen/cooking/cooker-hoods/chimney-hood/dbb3951m/",
-    "name": "Campana extractora de pared Serie 5000 ExtractionTech de 90 cm",
-    "sku": "dbb3951m"
-  },
-  {
     "url": "https://www.aeg.com.es/kitchen/cooking/ovens/steam-oven/tp9sb831ab/",
     "name": "Horno de vapor Serie 9000 ProAssist con SteamPro con Display CookSmart Touch+ 7,8 '', con WiFi",
     "sku": "tp9sb831ab"
@@ -425,14 +420,14 @@
     "sku": "gb67d61hl"
   },
   {
-    "url": "https://www.aeg.com.es/kitchen/cooking/cooker-hoods/chimney-hood/dbb3651m/",
-    "name": "Campana extractora de pared Serie 5000 ExtractionTech de 60 cm",
-    "sku": "dbb3651m"
-  },
-  {
     "url": "https://www.aeg.com.es/kitchen/cooking/cooker-hoods/island-hood/ndc7792sw/",
     "name": "Campana extractora de techo Serie 7000 SilenceTech de 90 cm",
     "sku": "ndc7792sw"
+  },
+  {
+    "url": "https://www.aeg.com.es/kitchen/cooking/cooker-hoods/chimney-hood/dbb3651m/",
+    "name": "Campana extractora de pared Serie 5000 ExtractionTech de 60 cm",
+    "sku": "dbb3651m"
   },
   {
     "url": "https://www.aeg.com.es/kitchen/cooking/cooker-hoods/chimney-hood/gv77d91sb/",
@@ -440,19 +435,24 @@
     "sku": "gv77d91sb"
   },
   {
-    "url": "https://www.aeg.com.es/kitchen/cooking/cooker-hoods/chimney-hood/gb67d91hl/",
-    "name": "Campana extractora decorativa Serie 6000 Hob2Hood de 90 cm",
-    "sku": "gb67d91hl"
-  },
-  {
     "url": "https://www.aeg.com.es/kitchen/cooking/cooker-hoods/integrated-hood/dpe5660m/",
     "name": "Campana extractora extraíble Serie 5000 Extractor de 60 cm",
     "sku": "dpe5660m"
   },
   {
+    "url": "https://www.aeg.com.es/kitchen/cooking/cooker-hoods/chimney-hood/gb67d91hl/",
+    "name": "Campana extractora decorativa Serie 6000 Hob2Hood de 90 cm",
+    "sku": "gb67d91hl"
+  },
+  {
     "url": "https://www.aeg.com.es/kitchen/cooking/cooker-hoods/chimney-hood/gb87d91cb/",
     "name": "Campana extractora decorativa Serie 8000 AuroraTech de 90 cm",
     "sku": "gb87d91cb"
+  },
+  {
+    "url": "https://www.aeg.com.es/kitchen/cooking/cooker-hoods/chimney-hood/dbb3951m/",
+    "name": "Campana extractora de pared Serie 5000 ExtractionTech de 90 cm",
+    "sku": "dbb3951m"
   },
   {
     "url": "https://www.aeg.com.es/kitchen/cooking/cooker-hoods/integrated-hood/gde686hm2/",
@@ -543,6 +543,16 @@
     "url": "https://www.aeg.com.es/kitchen/cooking/compact-built-in-range/built-in-microwaves/nkm5n401b/",
     "name": "Horno compacto Serie 5000 Microondas con Display LED Explore",
     "sku": "nkm5n401b"
+  },
+  {
+    "url": "https://www.aeg.com.es/kitchen/cooking/compact-built-in-range/built-in-microwaves/nkm7n721t/",
+    "name": "Horno compacto Serie 7000 con Display CookSmart Touch 4,3 '', con WiFi",
+    "sku": "nkm7n721t"
+  },
+  {
+    "url": "https://www.aeg.com.es/kitchen/cooking/compact-built-in-range/built-in-microwaves/nkm7n721b/",
+    "name": "Horno compacto Serie 7000 con Display CookSmart Touch 4,3 '', con WiFi",
+    "sku": "nkm7n721b"
   },
   {
     "url": "https://www.aeg.com.es/kitchen/cooking/compact-built-in-range/built-in-microwaves/kmk721880w/",
@@ -920,6 +930,16 @@
     "sku": "nsw8d826gt"
   },
   {
+    "url": "https://www.aeg.com.es/kitchen/wine/wine-cabinets/compact-wine-cabinets/cw6000t/",
+    "name": "Vinoteca compacta para 15 botellas",
+    "sku": "cw6000t"
+  },
+  {
+    "url": "https://www.aeg.com.es/kitchen/wine/wine-cabinets/under-counter-wine-cabinets/awus020b5b/",
+    "name": "Vinoteca Bajo Encimera para 20 botellas",
+    "sku": "awus020b5b"
+  },
+  {
     "url": "https://www.aeg.com.es/kitchen/wine/wine-cabinets/compact-wine-cabinets/nkw8p21kab/",
     "name": "Vinoteca compacta para 15 botellas",
     "sku": "nkw8p21kab"
@@ -955,14 +975,14 @@
     "sku": "tk6ds181es"
   },
   {
-    "url": "https://www.aeg.com.es/kitchen/cooling/refrigerators/free-standing-refrigerator/ork7m391ew/",
-    "name": "Frigorífico 1 puerta de libre instalación de 1860 mm",
-    "sku": "ork7m391ew"
-  },
-  {
     "url": "https://www.aeg.com.es/kitchen/cooling/refrigerators/free-standing-refrigerator/rtb411e1aw/",
     "name": "Frigorífico 1 puerta de libre instalación de 845 mm",
     "sku": "rtb411e1aw"
+  },
+  {
+    "url": "https://www.aeg.com.es/kitchen/cooling/refrigerators/free-standing-refrigerator/ork7m391ew/",
+    "name": "Frigorífico 1 puerta de libre instalación de 1860 mm",
+    "sku": "ork7m391ew"
   },
   {
     "url": "https://www.aeg.com.es/kitchen/cooling/refrigerators/free-standing-refrigerator/ork7m391ex/",
@@ -1260,9 +1280,9 @@
     "sku": "ap61cb21db"
   },
   {
-    "url": "https://www.aeg.com.es/aspiradoras/vacuum-cleaners/bagless-vacuum-cleaners/bagless-vacuum-cleaner/al51c1ldb/",
-    "name": "Aspiradora sin bolsa 5000 de 850 W y 78 dB(A)",
-    "sku": "al51c1ldb"
+    "url": "https://www.aeg.com.es/aspiradoras/vacuum-cleaners/robotic-vacuum-cleaners/robotic-vacuum-cleaner/ar81uw3sw/",
+    "name": "Robot aspirador Serie 8000 Trilobite con 135 min de autonomía",
+    "sku": "ar81uw3sw"
   },
   {
     "url": "https://www.aeg.com.es/aspiradoras/vacuum-cleaners/stick-vacuum-cleaners/cordless-sticks/ap72ub21es/",
@@ -1323,6 +1343,11 @@
     "url": "https://www.aeg.com.es/aspiradoras/vacuum-cleaners/vacuum-cleaners/vacuum-cleaner/vx82-1-2mg2/",
     "name": "Aspiradora con bolsa VX8 de 500 W y 57 dB(A)",
     "sku": "vx82-1-2mg2"
+  },
+  {
+    "url": "https://www.aeg.com.es/aspiradoras/vacuum-cleaners/bagless-vacuum-cleaners/bagless-vacuum-cleaner/al51c1ldb/",
+    "name": "Aspiradora sin bolsa 5000 de 850 W y 78 dB(A)",
+    "sku": "al51c1ldb"
   },
   {
     "url": "https://www.aeg.com.es/aspiradoras/vacuum-cleaners/bagless-vacuum-cleaners/bagless-vacuum-cleaner/al51c1og/",
@@ -1398,11 +1423,6 @@
     "url": "https://www.aeg.com.es/aspiradoras/vacuum-cleaners/stick-vacuum-cleaners/cordless-sticks/as52cb18db/",
     "name": "Aspiradora sin cable 5000 de 45 min de autonomía",
     "sku": "as52cb18db"
-  },
-  {
-    "url": "https://www.aeg.com.es/aspiradoras/vacuum-cleaners/robotic-vacuum-cleaners/robotic-vacuum-cleaner/ar81uw3sw/",
-    "name": "Robot aspirador Serie 8000 Trilobite con 135 min de autonomía",
-    "sku": "ar81uw3sw"
   },
   {
     "url": "https://www.aeg.com.es/aspiradoras/vacuum-cleaners/robotic-vacuum-cleaners/robotic-vacuum-cleaner/ar61ud1ug/",
