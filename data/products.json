@@ -130,11 +130,6 @@
     "sku": "gu5pb43fpm"
   },
   {
-    "url": "https://www.aeg.com.es/kitchen/cooking/ovens/oven/tx7pb631sb/",
-    "name": "Horno multifunción Serie 7000 MealAssist con PizzaExpert con Display táctil Excite",
-    "sku": "tx7pb631sb"
-  },
-  {
     "url": "https://www.aeg.com.es/kitchen/cooking/ovens/oven/tu5pb41zpb/",
     "name": "Horno multifunción Serie 5000 SurroundCook con EXPlore",
     "sku": "tu5pb41zpb"
@@ -195,9 +190,19 @@
     "sku": "bpe577161m"
   },
   {
+    "url": "https://www.aeg.com.es/kitchen/cooking/compact-built-in-range/compact-oven/ta5pk401b/",
+    "name": "Horno compacto Serie 5000 SurroundCook con SteamBake con Display LED Explore",
+    "sku": "ta5pk401b"
+  },
+  {
     "url": "https://www.aeg.com.es/kitchen/cooking/ovens/oven/bse572360m/",
     "name": "Horno de vapor Serie 7000 SteamCrisp con Display LED Explore",
     "sku": "bse572360m"
+  },
+  {
+    "url": "https://www.aeg.com.es/kitchen/cooking/ovens/oven/tx7pb631sb/",
+    "name": "Horno multifunción Serie 7000 MealAssist con PizzaExpert con Display táctil Excite",
+    "sku": "tx7pb631sb"
   },
   {
     "url": "https://www.aeg.com.es/kitchen/cooking/ovens/oven/gu5pb43fsm/",
@@ -515,11 +520,6 @@
     "sku": "gde682hm2"
   },
   {
-    "url": "https://www.aeg.com.es/kitchen/cooking/compact-built-in-range/compact-oven/ta5pk401b/",
-    "name": "Horno compacto Serie 5000 SurroundCook con SteamBake con Display LED Explore",
-    "sku": "ta5pk401b"
-  },
-  {
     "url": "https://www.aeg.com.es/kitchen/cooking/compact-built-in-range/built-in-coffee-machine/nkc8n7b/",
     "name": "Máquina de café integrable Negro",
     "sku": "nkc8n7b"
@@ -528,46 +528,6 @@
     "url": "https://www.aeg.com.es/kitchen/cooking/compact-built-in-range/built-in-coffee-machine/psc8000t/",
     "name": "Máquina de café integrable Negro mate",
     "sku": "psc8000t"
-  },
-  {
-    "url": "https://www.aeg.com.es/kitchen/cooking/compact-built-in-range/built-in-microwaves/tm5nk401b/",
-    "name": "Horno compacto Serie 5000 Microondas con Display LED Explore",
-    "sku": "tm5nk401b"
-  },
-  {
-    "url": "https://www.aeg.com.es/kitchen/cooking/compact-built-in-range/built-in-microwaves/tm7nk721b/",
-    "name": "Horno compacto Serie 7000 MealAssist con Display CookSmart Touch 4,3 '', con WiFi",
-    "sku": "tm7nk721b"
-  },
-  {
-    "url": "https://www.aeg.com.es/kitchen/cooking/compact-built-in-range/built-in-microwaves/nkm5n401b/",
-    "name": "Horno compacto Serie 5000 Microondas con Display LED Explore",
-    "sku": "nkm5n401b"
-  },
-  {
-    "url": "https://www.aeg.com.es/kitchen/cooking/compact-built-in-range/built-in-microwaves/nkm7n721t/",
-    "name": "Horno compacto Serie 7000 con Display CookSmart Touch 4,3 '', con WiFi",
-    "sku": "nkm7n721t"
-  },
-  {
-    "url": "https://www.aeg.com.es/kitchen/cooking/compact-built-in-range/built-in-microwaves/nkm7n721b/",
-    "name": "Horno compacto Serie 7000 con Display CookSmart Touch 4,3 '', con WiFi",
-    "sku": "nkm7n721b"
-  },
-  {
-    "url": "https://www.aeg.com.es/kitchen/cooking/compact-built-in-range/built-in-microwaves/kmk721880w/",
-    "name": "Horno compacto Serie 6000 solo Microondas y Grill con Display táctil Excite",
-    "sku": "kmk721880w"
-  },
-  {
-    "url": "https://www.aeg.com.es/kitchen/cooking/compact-built-in-range/built-in-microwaves/kmk721880m/",
-    "name": "Horno compacto Serie 6000 solo Microondas y Grill con Display táctil Excite",
-    "sku": "kmk721880m"
-  },
-  {
-    "url": "https://www.aeg.com.es/kitchen/cooking/compact-built-in-range/built-in-microwaves/kmk725880b/",
-    "name": "Horno compacto Serie 6000 solo Microondas y Grill con Display táctil Excite",
-    "sku": "kmk725880b"
   },
   {
     "url": "https://www.aeg.com.es/kitchen/cooking/vacuum-sealers/portable-vaccum-sealers/a6-1-6ag/",
@@ -975,36 +935,6 @@
     "sku": "tk6ds181es"
   },
   {
-    "url": "https://www.aeg.com.es/kitchen/cooling/fridge-freezers/side-by-side-fridge-freezer/rxb659e6nu/",
-    "name": "Frigorífico americano de libre instalación Serie 8000 Inox de 177 cm",
-    "sku": "rxb659e6nu"
-  },
-  {
-    "url": "https://www.aeg.com.es/kitchen/cooling/fridge-freezers/free-standing-fridge-freezer/orc6m341cv/",
-    "name": "Frigorífico combi de libre instalación Serie 6000 Gris de 201,7 cm",
-    "sku": "orc6m341cv"
-  },
-  {
-    "url": "https://www.aeg.com.es/kitchen/cooling/freezers/free-standing-freezer/atb48e1aw/",
-    "name": "Congelador vertical de libre instalación de 845 mm",
-    "sku": "atb48e1aw"
-  },
-  {
-    "url": "https://www.aeg.com.es/kitchen/cooling/fridge-freezers/free-standing-fridge-freezer/orc6m301cv/",
-    "name": "Frigorífico combi de libre instalación Serie 6000 Gris de 186 cm",
-    "sku": "orc6m301cv"
-  },
-  {
-    "url": "https://www.aeg.com.es/kitchen/cooling/freezers/built-in-freezer/tb7na181es/",
-    "name": "Congelador vertical integrable de 1772 mm",
-    "sku": "tb7na181es"
-  },
-  {
-    "url": "https://www.aeg.com.es/kitchen/cooling/freezers/free-standing-freezer/oag7m281ex/",
-    "name": "Congelador vertical de libre instalación de 1860 mm",
-    "sku": "oag7m281ex"
-  },
-  {
     "url": "https://www.aeg.com.es/kitchen/cooling/refrigerators/free-standing-refrigerator/rtb411e1aw/",
     "name": "Frigorífico 1 puerta de libre instalación de 845 mm",
     "sku": "rtb411e1aw"
@@ -1050,9 +980,19 @@
     "sku": "nsc7t751es"
   },
   {
+    "url": "https://www.aeg.com.es/kitchen/cooling/fridge-freezers/free-standing-fridge-freezer/orc6m301cv/",
+    "name": "Frigorífico combi de libre instalación Serie 6000 Gris de 186 cm",
+    "sku": "orc6m301cv"
+  },
+  {
     "url": "https://www.aeg.com.es/kitchen/cooling/fridge-freezers/built-in-fridge-freezer/osc6d181es/",
     "name": "Frigorífico combi de integración Serie 6000 de 177,2 cm",
     "sku": "osc6d181es"
+  },
+  {
+    "url": "https://www.aeg.com.es/kitchen/cooling/fridge-freezers/free-standing-fridge-freezer/orc6m341cv/",
+    "name": "Frigorífico combi de libre instalación Serie 6000 Gris de 201,7 cm",
+    "sku": "orc6m341cv"
   },
   {
     "url": "https://www.aeg.com.es/kitchen/cooling/fridge-freezers/free-standing-fridge-freezer/orc6m301dv/",
@@ -1068,6 +1008,11 @@
     "url": "https://www.aeg.com.es/kitchen/cooling/fridge-freezers/built-in-fridge-freezer/osc7g181es/",
     "name": "Frigorífico combi de integración Serie 7000 de 177,2 cm",
     "sku": "osc7g181es"
+  },
+  {
+    "url": "https://www.aeg.com.es/kitchen/cooling/fridge-freezers/side-by-side-fridge-freezer/rxb659e6nu/",
+    "name": "Frigorífico americano de libre instalación Serie 8000 Inox de 177 cm",
+    "sku": "rxb659e6nu"
   },
   {
     "url": "https://www.aeg.com.es/kitchen/cooling/fridge-freezers/free-standing-fridge-freezer/orc8m361dt/",
@@ -1185,9 +1130,24 @@
     "sku": "tab7n12ef"
   },
   {
+    "url": "https://www.aeg.com.es/kitchen/cooling/freezers/built-in-freezer/tb7na181es/",
+    "name": "Congelador vertical integrable de 1772 mm",
+    "sku": "tb7na181es"
+  },
+  {
     "url": "https://www.aeg.com.es/kitchen/cooling/freezers/free-standing-freezer/oag7m281ew/",
     "name": "Congelador vertical de libre instalación de 1860 mm",
     "sku": "oag7m281ew"
+  },
+  {
+    "url": "https://www.aeg.com.es/kitchen/cooling/freezers/free-standing-freezer/oag7m281ex/",
+    "name": "Congelador vertical de libre instalación de 1860 mm",
+    "sku": "oag7m281ex"
+  },
+  {
+    "url": "https://www.aeg.com.es/kitchen/cooling/freezers/free-standing-freezer/atb48e1aw/",
+    "name": "Congelador vertical de libre instalación de 845 mm",
+    "sku": "atb48e1aw"
   },
   {
     "url": "https://www.aeg.com.es/kitchen/cooling/freezers/free-standing-freezer/oag7m281dx/",
@@ -1670,24 +1630,24 @@
     "sku": "lfr7394o4v"
   },
   {
-    "url": "https://www.aeg.com.es/laundry/laundry/washing-machines/front-loader-washing-machine/lfr7314o4c/",
-    "name": "Lavadora de libre instalación Serie 7000 ProSteam® de 10.0 kg",
-    "sku": "lfr7314o4c"
-  },
-  {
-    "url": "https://www.aeg.com.es/laundry/laundry/washing-machines/front-loader-washing-machine/lfr9514l6u/",
-    "name": "Lavadora de libre instalación Serie 9000 AbsoluteCare® de 10.0 kg",
-    "sku": "lfr9514l6u"
-  },
-  {
     "url": "https://www.aeg.com.es/laundry/laundry/washing-machines/front-loader-washing-machine/lfr6214o4b/",
     "name": "Lavadora de libre instalación Serie 6000 ProSense® de 10.0 kg",
     "sku": "lfr6214o4b"
   },
   {
+    "url": "https://www.aeg.com.es/laundry/laundry/washing-machines/front-loader-washing-machine/lfr7314o4c/",
+    "name": "Lavadora de libre instalación Serie 7000 ProSteam® de 10.0 kg",
+    "sku": "lfr7314o4c"
+  },
+  {
     "url": "https://www.aeg.com.es/laundry/laundry/washing-machines/front-loader-washing-machine/l6fbi147p2/",
     "name": "Lavadora de libre instalación Serie 6000 ProSense® de 10.0 kg",
     "sku": "l6fbi147p2"
+  },
+  {
+    "url": "https://www.aeg.com.es/laundry/laundry/washing-machines/front-loader-washing-machine/lfr9514l6u/",
+    "name": "Lavadora de libre instalación Serie 9000 AbsoluteCare® de 10.0 kg",
+    "sku": "lfr9514l6u"
   },
   {
     "url": "https://www.aeg.com.es/laundry/laundry/washing-machines/front-loader-washing-machine/lfr6214o2b/",
@@ -1725,11 +1685,6 @@
     "sku": "lfr6186n2b"
   },
   {
-    "url": "https://www.aeg.com.es/laundry/laundry/washing-machines/front-loader-washing-machine/lfa5i82wre/",
-    "name": "Lavadora de libre instalación de 8.0 kg",
-    "sku": "lfa5i82wre"
-  },
-  {
     "url": "https://www.aeg.com.es/laundry/laundry/washing-machines/front-loader-washing-machine/lfe6d84n4b/",
     "name": "Lavadora de libre instalación Serie 6000 ProSense® de 8.0 kg",
     "sku": "lfe6d84n4b"
@@ -1738,6 +1693,11 @@
     "url": "https://www.aeg.com.es/laundry/laundry/washing-machines/front-loader-washing-machine/lfa6i8272a/",
     "name": "Lavadora de libre instalación Serie 6000 ProSense® de 8.0 kg",
     "sku": "lfa6i8272a"
+  },
+  {
+    "url": "https://www.aeg.com.es/laundry/laundry/washing-machines/front-loader-washing-machine/lfa5i82wre/",
+    "name": "Lavadora de libre instalación de 8.0 kg",
+    "sku": "lfa5i82wre"
   },
   {
     "url": "https://www.aeg.com.es/laundry/laundry/washing-machines/front-loader-washing-machine/lfa6k8241b/",
