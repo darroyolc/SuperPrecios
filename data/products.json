@@ -1260,11 +1260,6 @@
     "sku": "ap72ub21sw"
   },
   {
-    "url": "https://www.aeg.com.es/aspiradoras/vacuum-cleaners/stick-vacuum-cleaners/cordless-sticks/ap72ub21am/",
-    "name": "Aspiradora sin cable Serie 7000 de 50 min de autonomía",
-    "sku": "ap72ub21am"
-  },
-  {
     "url": "https://www.aeg.com.es/aspiradoras/vacuum-cleaners/robotic-vacuum-cleaners/robotic-vacuum-cleaner/ar71uw2sw/",
     "name": "Robot aspirador 7000 con 125 min de autonomía",
     "sku": "ar71uw2sw"
@@ -1290,14 +1285,14 @@
     "sku": "aw82u2dg"
   },
   {
-    "url": "https://www.aeg.com.es/wellbeing2/discover/qx9/",
-    "name": "ASPIRADORAS SIN CABLE QX9",
-    "sku": "qx9"
-  },
-  {
     "url": "https://www.aeg.com.es/aspiradoras/vacuum-cleaners/vacuum-cleaners/vacuum-cleaner/ab51c1gg/",
     "name": "Aspiradora con bolsa 5000 de 650 W y 78 dB(A)",
     "sku": "ab51c1gg"
+  },
+  {
+    "url": "https://www.aeg.com.es/wellbeing2/discover/qx9/",
+    "name": "ASPIRADORAS SIN CABLE QX9",
+    "sku": "qx9"
   },
   {
     "url": "https://www.aeg.com.es/aspiradoras/vacuum-cleaners/vacuum-cleaners/vacuum-cleaner/ab31c1gg/",
@@ -1410,6 +1405,11 @@
     "sku": "ap51uh18dg"
   },
   {
+    "url": "https://www.aeg.com.es/aspiradoras/vacuum-cleaners/stick-vacuum-cleaners/cordless-sticks/ap72ub21am/",
+    "name": "Aspiradora sin cable Serie 7000 de 50 min de autonomía",
+    "sku": "ap72ub21am"
+  },
+  {
     "url": "https://www.aeg.com.es/aspiradoras/vacuum-cleaners/stick-vacuum-cleaners/cordless-sticks/ap61cb21dg/",
     "name": "Aspiradora sin cable 6000 de 50 min de autonomía",
     "sku": "ap61cb21dg"
@@ -1440,14 +1440,14 @@
     "sku": "ar61uw1db"
   },
   {
-    "url": "https://www.aeg.com.es/aspiradoras/air-comfort/air-conditioners/portable-air-conditioner/acu7878csw/",
-    "name": "Aire acondicionado portátil Comfort 7000 de 12.000 BTUs",
-    "sku": "acu7878csw"
-  },
-  {
     "url": "https://www.aeg.com.es/aspiradoras/air-comfort/air-purifiers/oxygen-air-purifier/apo50371dg/",
     "name": "Purificadores de aire",
     "sku": "apo50371dg"
+  },
+  {
+    "url": "https://www.aeg.com.es/aspiradoras/air-comfort/air-conditioners/portable-air-conditioner/acu7878csw/",
+    "name": "Aire acondicionado portátil Comfort 7000 de 12.000 BTUs",
+    "sku": "acu7878csw"
   },
   {
     "url": "https://www.aeg.com.es/aspiradoras/air-comfort/air-purifiers/oxygen-air-purifier/apu72771dg/",
