@@ -40,11 +40,6 @@
     "sku": "aw82u1db"
   },
   {
-    "url": "https://www.aeg.com.es/kitchen/cooking/cooker-hoods/chimney-hood/dbb3951m/",
-    "name": "Campana extractora de pared Serie 5000 ExtractionTech de 90 cm",
-    "sku": "dbb3951m"
-  },
-  {
     "url": "https://www.aeg.com.es/kitchen/cooking/ovens/steam-oven/tp9sb831ab/",
     "name": "Horno de vapor Serie 9000 ProAssist con SteamPro con Display CookSmart Touch+ 7,8 '', con WiFi",
     "sku": "tp9sb831ab"
@@ -125,11 +120,6 @@
     "sku": "ccb6642cbm"
   },
   {
-    "url": "https://www.aeg.com.es/kitchen/cooking/ovens/oven/bse572360m/",
-    "name": "Horno de vapor Serie 7000 SteamCrisp con Display LED Explore",
-    "sku": "bse572360m"
-  },
-  {
     "url": "https://www.aeg.com.es/kitchen/cooking/ovens/oven/gu5pb43fpm/",
     "name": "Horno multifunción Serie 5000 SurroundCook con EXPlore",
     "sku": "gu5pb43fpm"
@@ -140,9 +130,14 @@
     "sku": "tu5pb41zpb"
   },
   {
-    "url": "https://www.aeg.com.es/kitchen/cooking/ovens/oven/tx7pb631sb/",
-    "name": "Horno multifunción Serie 7000 MealAssist con PizzaExpert con Display táctil Excite",
-    "sku": "tx7pb631sb"
+    "url": "https://www.aeg.com.es/kitchen/cooking/ovens/oven/bps535160w/",
+    "name": "Horno multifunción Serie 6000 SurroundCook con Display LED Explore",
+    "sku": "bps535160w"
+  },
+  {
+    "url": "https://www.aeg.com.es/kitchen/cooking/compact-built-in-range/compact-oven/tp9sk821b/",
+    "name": "Horno compacto de vapor Serie 9000 ProAssist con SteamPro con Display CookSmart Touch+ 7,8 '', con WiFi",
+    "sku": "tp9sk821b"
   },
   {
     "url": "https://www.aeg.com.es/kitchen/cooking/ovens/oven/gs6pb51fab/",
@@ -150,24 +145,29 @@
     "sku": "gs6pb51fab"
   },
   {
+    "url": "https://www.aeg.com.es/kitchen/cooking/compact-built-in-range/compact-oven/ta7pk721b/",
+    "name": "Horno compacto Serie 7000 MealAssist con SteamBake con Display CookSmart Touch 4,3 '', con WiFi",
+    "sku": "ta7pk721b"
+  },
+  {
     "url": "https://www.aeg.com.es/kitchen/cooking/ovens/oven/gu5pb41wsk/",
     "name": "Horno multifunción Serie 5000 SurroundCook con Display LED Explore",
     "sku": "gu5pb41wsk"
   },
   {
-    "url": "https://www.aeg.com.es/kitchen/cooking/ovens/oven/bps535160w/",
-    "name": "Horno multifunción Serie 6000 SurroundCook con Display LED Explore",
-    "sku": "bps535160w"
+    "url": "https://www.aeg.com.es/kitchen/cooking/ovens/oven/tb8sb73zab/",
+    "name": "Horno de vapor Serie 8000 MealAssist con SteamPro con Display CookSmart Touch 4,3 '', con WiFi",
+    "sku": "tb8sb73zab"
+  },
+  {
+    "url": "https://www.aeg.com.es/kitchen/cooking/ovens/oven/tr7pb73fsb/",
+    "name": "Horno de vapor Serie 7000 MealAssist con SteamCrisp con Display CookSmart Touch 4,3 '', con WiFi",
+    "sku": "tr7pb73fsb"
   },
   {
     "url": "https://www.aeg.com.es/kitchen/cooking/ovens/oven/ou5ab20sm/",
     "name": "Horno multifunción Serie 5000 SurroundCook con Display LED",
     "sku": "ou5ab20sm"
-  },
-  {
-    "url": "https://www.aeg.com.es/kitchen/cooking/ovens/oven/bpe577161m/",
-    "name": "Horno de vapor Serie 7000 SteamCrisp con Display LED Explore",
-    "sku": "bpe577161m"
   },
   {
     "url": "https://www.aeg.com.es/kitchen/cooking/ovens/oven/v5abu20sk/",
@@ -180,14 +180,24 @@
     "sku": "te8pb731at"
   },
   {
-    "url": "https://www.aeg.com.es/kitchen/cooking/ovens/oven/tb8sb73zab/",
-    "name": "Horno de vapor Serie 8000 MealAssist con SteamPro con Display CookSmart Touch 4,3 '', con WiFi",
-    "sku": "tb8sb73zab"
+    "url": "https://www.aeg.com.es/kitchen/cooking/ovens/oven/bpe577161m/",
+    "name": "Horno de vapor Serie 7000 SteamCrisp con Display LED Explore",
+    "sku": "bpe577161m"
   },
   {
-    "url": "https://www.aeg.com.es/kitchen/cooking/ovens/oven/tr7pb73fsb/",
-    "name": "Horno de vapor Serie 7000 MealAssist con SteamCrisp con Display CookSmart Touch 4,3 '', con WiFi",
-    "sku": "tr7pb73fsb"
+    "url": "https://www.aeg.com.es/kitchen/cooking/compact-built-in-range/compact-oven/ta5pk401b/",
+    "name": "Horno compacto Serie 5000 SurroundCook con SteamBake con Display LED Explore",
+    "sku": "ta5pk401b"
+  },
+  {
+    "url": "https://www.aeg.com.es/kitchen/cooking/ovens/oven/bse572360m/",
+    "name": "Horno de vapor Serie 7000 SteamCrisp con Display LED Explore",
+    "sku": "bse572360m"
+  },
+  {
+    "url": "https://www.aeg.com.es/kitchen/cooking/ovens/oven/tx7pb631sb/",
+    "name": "Horno multifunción Serie 7000 MealAssist con PizzaExpert con Display táctil Excite",
+    "sku": "tx7pb631sb"
   },
   {
     "url": "https://www.aeg.com.es/kitchen/cooking/ovens/oven/gu5pb43fsm/",
@@ -445,6 +455,11 @@
     "sku": "gb87d91cb"
   },
   {
+    "url": "https://www.aeg.com.es/kitchen/cooking/cooker-hoods/chimney-hood/dbb3951m/",
+    "name": "Campana extractora de pared Serie 5000 ExtractionTech de 90 cm",
+    "sku": "dbb3951m"
+  },
+  {
     "url": "https://www.aeg.com.es/kitchen/cooking/cooker-hoods/integrated-hood/gde686hm2/",
     "name": "Campana extractora integrada Serie 6000 Hob2Hood de 60 cm",
     "sku": "gde686hm2"
@@ -503,21 +518,6 @@
     "url": "https://www.aeg.com.es/kitchen/cooking/cooker-hoods/integrated-hood/gde682hm2/",
     "name": "Campana extractora integrada Serie 6000 Hob2Hood de 120 cm",
     "sku": "gde682hm2"
-  },
-  {
-    "url": "https://www.aeg.com.es/kitchen/cooking/compact-built-in-range/compact-oven/tp9sk821b/",
-    "name": "Horno compacto de vapor Serie 9000 ProAssist con SteamPro con Display CookSmart Touch+ 7,8 '', con WiFi",
-    "sku": "tp9sk821b"
-  },
-  {
-    "url": "https://www.aeg.com.es/kitchen/cooking/compact-built-in-range/compact-oven/ta7pk721b/",
-    "name": "Horno compacto Serie 7000 MealAssist con SteamBake con Display CookSmart Touch 4,3 '', con WiFi",
-    "sku": "ta7pk721b"
-  },
-  {
-    "url": "https://www.aeg.com.es/kitchen/cooking/compact-built-in-range/compact-oven/ta5pk401b/",
-    "name": "Horno compacto Serie 5000 SurroundCook con SteamBake con Display LED Explore",
-    "sku": "ta5pk401b"
   },
   {
     "url": "https://www.aeg.com.es/kitchen/cooking/compact-built-in-range/built-in-coffee-machine/nkc8n7b/",
@@ -975,14 +975,14 @@
     "sku": "tk6ds181es"
   },
   {
-    "url": "https://www.aeg.com.es/kitchen/cooling/refrigerators/free-standing-refrigerator/ork7m391ew/",
-    "name": "Frigorífico 1 puerta de libre instalación de 1860 mm",
-    "sku": "ork7m391ew"
-  },
-  {
     "url": "https://www.aeg.com.es/kitchen/cooling/refrigerators/free-standing-refrigerator/rtb411e1aw/",
     "name": "Frigorífico 1 puerta de libre instalación de 845 mm",
     "sku": "rtb411e1aw"
+  },
+  {
+    "url": "https://www.aeg.com.es/kitchen/cooling/refrigerators/free-standing-refrigerator/ork7m391ew/",
+    "name": "Frigorífico 1 puerta de libre instalación de 1860 mm",
+    "sku": "ork7m391ew"
   },
   {
     "url": "https://www.aeg.com.es/kitchen/cooling/refrigerators/free-standing-refrigerator/ork7m391ex/",
@@ -1440,16 +1440,6 @@
     "sku": "acu7878csw"
   },
   {
-    "url": "https://www.aeg.com.es/aspiradoras/air-comfort/air-purifiers/oxygen-air-purifier/apo50371dg/",
-    "name": "Purificadores de aire",
-    "sku": "apo50371dg"
-  },
-  {
-    "url": "https://www.aeg.com.es/aspiradoras/air-comfort/air-purifiers/oxygen-air-purifier/apu72771dg/",
-    "name": "Purificador de aire Pure 7000 de 330 m3/h",
-    "sku": "apu72771dg"
-  },
-  {
     "url": "https://www.aeg.com.es/kitchen/cooking/hobs/combohob/cce84779fb/",
     "name": "Placa de inducción con campana extractora de 83 cm",
     "sku": "cce84779fb"
@@ -1553,6 +1543,16 @@
     "url": "https://www.aeg.com.es/kitchen/cooking/cookers/electric-cooker/cib6646abm/",
     "name": "Cocina de inducción AEG CIB6646ABM de 596 mm",
     "sku": "cib6646abm"
+  },
+  {
+    "url": "https://www.aeg.com.es/aspiradoras/air-comfort/air-purifiers/oxygen-air-purifier/apo50371dg/",
+    "name": "Purificadores de aire",
+    "sku": "apo50371dg"
+  },
+  {
+    "url": "https://www.aeg.com.es/aspiradoras/air-comfort/air-purifiers/oxygen-air-purifier/apu72771dg/",
+    "name": "Purificador de aire Pure 7000 de 330 m3/h",
+    "sku": "apu72771dg"
   },
   {
     "url": "https://www.aeg.com.es/kitchen/cooking/ovens/pizza-oven/nbx7p631sb/",
