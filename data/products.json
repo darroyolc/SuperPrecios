@@ -40,6 +40,11 @@
     "sku": "aw82u1db"
   },
   {
+    "url": "https://www.aeg.com.es/kitchen/cooking/cooker-hoods/chimney-hood/dbb3951m/",
+    "name": "Campana extractora de pared Serie 5000 ExtractionTech de 90 cm\nDBB3951M\n942022490",
+    "sku": "dbb3951m"
+  },
+  {
     "url": "https://www.aeg.com.es/kitchen/cooking/ovens/steam-oven/tp9sb831ab/",
     "name": "Horno de vapor Serie 9000 ProAssist con SteamPro con Display CookSmart Touch+ 7,8 '', con WiFi\nTP9SB831AB\n944035112",
     "sku": "tp9sb831ab"
@@ -145,14 +150,14 @@
     "sku": "tk8nk721b"
   },
   {
-    "url": "https://www.aeg.com.es/kitchen/cooking/ovens/oven/gs6pb51fab/",
-    "name": "Horno multifunción Serie 6000 SenseCook con Display LED Explore\nGS6PB51FAB\n944035210",
-    "sku": "gs6pb51fab"
-  },
-  {
     "url": "https://www.aeg.com.es/kitchen/cooking/compact-built-in-range/compact-oven/tp9sk821b/",
     "name": "Horno compacto de vapor Serie 9000 ProAssist con SteamPro con Display CookSmart Touch+ 7,8 '', con WiFi\nTP9SK821B\n944005074",
     "sku": "tp9sk821b"
+  },
+  {
+    "url": "https://www.aeg.com.es/kitchen/cooking/ovens/oven/gs6pb51fab/",
+    "name": "Horno multifunción Serie 6000 SenseCook con Display LED Explore\nGS6PB51FAB\n944035210",
+    "sku": "gs6pb51fab"
   },
   {
     "url": "https://www.aeg.com.es/kitchen/cooking/ovens/oven/gu5pb41wsk/",
@@ -235,14 +240,14 @@
     "sku": "tn63iv0bct"
   },
   {
-    "url": "https://www.aeg.com.es/kitchen/cooking/hobs/gas-hob/hkb75820nb/",
-    "name": "Placa de gas Serie 6000 Gas on Glass de 75 cm\nHKB75820NB\n949630949",
-    "sku": "hkb75820nb"
-  },
-  {
     "url": "https://www.aeg.com.es/kitchen/cooking/hobs/induction-hob/to63iq00it/",
     "name": "Placa de inducción SaphirMatt® SE Serie 6000 Flex de 60 cm\nTO63IQ00IT\n949598641",
     "sku": "to63iq00it"
+  },
+  {
+    "url": "https://www.aeg.com.es/kitchen/cooking/hobs/gas-hob/hkb75820nb/",
+    "name": "Placa de gas Serie 6000 Gas on Glass de 75 cm\nHKB75820NB\n949630949",
+    "sku": "hkb75820nb"
   },
   {
     "url": "https://www.aeg.com.es/kitchen/cooking/cooker-hoods/combo-hob-hood/th84cb03fb/",
@@ -485,11 +490,6 @@
     "sku": "gb87d91cb"
   },
   {
-    "url": "https://www.aeg.com.es/kitchen/cooking/cooker-hoods/chimney-hood/dbb3951m/",
-    "name": "Campana extractora de pared Serie 5000 ExtractionTech de 90 cm\nDBB3951M\n942022490",
-    "sku": "dbb3951m"
-  },
-  {
     "url": "https://www.aeg.com.es/kitchen/cooking/cooker-hoods/integrated-hood/dgb2531m/",
     "name": "Campana extractora integrada Serie 3000 Extractor de 52 cm\nDGB2531M\n942022066",
     "sku": "dgb2531m"
@@ -590,6 +590,11 @@
     "sku": "gi6200b2sn"
   },
   {
+    "url": "https://www.aeg.com.es/kitchen/dishwashing/dishwashers/built-in-dishwasher/gi8200x5tn/",
+    "name": "Lavavajillas de 60 cm integrable Serie 8000 Cleaning Performance para 14 cubiertos\nGI8200X5TN\n911474026",
+    "sku": "gi8200x5tn"
+  },
+  {
     "url": "https://www.aeg.com.es/kitchen/dishwashing/dishwashers/built-in-dishwasher/fse77707p/",
     "name": "Lavavajillas de 60 cm integrable Serie 7000 GlassCare para 14 cubiertos\nFSE77707P\n911437437",
     "sku": "fse77707p"
@@ -650,21 +655,6 @@
     "sku": "ffb53627zw"
   },
   {
-    "url": "https://www.aeg.com.es/kitchen/dishwashing/dishwashers/free-standing-dishwasher/ffb64627zw/",
-    "name": "Lavavajillas de 60 cm Serie 6000 SatelliteClean para 13 cubiertos\nFFB64627ZW\n911514188",
-    "sku": "ffb64627zw"
-  },
-  {
-    "url": "https://www.aeg.com.es/kitchen/dishwashing/dishwashers/built-in-dishwasher/gi8200x5tn/",
-    "name": "Lavavajillas de 60 cm integrable Serie 8000 Cleaning Performance para 14 cubiertos\nGI8200X5TN\n911474026",
-    "sku": "gi8200x5tn"
-  },
-  {
-    "url": "https://www.aeg.com.es/kitchen/dishwashing/dishwashers/free-standing-dishwasher/gf6100c2snm/",
-    "name": "Lavavajillas de 60 cm Serie 6000 SmartSelect para 13 cubiertos\nGF6100C2SNM\n911552116",
-    "sku": "gf6100c2snm"
-  },
-  {
     "url": "https://www.aeg.com.es/kitchen/dishwashing/dishwashers/built-in-dishwasher/gx970xt/",
     "name": "Lavavajillas de 60 cm integrable Serie 9000 XXL Flexibility para 15 cubiertos\nGX970XT\n911494008",
     "sku": "gx970xt"
@@ -678,6 +668,11 @@
     "url": "https://www.aeg.com.es/kitchen/dishwashing/dishwashers/built-in-dishwasher/gt6200b2snm/",
     "name": "Lavavajillas de 60 cm integrable Serie 6000 SmartSelect para 14 cubiertos\nGT6200B2SNM\n911562116",
     "sku": "gt6200b2snm"
+  },
+  {
+    "url": "https://www.aeg.com.es/kitchen/dishwashing/dishwashers/free-standing-dishwasher/ffb64627zw/",
+    "name": "Lavavajillas de 60 cm Serie 6000 SatelliteClean para 13 cubiertos\nFFB64627ZW\n911514188",
+    "sku": "ffb64627zw"
   },
   {
     "url": "https://www.aeg.com.es/kitchen/dishwashing/dishwashers/free-standing-dishwasher/ffb75717pm/",
@@ -698,6 +693,16 @@
     "url": "https://www.aeg.com.es/kitchen/dishwashing/dishwashers/free-standing-dishwasher/ffb74917zw2/",
     "name": "Lavavajillas de 60 cm Serie 6000 SatelliteClean para 14 cubiertos\nFFB74917ZW\n911514256",
     "sku": "ffb74917zw2"
+  },
+  {
+    "url": "https://www.aeg.com.es/kitchen/dishwashing/dishwashers/free-standing-dishwasher/gf6100c2snm/",
+    "name": "Lavavajillas de 60 cm Serie 6000 SmartSelect para 13 cubiertos\nGF6100C2SNM\n911552116",
+    "sku": "gf6100c2snm"
+  },
+  {
+    "url": "https://www.aeg.com.es/kitchen/dishwashing/dishwashers/built-in-dishwasher/fse73507p2/",
+    "name": "Lavavajillas de 45 cm Serie 7000 GlassCare para 10 cubiertos\nFSE73507P\n911077040",
+    "sku": "fse73507p2"
   },
   {
     "url": "https://www.aeg.com.es/laundry/laundry/steam-stations/steam-station/st6-1-4lg/",
@@ -735,6 +740,11 @@
     "sku": "lfsr8514l6o"
   },
   {
+    "url": "https://www.aeg.com.es/laundry/laundry/washing-machines/built-in-washing-machine/lfn6g7434f/",
+    "name": "Lavadora integrable Serie 6000 ProSense® de 7.0 kg\nLFN6G7434F\n914580526",
+    "sku": "lfn6g7434f"
+  },
+  {
     "url": "https://www.aeg.com.es/laundry/laundry/washing-machines/front-loader-washing-machine/lfa5i82re/",
     "name": "Lavadora de libre instalación de 8.0 kg\nLFA5I82RE\n914912582",
     "sku": "lfa5i82re"
@@ -770,11 +780,6 @@
     "sku": "lfn8e8436c"
   },
   {
-    "url": "https://www.aeg.com.es/laundry/laundry/washing-machines/front-loader-washing-machine/lfa6k8241c/",
-    "name": "Lavadora de libre instalación Serie 6000 ProSense® de 8.0 kg\nLFA6K8241C\n914913281",
-    "sku": "lfa6k8241c"
-  },
-  {
     "url": "https://www.aeg.com.es/laundry/laundry/washing-machines/front-loader-washing-machine/lfr8504l6q/",
     "name": "Lavadora de libre instalación Serie 8000 PowerCare Autodose de 11.0 kg\nLFR8504L6Q\n914505304",
     "sku": "lfr8504l6q"
@@ -805,6 +810,16 @@
     "sku": "lfsr7304l4bp"
   },
   {
+    "url": "https://www.aeg.com.es/laundry/laundry/washing-machines/front-loader-washing-machine/lfa6k8241c/",
+    "name": "Lavadora de libre instalación Serie 6000 ProSense® de 8.0 kg\nLFA6K8241C\n914913281",
+    "sku": "lfa6k8241c"
+  },
+  {
+    "url": "https://www.aeg.com.es/laundry/laundry/washing-machines/front-loader-washing-machine/lfe6g54h4b/",
+    "name": "Lavadora de libre instalación Serie 6000 ProSense® de 10.5 kg\nLFE6G54H4B\n914915761",
+    "sku": "lfe6g54h4b"
+  },
+  {
     "url": "https://www.aeg.com.es/laundry/laundry/washing-machines/front-loader-washing-machine/lfr7394o4v2/",
     "name": "Lavadora de libre instalación Serie 7000 ProSteam® UniversalDose de 9.0 kg\nLFR7394O4V\n914921934",
     "sku": "lfr7394o4v2"
@@ -815,11 +830,6 @@
     "sku": "lfr7394n4b"
   },
   {
-    "url": "https://www.aeg.com.es/laundry/laundry/washing-machines/front-loader-washing-machine/lfr6194o2q/",
-    "name": "Lavadora de libre instalación Serie 6000 ProSense® Autodose de 9.0 kg\nLFR6194O2Q\n914915152",
-    "sku": "lfr6194o2q"
-  },
-  {
     "url": "https://www.aeg.com.es/laundry/laundry/washing-machines/top-loader-washing-machine/lta7e7231e/",
     "name": "Lavadora de carga superior Serie 7000 ProSteam® de 7.0 kg\nLTA7E7231E\n913143782",
     "sku": "lta7e7231e"
@@ -828,11 +838,6 @@
     "url": "https://www.aeg.com.es/laundry/laundry/washing-machines/top-loader-washing-machine/lte6k7230e/",
     "name": "Lavadora de carga superior Serie 6000 ProSense® de 7.0 kg\nLTE6K7230E\n913143552",
     "sku": "lte6k7230e"
-  },
-  {
-    "url": "https://www.aeg.com.es/laundry/laundry/washing-machines/built-in-washing-machine/lfn6g7434f/",
-    "name": "Lavadora integrable Serie 6000 ProSense® de 7.0 kg\nLFN6G7434F\n914580526",
-    "sku": "lfn6g7434f"
   },
   {
     "url": "https://www.aeg.com.es/laundry/laundry/dryers/heat-pump-dryer/tr959v6pbc/",
@@ -965,14 +970,14 @@
     "sku": "tk6ds181es"
   },
   {
-    "url": "https://www.aeg.com.es/kitchen/cooling/refrigerators/free-standing-refrigerator/ork7m391ew/",
-    "name": "Frigorífico 1 puerta de libre instalación de 1860 mm\nORK7M391EW\n923421383",
-    "sku": "ork7m391ew"
-  },
-  {
     "url": "https://www.aeg.com.es/kitchen/cooling/refrigerators/free-standing-refrigerator/rtb411e1aw/",
     "name": "Frigorífico 1 puerta de libre instalación de 845 mm\nRTB411E1AW\n923421150",
     "sku": "rtb411e1aw"
+  },
+  {
+    "url": "https://www.aeg.com.es/kitchen/cooling/refrigerators/free-standing-refrigerator/ork7m391ew/",
+    "name": "Frigorífico 1 puerta de libre instalación de 1860 mm\nORK7M391EW\n923421383",
+    "sku": "ork7m391ew"
   },
   {
     "url": "https://www.aeg.com.es/kitchen/cooling/refrigerators/free-standing-refrigerator/ork7m391ex/",
@@ -1100,6 +1105,11 @@
     "sku": "nsc7c18ges"
   },
   {
+    "url": "https://www.aeg.com.es/kitchen/cooling/fridge-freezers/built-in-fridge-freezer/tc7cs181es/",
+    "name": "Frigorífico combi de integración Serie 7000 de 177,2 cm\nTC7CS181ES\n925555043",
+    "sku": "tc7cs181es"
+  },
+  {
     "url": "https://www.aeg.com.es/kitchen/cooling/fridge-freezers/built-in-fridge-freezer/nsc7c191ds/",
     "name": "Frigorífico combi de integración Serie 7000 de 188,4 cm\nNSC7C191DS\n925954041",
     "sku": "nsc7c191ds"
@@ -1143,11 +1153,6 @@
     "url": "https://www.aeg.com.es/kitchen/cooling/fridge-freezers/built-in-fridge-freezer/nsc8t751ds/",
     "name": "Frigorífico combi de integración Serie 8000 de 188,4 cm\nNSC8T751DS\n925974003",
     "sku": "nsc8t751ds"
-  },
-  {
-    "url": "https://www.aeg.com.es/kitchen/cooling/fridge-freezers/built-in-fridge-freezer/tc8ms181cs/",
-    "name": "Frigorífico combi de integración Serie 8000 de 177,2 cm\nTC8MS181CS\n925556040",
-    "sku": "tc8ms181cs"
   },
   {
     "url": "https://www.aeg.com.es/kitchen/cooling/freezers/built-in-freezer/tab7n12ef/",
@@ -1300,14 +1305,14 @@
     "sku": "ab31c1gg"
   },
   {
-    "url": "https://www.aeg.com.es/aspiradoras/vacuum-cleaners/vacuum-cleaners/vacuum-cleaner/ab51c2sw/",
-    "name": "Aspiradora con bolsa 5000 de 650 W y 78 dB(A)\nAB51C2SW\n900258689",
-    "sku": "ab51c2sw"
-  },
-  {
     "url": "https://www.aeg.com.es/aspiradoras/vacuum-cleaners/vacuum-cleaners/vacuum-cleaner/vx83-2db/",
     "name": "Aspiradora con bolsa VX8 de 600 W y 64 dB(A)\nVX83-2DB\n900258784",
     "sku": "vx83-2db"
+  },
+  {
+    "url": "https://www.aeg.com.es/aspiradoras/vacuum-cleaners/vacuum-cleaners/vacuum-cleaner/ab51c2sw/",
+    "name": "Aspiradora con bolsa 5000 de 650 W y 78 dB(A)\nAB51C2SW\n900258689",
+    "sku": "ab51c2sw"
   },
   {
     "url": "https://www.aeg.com.es/aspiradoras/vacuum-cleaners/vacuum-cleaners/vacuum-cleaner/ab71u1gg/",
@@ -1435,14 +1440,14 @@
     "sku": "ar61ud1ug"
   },
   {
-    "url": "https://www.aeg.com.es/aspiradoras/air-comfort/air-conditioners/portable-air-conditioner/acu7878csw/",
-    "name": "Aire acondicionado portátil Comfort 7000 de 12.000 BTUs para 41-49 m²\nACU7878CSW\n950011710",
-    "sku": "acu7878csw"
-  },
-  {
     "url": "https://www.aeg.com.es/aspiradoras/air-comfort/air-purifiers/oxygen-air-purifier/apo50371dg/",
     "name": "Purificadores de aire",
     "sku": "apo50371dg"
+  },
+  {
+    "url": "https://www.aeg.com.es/aspiradoras/air-comfort/air-conditioners/portable-air-conditioner/acu7878csw/",
+    "name": "Aire acondicionado portátil Comfort 7000 de 12.000 BTUs para 41-49 m²\nACU7878CSW\n950011710",
+    "sku": "acu7878csw"
   },
   {
     "url": "https://www.aeg.com.es/aspiradoras/air-comfort/air-purifiers/oxygen-air-purifier/apu72771dg/",
@@ -1505,11 +1510,6 @@
     "sku": "tr7pb73fsb"
   },
   {
-    "url": "https://www.aeg.com.es/kitchen/dishwashing/dishwashers/built-in-dishwasher/fse73507p2/",
-    "name": "Lavavajillas de 45 cm Serie 7000 GlassCare para 10 cubiertos\nFSE73507P\n911077040",
-    "sku": "fse73507p2"
-  },
-  {
     "url": "https://www.aeg.com.es/kitchen/dishwashing/dishwashers/free-standing-dishwasher/ffb73527zm/",
     "name": "Lavavajillas de 45 cm Serie 7000 GlassCare para 10 cubiertos\nFFB73527ZM\n911054084",
     "sku": "ffb73527zm"
@@ -1528,6 +1528,46 @@
     "url": "https://www.aeg.com.es/laundry/laundry/dryers/heat-pump-dryer/t9deb979/",
     "name": "Secadoras con bomba de calor",
     "sku": "t9deb979"
+  },
+  {
+    "url": "https://www.aeg.com.es/laundry/laundry/washing-machines/front-loader-washing-machine/lfr6194o2q/",
+    "name": "Lavadora de libre instalación Serie 6000 ProSense® Autodose de 9.0 kg\nLFR6194O2Q\n914915152",
+    "sku": "lfr6194o2q"
+  },
+  {
+    "url": "https://www.aeg.com.es/laundry/laundry/washing-machines/front-loader-washing-machine/lfr7294o2b/",
+    "name": "Lavadora de libre instalación Serie 7000 ProSteam® de 9.0 kg\nLFR7294O2B\n914501548",
+    "sku": "lfr7294o2b"
+  },
+  {
+    "url": "https://www.aeg.com.es/laundry/laundry/washing-machines/front-loader-washing-machine/lfr7394o4b/",
+    "name": "Lavadora de libre instalación Serie 7000 ProSteam® de 9.0 kg\nLFR7394O4B\n914501559",
+    "sku": "lfr7394o4b"
+  },
+  {
+    "url": "https://www.aeg.com.es/laundry/laundry/washing-machines/front-loader-washing-machine/lfr7394n2b/",
+    "name": "Lavadora de libre instalación Serie 7000 ProSteam® de 9.0 kg\nLFR7394N2B\n914921788",
+    "sku": "lfr7394n2b"
+  },
+  {
+    "url": "https://www.aeg.com.es/laundry/laundry/washing-machines/front-loader-washing-machine/lfe6d94o4b/",
+    "name": "Lavadora de libre instalación Serie 6000 ProSense® de 9.0 kg\nLFE6D94O4B\n914915532",
+    "sku": "lfe6d94o4b"
+  },
+  {
+    "url": "https://www.aeg.com.es/laundry/laundry/washing-machines/front-loader-washing-machine/l6fbi947p/",
+    "name": "Lavadora de libre instalación Serie 6000 ProSense® de 9.0 kg\nL6FBI947P\n914915513",
+    "sku": "l6fbi947p"
+  },
+  {
+    "url": "https://www.aeg.com.es/laundry/laundry/washing-machines/front-loader-washing-machine/lfr7394o4v/",
+    "name": "Lavadora de libre instalación Serie 7000 ProSteam® UniversalDose de 9.0 kg\nLFR7394O4V\n914501626",
+    "sku": "lfr7394o4v"
+  },
+  {
+    "url": "https://www.aeg.com.es/laundry/laundry/washing-machines/front-loader-washing-machine/lfr7394n4a/",
+    "name": "Lavadora de libre instalación Serie 7000 ProSteam® Autodose de 9.0 kg\nLFR7394N4A\n914921600",
+    "sku": "lfr7394n4a"
   },
   {
     "url": "https://www.aeg.com.es/laundry/laundry/washing-machines/front-loader-washing-machine/l9feb946/",
@@ -1630,41 +1670,6 @@
     "sku": "bse999330m"
   },
   {
-    "url": "https://www.aeg.com.es/laundry/laundry/washing-machines/front-loader-washing-machine/lfr7294o2b/",
-    "name": "Lavadora de libre instalación Serie 7000 ProSteam® de 9.0 kg\nLFR7294O2B\n914501548",
-    "sku": "lfr7294o2b"
-  },
-  {
-    "url": "https://www.aeg.com.es/laundry/laundry/washing-machines/front-loader-washing-machine/lfr7394o4b/",
-    "name": "Lavadora de libre instalación Serie 7000 ProSteam® de 9.0 kg\nLFR7394O4B\n914501559",
-    "sku": "lfr7394o4b"
-  },
-  {
-    "url": "https://www.aeg.com.es/laundry/laundry/washing-machines/front-loader-washing-machine/lfr7394n2b/",
-    "name": "Lavadora de libre instalación Serie 7000 ProSteam® de 9.0 kg\nLFR7394N2B\n914921788",
-    "sku": "lfr7394n2b"
-  },
-  {
-    "url": "https://www.aeg.com.es/laundry/laundry/washing-machines/front-loader-washing-machine/lfe6d94o4b/",
-    "name": "Lavadora de libre instalación Serie 6000 ProSense® de 9.0 kg\nLFE6D94O4B\n914915532",
-    "sku": "lfe6d94o4b"
-  },
-  {
-    "url": "https://www.aeg.com.es/laundry/laundry/washing-machines/front-loader-washing-machine/l6fbi947p/",
-    "name": "Lavadora de libre instalación Serie 6000 ProSense® de 9.0 kg\nL6FBI947P\n914915513",
-    "sku": "l6fbi947p"
-  },
-  {
-    "url": "https://www.aeg.com.es/laundry/laundry/washing-machines/front-loader-washing-machine/lfr7394o4v/",
-    "name": "Lavadora de libre instalación Serie 7000 ProSteam® UniversalDose de 9.0 kg\nLFR7394O4V\n914501626",
-    "sku": "lfr7394o4v"
-  },
-  {
-    "url": "https://www.aeg.com.es/laundry/laundry/washing-machines/front-loader-washing-machine/lfr7394n4a/",
-    "name": "Lavadora de libre instalación Serie 7000 ProSteam® Autodose de 9.0 kg\nLFR7394N4A\n914921600",
-    "sku": "lfr7394n4a"
-  },
-  {
     "url": "https://www.aeg.com.es/laundry/laundry/washing-machines/front-loader-washing-machine/lfsr9514l6u/",
     "name": "Lavadora de libre instalación Serie 9000 AbsoluteCare® de 10.0 kg\nLFSR9514L6U\n914505608",
     "sku": "lfsr9514l6u"
@@ -1680,14 +1685,14 @@
     "sku": "lfr9514l6u"
   },
   {
-    "url": "https://www.aeg.com.es/laundry/laundry/washing-machines/front-loader-washing-machine/l6fbi147p2/",
-    "name": "Lavadora de libre instalación Serie 6000 ProSense® de 10.0 kg\nL6FBI147P\n914915512",
-    "sku": "l6fbi147p2"
-  },
-  {
     "url": "https://www.aeg.com.es/laundry/laundry/washing-machines/front-loader-washing-machine/lfr6214o4b/",
     "name": "Lavadora de libre instalación Serie 6000 ProSense® de 10.0 kg\nLFR6214O4B\n914915746",
     "sku": "lfr6214o4b"
+  },
+  {
+    "url": "https://www.aeg.com.es/laundry/laundry/washing-machines/front-loader-washing-machine/l6fbi147p2/",
+    "name": "Lavadora de libre instalación Serie 6000 ProSense® de 10.0 kg\nL6FBI147P\n914915512",
+    "sku": "l6fbi147p2"
   },
   {
     "url": "https://www.aeg.com.es/laundry/laundry/washing-machines/front-loader-washing-machine/lfr6214o2b/",
