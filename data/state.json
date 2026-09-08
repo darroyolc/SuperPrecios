@@ -1680,7 +1680,7 @@
     "was_big_discount": false
   },
   "ti63iq1bfb": {
-    "name": "Placa de inducción Serie 7000 Sense de 60 cm",
+    "name": "Placa de inducción Serie 7000 Sense de 60 cm\nTI63IQ1BFB\n949598384",
     "last_price": 384.3,
     "reference_price": 549.0,
     "was_under_100": false,
@@ -1753,6 +1753,13 @@
     "name": "Placa de inducción Serie 5000 Induction de 60 cm\nI64KV301CB\n949492832",
     "last_price": 324.35,
     "reference_price": 324.35,
+    "was_under_100": false,
+    "was_big_discount": false
+  },
+  "tr718p4ob": {
+    "name": "Secadora con Bomba de Calor Serie 7000 SensiDry® de 8 kg\nTR718P4OB\n916900259",
+    "last_price": 594.3,
+    "reference_price": 849.0,
     "was_under_100": false,
     "was_big_discount": false
   }
