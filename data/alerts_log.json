@@ -629,5 +629,65 @@
     "reasons": [
       "por debajo de 100 €"
     ]
+  },
+  {
+    "timestamp": "2026-09-09T23:09:57.302410+00:00",
+    "sku": "al51c1og",
+    "name": "Aspiradora sin bolsa 5000 de 850 W y 78 dB(A)\nAL51C1OG\n900258727",
+    "url": "https://www.aeg.com.es/aspiradoras/vacuum-cleaners/bagless-vacuum-cleaners/bagless-vacuum-cleaner/al51c1og/",
+    "price": 84.0,
+    "reference_price": 129.0,
+    "discount_pct": 0.3488,
+    "reasons": [
+      "por debajo de 100 €"
+    ]
+  },
+  {
+    "timestamp": "2026-09-09T23:10:45.145841+00:00",
+    "sku": "ab31c1gg",
+    "name": "Aspiradora con bolsa 3000 de 650 W y 78 dB(A)\nAB31C1GG\n900258688",
+    "url": "https://www.aeg.com.es/aspiradoras/vacuum-cleaners/vacuum-cleaners/vacuum-cleaner/ab31c1gg/",
+    "price": 81.75,
+    "reference_price": 109.0,
+    "discount_pct": 0.25,
+    "reasons": [
+      "por debajo de 100 €"
+    ]
+  },
+  {
+    "timestamp": "2026-09-09T23:10:50.636613+00:00",
+    "sku": "ab51c2sw",
+    "name": "Aspiradora con bolsa 5000 de 650 W y 78 dB(A)\nAB51C2SW\n900258689",
+    "url": "https://www.aeg.com.es/aspiradoras/vacuum-cleaners/vacuum-cleaners/vacuum-cleaner/ab51c2sw/",
+    "price": 99.0,
+    "reference_price": 139.0,
+    "discount_pct": 0.2878,
+    "reasons": [
+      "por debajo de 100 €"
+    ]
+  },
+  {
+    "timestamp": "2026-09-09T23:10:58.409576+00:00",
+    "sku": "ab51a3dg",
+    "name": "Aspiradora con bolsa 5000 de 650 W y 78 dB(A)\nAB51A3DG\n900258693",
+    "url": "https://www.aeg.com.es/aspiradoras/vacuum-cleaners/vacuum-cleaners/vacuum-cleaner/ab51a3dg/",
+    "price": 96.85,
+    "reference_price": 149.0,
+    "discount_pct": 0.35,
+    "reasons": [
+      "por debajo de 100 €"
+    ]
+  },
+  {
+    "timestamp": "2026-09-09T23:11:48.543267+00:00",
+    "sku": "ap31cb18iw",
+    "name": "Aspiradora sin cable Serie 3000 de 30 min de autonomía\nAP31CB18IW\n900402397",
+    "url": "https://www.aeg.com.es/aspiradoras/vacuum-cleaners/stick-vacuum-cleaners/cordless-sticks/ap31cb18iw/",
+    "price": 85.0,
+    "reference_price": 149.0,
+    "discount_pct": 0.4295,
+    "reasons": [
+      "por debajo de 100 €"
+    ]
   }
 ]
