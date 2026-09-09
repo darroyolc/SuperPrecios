@@ -520,5 +520,114 @@
     "reasons": [
       "por debajo de 100 €"
     ]
+  },
+  {
+    "timestamp": "2026-09-09T08:43:07.386402+00:00",
+    "sku": "tr818a4ob",
+    "name": "Secadora con Bomba de Calor Serie 8000 AbsoluteCare® de 8 kg\nTR818A4OB\n916099333",
+    "url": "https://www.aeg.com.es/laundry/laundry/dryers/heat-pump-dryer/tr818a4ob/",
+    "price": 674.25,
+    "reference_price": 1409.0,
+    "discount_pct": 0.5215,
+    "reasons": [
+      "ha bajado un 52% respecto a su precio de referencia (1409.00 €)"
+    ]
+  },
+  {
+    "timestamp": "2026-09-09T08:48:20.032529+00:00",
+    "sku": "a6-1-6ag",
+    "name": "Envasadora al vacío portátil\nA6-1-6AG\n900923299",
+    "url": "https://www.aeg.com.es/kitchen/cooking/vacuum-sealers/portable-vaccum-sealers/a6-1-6ag/",
+    "price": 79.0,
+    "reference_price": 189.0,
+    "discount_pct": 0.582,
+    "reasons": [
+      "por debajo de 100 €",
+      "ha bajado un 58% respecto a su precio de referencia (189.00 €)"
+    ]
+  },
+  {
+    "timestamp": "2026-09-09T08:50:55.298124+00:00",
+    "sku": "tr818a2pb",
+    "name": "Secadora con Bomba de Calor Serie 8000 AbsoluteCare® de 8 kg\nTR818A2PB\n916900018",
+    "url": "https://www.aeg.com.es/laundry/laundry/dryers/heat-pump-dryer/tr818a2pb/",
+    "price": 689.25,
+    "reference_price": 1484.0,
+    "discount_pct": 0.5355,
+    "reasons": [
+      "ha bajado un 54% respecto a su precio de referencia (1484.00 €)"
+    ]
+  },
+  {
+    "timestamp": "2026-09-09T08:54:51.825623+00:00",
+    "sku": "al51c1og",
+    "name": "Aspiradora sin bolsa 5000 de 850 W y 78 dB(A)\nAL51C1OG\n900258727",
+    "url": "https://www.aeg.com.es/aspiradoras/vacuum-cleaners/bagless-vacuum-cleaners/bagless-vacuum-cleaner/al51c1og/",
+    "price": 84.0,
+    "reference_price": 129.0,
+    "discount_pct": 0.3488,
+    "reasons": [
+      "por debajo de 100 €"
+    ]
+  },
+  {
+    "timestamp": "2026-09-09T08:55:33.935693+00:00",
+    "sku": "ab51c1gg",
+    "name": "Aspiradora con bolsa 5000 de 650 W y 78 dB(A)\nAB51C1GG\n900258664",
+    "url": "https://www.aeg.com.es/aspiradoras/vacuum-cleaners/vacuum-cleaners/vacuum-cleaner/ab51c1gg/",
+    "price": 83.85,
+    "reference_price": 129.0,
+    "discount_pct": 0.35,
+    "reasons": [
+      "por debajo de 100 €"
+    ]
+  },
+  {
+    "timestamp": "2026-09-09T08:55:36.932018+00:00",
+    "sku": "ab31c1gg",
+    "name": "Aspiradora con bolsa 3000 de 650 W y 78 dB(A)\nAB31C1GG\n900258688",
+    "url": "https://www.aeg.com.es/aspiradoras/vacuum-cleaners/vacuum-cleaners/vacuum-cleaner/ab31c1gg/",
+    "price": 81.75,
+    "reference_price": 109.0,
+    "discount_pct": 0.25,
+    "reasons": [
+      "por debajo de 100 €"
+    ]
+  },
+  {
+    "timestamp": "2026-09-09T08:55:42.942156+00:00",
+    "sku": "ab51c2sw",
+    "name": "Aspiradora con bolsa 5000 de 650 W y 78 dB(A)\nAB51C2SW\n900258689",
+    "url": "https://www.aeg.com.es/aspiradoras/vacuum-cleaners/vacuum-cleaners/vacuum-cleaner/ab51c2sw/",
+    "price": 99.0,
+    "reference_price": 139.0,
+    "discount_pct": 0.2878,
+    "reasons": [
+      "por debajo de 100 €"
+    ]
+  },
+  {
+    "timestamp": "2026-09-09T08:55:53.113047+00:00",
+    "sku": "ab51a3dg",
+    "name": "Aspiradora con bolsa 5000 de 650 W y 78 dB(A)\nAB51A3DG\n900258693",
+    "url": "https://www.aeg.com.es/aspiradoras/vacuum-cleaners/vacuum-cleaners/vacuum-cleaner/ab51a3dg/",
+    "price": 96.85,
+    "reference_price": 149.0,
+    "discount_pct": 0.35,
+    "reasons": [
+      "por debajo de 100 €"
+    ]
+  },
+  {
+    "timestamp": "2026-09-09T08:56:41.417700+00:00",
+    "sku": "ap31cb18iw",
+    "name": "Aspiradora sin cable Serie 3000 de 30 min de autonomía\nAP31CB18IW\n900402397",
+    "url": "https://www.aeg.com.es/aspiradoras/vacuum-cleaners/stick-vacuum-cleaners/cordless-sticks/ap31cb18iw/",
+    "price": 85.0,
+    "reference_price": 149.0,
+    "discount_pct": 0.4295,
+    "reasons": [
+      "por debajo de 100 €"
+    ]
   }
 ]
