@@ -1762,5 +1762,19 @@
     "reference_price": 849.0,
     "was_under_100": false,
     "was_big_discount": false
+  },
+  "tk7ds181ds": {
+    "name": "Frigorífico 1 puerta integrable de 1772 mm\nTK7DS181DS\n923581387",
+    "last_price": 783.3,
+    "reference_price": 1119.0,
+    "was_under_100": false,
+    "was_big_discount": false
+  },
+  "tb7aa181es": {
+    "name": "Congelador vertical integrable de 1772 mm\nTB7AA181ES\n922782367",
+    "last_price": 825.3,
+    "reference_price": 1179.0,
+    "was_under_100": false,
+    "was_big_discount": false
   }
 }
