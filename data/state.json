@@ -1776,5 +1776,40 @@
     "reference_price": 1179.0,
     "was_under_100": false,
     "was_big_discount": false
+  },
+  "lfr7324l4o": {
+    "name": "Lavadora de libre instalación Serie 7000 ProSteam® UniversalDose de 12.0 kg\nLFR7324L4O\n914505130",
+    "last_price": 629.3,
+    "reference_price": 899.0,
+    "was_under_100": false,
+    "was_big_discount": false
+  },
+  "to7g8abobr": {
+    "name": "Secadora con Bomba de Calor Serie 7000 SensiDry® de 8 kg\nTO7G8ABOBR\n916002339",
+    "last_price": 594.3,
+    "reference_price": 849.0,
+    "was_under_100": false,
+    "was_big_discount": false
+  },
+  "tr819obob": {
+    "name": "Secadora con Bomba de Calor Serie 8000 AbsoluteCare® de 9 kg\nTR819OBOB\n916900874",
+    "last_price": 614.25,
+    "reference_price": 819.0,
+    "was_under_100": false,
+    "was_big_discount": false
+  },
+  "te7g9obob": {
+    "name": "Secadora con Bomba de Calor Serie 7000 SensiDry® de 9 kg\nTE7G9OBOB\n916900881",
+    "last_price": 614.25,
+    "reference_price": 819.0,
+    "was_under_100": false,
+    "was_big_discount": false
+  },
+  "cx7-3-45eb": {
+    "name": "Aspiradora sin cable Ergorapido Plus de 48 min de autonomía\nCX7-3-45EB\n910008092",
+    "last_price": 116.35,
+    "reference_price": 116.35,
+    "was_under_100": false,
+    "was_big_discount": false
   }
 }
