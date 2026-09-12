@@ -1811,5 +1811,19 @@
     "reference_price": 116.35,
     "was_under_100": false,
     "was_big_discount": false
+  },
+  "tr84it00fb": {
+    "name": "Placa de inducción Serie 6000 TotalFlex de 80 cm\nTR84IT00FB\n949598295",
+    "last_price": 1019.4,
+    "reference_price": 1019.4,
+    "was_under_100": false,
+    "was_big_discount": false
+  },
+  "lfe6g54o4m": {
+    "name": "Lavadora de libre instalación Serie 6000 ProSense® Autodose de 10.5 kg\nLFE6G54O4M\n914915617",
+    "last_price": 591.75,
+    "reference_price": 789.0,
+    "was_under_100": false,
+    "was_big_discount": false
   }
 }
