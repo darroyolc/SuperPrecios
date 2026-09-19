@@ -705,41 +705,6 @@
     "sku": "ffb64627zm"
   },
   {
-    "url": "https://www.aeg.com.es/laundry/laundry/washing-machines/front-loader-washing-machine/lfr6186n2b/",
-    "name": "Lavadora de libre instalación Serie 6000 ProSense® de 8.0 kg\nLFR6186N2B\n914913137",
-    "sku": "lfr6186n2b"
-  },
-  {
-    "url": "https://www.aeg.com.es/laundry/laundry/washing-machines/front-loader-washing-machine/lfr6194o2b/",
-    "name": "Lavadora de libre instalación Serie 6000 ProSense® de 9.0 kg\nLFR6194O2B\n914915714",
-    "sku": "lfr6194o2b"
-  },
-  {
-    "url": "https://www.aeg.com.es/laundry/laundry/washing-machines/front-loader-washing-machine/lfa6i8275a/",
-    "name": "Lavadora de libre instalación Serie 6000 ProSense® de 8.0 kg\nLFA6I8275A\n914913616",
-    "sku": "lfa6i8275a"
-  },
-  {
-    "url": "https://www.aeg.com.es/laundry/laundry/washing-machines/top-loader-washing-machine/lta6g7331e/",
-    "name": "Lavadora de carga superior Serie 6000 ProSense® de 7.0 kg\nLTA6G7331E\n913143698",
-    "sku": "lta6g7331e"
-  },
-  {
-    "url": "https://www.aeg.com.es/laundry/laundry/washing-machines/top-loader-washing-machine/lta5n6230e/",
-    "name": "Lavadora de carga superior de 6.0 kg\nLTA5N6230E\n913133407",
-    "sku": "lta5n6230e"
-  },
-  {
-    "url": "https://www.aeg.com.es/laundry/laundry/dryers/heat-pump-dryer/tr818a2pb/",
-    "name": "Secadora con Bomba de Calor Serie 8000 AbsoluteCare® de 8 kg\nTR818A2PB\n916900018",
-    "sku": "tr818a2pb"
-  },
-  {
-    "url": "https://www.aeg.com.es/laundry/laundry/washer-dryers/free-standing-washer-dryer/lwr7194m4b/",
-    "name": "Lavadora secadora de libre instalación Serie 7000 ProSteam® de 9.0 kg\nLWR7194M4B\n914610317",
-    "sku": "lwr7194m4b"
-  },
-  {
     "url": "https://www.aeg.com.es/laundry/laundry/steam-stations/steam-station/st6-1-4lg/",
     "name": "Centro de planchado AEG Delicate 6000 de 2000 W y 300 g/mm de golpe de vapor\nST6-1-4LG\n950008646",
     "sku": "st6-1-4lg"
@@ -750,6 +715,16 @@
     "sku": "lfe6g54o4m"
   },
   {
+    "url": "https://www.aeg.com.es/laundry/laundry/washing-machines/top-loader-washing-machine/lta6g7331e/",
+    "name": "Lavadora de carga superior Serie 6000 ProSense® de 7.0 kg\nLTA6G7331E\n913143698",
+    "sku": "lta6g7331e"
+  },
+  {
+    "url": "https://www.aeg.com.es/laundry/laundry/washing-machines/front-loader-washing-machine/lfr6194o2b/",
+    "name": "Lavadora de libre instalación Serie 6000 ProSense® de 9.0 kg\nLFR6194O2B\n914915714",
+    "sku": "lfr6194o2b"
+  },
+  {
     "url": "https://www.aeg.com.es/laundry/laundry/washing-machines/built-in-washing-machine/lfn7g8434f/",
     "name": "Lavadora integrable Serie 7000 ProSteam® de 8.0 kg\nLFN7G8434F\n914580517",
     "sku": "lfn7g8434f"
@@ -758,6 +733,11 @@
     "url": "https://www.aeg.com.es/laundry/laundry/washing-machines/front-loader-washing-machine/lfsr9514l6u/",
     "name": "Lavadora de libre instalación Serie 9000 AbsoluteCare® de 10.0 kg\nLFSR9514L6U\n914505608",
     "sku": "lfsr9514l6u"
+  },
+  {
+    "url": "https://www.aeg.com.es/laundry/laundry/washing-machines/top-loader-washing-machine/lta5n6230e/",
+    "name": "Lavadora de carga superior de 6.0 kg\nLTA5N6230E\n913133407",
+    "sku": "lta5n6230e"
   },
   {
     "url": "https://www.aeg.com.es/laundry/laundry/washing-machines/front-loader-washing-machine/lfsr8514l6o/",
@@ -790,6 +770,16 @@
     "sku": "lfn7e8436f"
   },
   {
+    "url": "https://www.aeg.com.es/laundry/laundry/washing-machines/front-loader-washing-machine/lfa6i8275a/",
+    "name": "Lavadora de libre instalación Serie 6000 ProSense® de 8.0 kg\nLFA6I8275A\n914913616",
+    "sku": "lfa6i8275a"
+  },
+  {
+    "url": "https://www.aeg.com.es/laundry/laundry/washing-machines/front-loader-washing-machine/lfr6186n2b/",
+    "name": "Lavadora de libre instalación Serie 6000 ProSense® de 8.0 kg\nLFR6186N2B\n914913137",
+    "sku": "lfr6186n2b"
+  },
+  {
     "url": "https://www.aeg.com.es/laundry/laundry/washing-machines/front-loader-washing-machine/lfr8504l6q/",
     "name": "Lavadora de libre instalación Serie 8000 PowerCare Autodose de 11.0 kg\nLFR8504L6Q\n914505304",
     "sku": "lfr8504l6q"
@@ -815,6 +805,11 @@
     "sku": "lfr6194o2v"
   },
   {
+    "url": "https://www.aeg.com.es/laundry/laundry/washing-machines/front-loader-washing-machine/lfsr7304l4bp/",
+    "name": "Lavadora de libre instalación Serie 7000 ProSteam® de 11.0 kg\nLFSR7304L4BP\n914505221",
+    "sku": "lfsr7304l4bp"
+  },
+  {
     "url": "https://www.aeg.com.es/laundry/laundry/washing-machines/front-loader-washing-machine/lfa6k8241c/",
     "name": "Lavadora de libre instalación Serie 6000 ProSense® de 8.0 kg\nLFA6K8241C\n914913281",
     "sku": "lfa6k8241c"
@@ -828,11 +823,6 @@
     "url": "https://www.aeg.com.es/laundry/laundry/washing-machines/front-loader-washing-machine/lfr7394o4v2/",
     "name": "Lavadora de libre instalación Serie 7000 ProSteam® UniversalDose de 9.0 kg\nLFR7394O4V\n914921934",
     "sku": "lfr7394o4v2"
-  },
-  {
-    "url": "https://www.aeg.com.es/laundry/laundry/washing-machines/front-loader-washing-machine/lfr7394n4b/",
-    "name": "Lavadora de libre instalación Serie 7000 ProSteam® de 9.0 kg\nLFR7394N4B\n914921787",
-    "sku": "lfr7394n4b"
   },
   {
     "url": "https://www.aeg.com.es/laundry/laundry/washing-machines/top-loader-washing-machine/lta7e7231e/",
@@ -868,6 +858,11 @@
     "url": "https://www.aeg.com.es/laundry/laundry/dryers/heat-pump-dryer/tr959v6pbc/",
     "name": "Secadora con Bomba de Calor Serie 9000X AbsoluteCare® Pro de 9 kg\nTR959V6PBC\n916900263",
     "sku": "tr959v6pbc"
+  },
+  {
+    "url": "https://www.aeg.com.es/laundry/laundry/dryers/heat-pump-dryer/tr818a2pb/",
+    "name": "Secadora con Bomba de Calor Serie 8000 AbsoluteCare® de 8 kg\nTR818A2PB\n916900018",
+    "sku": "tr818a2pb"
   },
   {
     "url": "https://www.aeg.com.es/laundry/laundry/dryers/heat-pump-dryer/tr839t4pbcp/",
@@ -918,6 +913,11 @@
     "url": "https://www.aeg.com.es/laundry/laundry/washer-dryers/free-standing-washer-dryer/lwr7316o4q/",
     "name": "Lavadora secadora de libre instalación Serie 7000 ProSteam® Autodose de 10.0 kg\nLWR7316O4Q\n914611006",
     "sku": "lwr7316o4q"
+  },
+  {
+    "url": "https://www.aeg.com.es/laundry/laundry/washer-dryers/free-standing-washer-dryer/lwr7194m4b/",
+    "name": "Lavadora secadora de libre instalación Serie 7000 ProSteam® de 9.0 kg\nLWR7194M4B\n914610317",
+    "sku": "lwr7194m4b"
   },
   {
     "url": "https://www.aeg.com.es/laundry/laundry/washer-dryers/free-standing-washer-dryer/lwr7316o4o/",
@@ -1545,29 +1545,9 @@
     "sku": "t9deb979"
   },
   {
-    "url": "https://www.aeg.com.es/laundry/laundry/washing-machines/front-loader-washing-machine/lfr7314o4c/",
-    "name": "Lavadora de libre instalación Serie 7000 ProSteam® de 10.0 kg\nLFR7314O4C\n914501549",
-    "sku": "lfr7314o4c"
-  },
-  {
-    "url": "https://www.aeg.com.es/laundry/laundry/washing-machines/front-loader-washing-machine/lfr9514l6u/",
-    "name": "Lavadora de libre instalación Serie 9000 AbsoluteCare® de 10.0 kg\nLFR9514L6U\n914505601",
-    "sku": "lfr9514l6u"
-  },
-  {
-    "url": "https://www.aeg.com.es/laundry/laundry/washing-machines/front-loader-washing-machine/lfr6214o4b/",
-    "name": "Lavadora de libre instalación Serie 6000 ProSense® de 10.0 kg\nLFR6214O4B\n914915746",
-    "sku": "lfr6214o4b"
-  },
-  {
-    "url": "https://www.aeg.com.es/laundry/laundry/washing-machines/front-loader-washing-machine/l6fbi147p2/",
-    "name": "Lavadora de libre instalación Serie 6000 ProSense® de 10.0 kg\nL6FBI147P\n914915512",
-    "sku": "l6fbi147p2"
-  },
-  {
-    "url": "https://www.aeg.com.es/laundry/laundry/washing-machines/front-loader-washing-machine/lfr6214o2b/",
-    "name": "Lavadora de libre instalación Serie 6000 ProSense® de 10.0 kg\nLFR6214O2B\n914915747",
-    "sku": "lfr6214o2b"
+    "url": "https://www.aeg.com.es/laundry/laundry/washing-machines/front-loader-washing-machine/lfr7394n4b/",
+    "name": "Lavadora de libre instalación Serie 7000 ProSteam® de 9.0 kg\nLFR7394N4B\n914921787",
+    "sku": "lfr7394n4b"
   },
   {
     "url": "https://www.aeg.com.es/laundry/laundry/washing-machines/front-loader-washing-machine/lfr7294o2b/",
@@ -1665,11 +1645,6 @@
     "sku": "cib6646abm"
   },
   {
-    "url": "https://www.aeg.com.es/kitchen/cooking/hobs/induction-hob/i64kv301cb/",
-    "name": "Placa de inducción Serie 5000 Induction de 60 cm\nI64KV301CB\n949492832",
-    "sku": "i64kv301cb"
-  },
-  {
     "url": "https://www.aeg.com.es/kitchen/cooking/ovens/pizza-oven/nbx7p631sb/",
     "name": "Horno multifunción Serie 7000 MealAssist con PizzaExpert con Display táctil Excite\nNBX7P631SB\n949288049",
     "sku": "nbx7p631sb"
@@ -1718,6 +1693,31 @@
     "url": "https://www.aeg.com.es/kitchen/cooking/ovens/steam-oven/bse999330m/",
     "name": "Hornos multifunción para cualquier situación |AEG Tienda Online",
     "sku": "bse999330m"
+  },
+  {
+    "url": "https://www.aeg.com.es/laundry/laundry/washing-machines/front-loader-washing-machine/lfr7314o4c/",
+    "name": "Lavadora de libre instalación Serie 7000 ProSteam® de 10.0 kg\nLFR7314O4C\n914501549",
+    "sku": "lfr7314o4c"
+  },
+  {
+    "url": "https://www.aeg.com.es/laundry/laundry/washing-machines/front-loader-washing-machine/lfr9514l6u/",
+    "name": "Lavadora de libre instalación Serie 9000 AbsoluteCare® de 10.0 kg\nLFR9514L6U\n914505601",
+    "sku": "lfr9514l6u"
+  },
+  {
+    "url": "https://www.aeg.com.es/laundry/laundry/washing-machines/front-loader-washing-machine/lfr6214o4b/",
+    "name": "Lavadora de libre instalación Serie 6000 ProSense® de 10.0 kg\nLFR6214O4B\n914915746",
+    "sku": "lfr6214o4b"
+  },
+  {
+    "url": "https://www.aeg.com.es/laundry/laundry/washing-machines/front-loader-washing-machine/l6fbi147p2/",
+    "name": "Lavadora de libre instalación Serie 6000 ProSense® de 10.0 kg\nL6FBI147P\n914915512",
+    "sku": "l6fbi147p2"
+  },
+  {
+    "url": "https://www.aeg.com.es/laundry/laundry/washing-machines/front-loader-washing-machine/lfr6214o2b/",
+    "name": "Lavadora de libre instalación Serie 6000 ProSense® de 10.0 kg\nLFR6214O2B\n914915747",
+    "sku": "lfr6214o2b"
   },
   {
     "url": "https://www.aeg.com.es/kitchen/cooking/ovens/oven/te8pb731ab/",
