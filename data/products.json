@@ -725,6 +725,11 @@
     "sku": "lfr6194o2b"
   },
   {
+    "url": "https://www.aeg.com.es/laundry/laundry/washing-machines/top-loader-washing-machine/lta5n6230e/",
+    "name": "Lavadora de carga superior de 6.0 kg\nLTA5N6230E\n913133407",
+    "sku": "lta5n6230e"
+  },
+  {
     "url": "https://www.aeg.com.es/laundry/laundry/washing-machines/built-in-washing-machine/lfn7g8434f/",
     "name": "Lavadora integrable Serie 7000 ProSteam® de 8.0 kg\nLFN7G8434F\n914580517",
     "sku": "lfn7g8434f"
@@ -733,11 +738,6 @@
     "url": "https://www.aeg.com.es/laundry/laundry/washing-machines/front-loader-washing-machine/lfsr9514l6u/",
     "name": "Lavadora de libre instalación Serie 9000 AbsoluteCare® de 10.0 kg\nLFSR9514L6U\n914505608",
     "sku": "lfsr9514l6u"
-  },
-  {
-    "url": "https://www.aeg.com.es/laundry/laundry/washing-machines/top-loader-washing-machine/lta5n6230e/",
-    "name": "Lavadora de carga superior de 6.0 kg\nLTA5N6230E\n913133407",
-    "sku": "lta5n6230e"
   },
   {
     "url": "https://www.aeg.com.es/laundry/laundry/washing-machines/front-loader-washing-machine/lfsr8514l6o/",
@@ -1000,14 +1000,14 @@
     "sku": "tk7ds181ds"
   },
   {
-    "url": "https://www.aeg.com.es/kitchen/cooling/refrigerators/built-in-refrigerator/tk6ds181es/",
-    "name": "Frigorífico 1 puerta integrable de 1772 mm\nTK6DS181ES\n923581348",
-    "sku": "tk6ds181es"
-  },
-  {
     "url": "https://www.aeg.com.es/kitchen/cooling/refrigerators/free-standing-refrigerator/ork7m391ex/",
     "name": "Frigorífico 1 puerta de libre instalación de 1860 mm\nORK7M391EX\n923421386",
     "sku": "ork7m391ex"
+  },
+  {
+    "url": "https://www.aeg.com.es/kitchen/cooling/refrigerators/built-in-refrigerator/tk6ds181es/",
+    "name": "Frigorífico 1 puerta integrable de 1772 mm\nTK6DS181ES\n923581348",
+    "sku": "tk6ds181es"
   },
   {
     "url": "https://www.aeg.com.es/kitchen/cooling/refrigerators/free-standing-refrigerator/ork7m391ew/",
@@ -1300,11 +1300,6 @@
     "sku": "ar71uw2sw"
   },
   {
-    "url": "https://www.aeg.com.es/aspiradoras/vacuum-cleaners/bagless-vacuum-cleaners/bagless-vacuum-cleaner/al61c3db/",
-    "name": "Aspiradora sin bolsa 6000 de 550 W y 74 dB(A)\nAL61C3DB\n900258555",
-    "sku": "al61c3db"
-  },
-  {
     "url": "https://www.aeg.com.es/aspiradoras/vacuum-cleaners/wet--dry-cordless-cleaner/wet--dry-cordless-cleaner/aw82u2dg/",
     "name": "Aspiradora sin cable Wet&Dry 8000 de 35 min de autonomía\nAW82U2DG\n900402406",
     "sku": "aw82u2dg"
@@ -1313,6 +1308,11 @@
     "url": "https://www.aeg.com.es/aspiradoras/vacuum-cleaners/robotic-vacuum-cleaners/robotic-vacuum-cleaner/ar71hw1dg/",
     "name": "Robot aspirador 7000 con 125 min de autonomía\nAR71HW1DG\n900402279",
     "sku": "ar71hw1dg"
+  },
+  {
+    "url": "https://www.aeg.com.es/aspiradoras/vacuum-cleaners/bagless-vacuum-cleaners/bagless-vacuum-cleaner/al61c3db/",
+    "name": "Aspiradora sin bolsa 6000 de 550 W y 74 dB(A)\nAL61C3DB\n900258555",
+    "sku": "al61c3db"
   },
   {
     "url": "https://www.aeg.com.es/wellbeing2/discover/qx9/",
