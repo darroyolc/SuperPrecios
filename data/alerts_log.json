@@ -689,5 +689,17 @@
     "reasons": [
       "por debajo de 100 €"
     ]
+  },
+  {
+    "timestamp": "2026-09-24T13:24:00.900813+00:00",
+    "sku": "st5-1-2db",
+    "name": "Centros de planchado | AEG",
+    "url": "https://www.aeg.com.es/laundry/laundry/steam-stations/steam-station/st5-1-2db/",
+    "price": 59.95,
+    "reference_price": 59.95,
+    "discount_pct": 0.0,
+    "reasons": [
+      "por debajo de 100 €"
+    ]
   }
 ]

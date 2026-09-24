@@ -1825,5 +1825,12 @@
     "reference_price": 789.0,
     "was_under_100": false,
     "was_big_discount": false
+  },
+  "st5-1-2db": {
+    "name": "Centros de planchado | AEG",
+    "last_price": 59.95,
+    "reference_price": 59.95,
+    "was_under_100": true,
+    "was_big_discount": false
   }
 }
