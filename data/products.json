@@ -570,14 +570,14 @@
     "sku": "kmk725880b"
   },
   {
-    "url": "https://www.aeg.com.es/kitchen/cooking/vacuum-sealers/portable-vaccum-sealers/a6-1-6ag/",
-    "name": "Envasadora al vacío portátil\nA6-1-6AG\n900923299",
-    "sku": "a6-1-6ag"
-  },
-  {
     "url": "https://www.aeg.com.es/kitchen/cooking/vacuum-sealers/portable-vaccum-sealers/avfk1/",
     "name": "Envasadora al vacío portátil y accesorios\nAVFK1+\n900923313",
     "sku": "avfk1"
+  },
+  {
+    "url": "https://www.aeg.com.es/kitchen/cooking/vacuum-sealers/portable-vaccum-sealers/a6-1-6ag/",
+    "name": "Envasadora al vacío portátil\nA6-1-6AG\n900923299",
+    "sku": "a6-1-6ag"
   },
   {
     "url": "https://www.aeg.com.es/kitchen/cooking/vacuum-sealers/integrated-vacuum-sealer/nkv914t/",
@@ -1550,6 +1550,31 @@
     "sku": "t9deb979"
   },
   {
+    "url": "https://www.aeg.com.es/laundry/laundry/washing-machines/front-loader-washing-machine/lfr9514l6u/",
+    "name": "Lavadora de libre instalación Serie 9000 AbsoluteCare® de 10.0 kg\nLFR9514L6U\n914505601",
+    "sku": "lfr9514l6u"
+  },
+  {
+    "url": "https://www.aeg.com.es/laundry/laundry/washing-machines/front-loader-washing-machine/lfr6214o4b/",
+    "name": "Lavadora de libre instalación Serie 6000 ProSense® de 10.0 kg\nLFR6214O4B\n914915746",
+    "sku": "lfr6214o4b"
+  },
+  {
+    "url": "https://www.aeg.com.es/laundry/laundry/washing-machines/front-loader-washing-machine/l6fbi147p2/",
+    "name": "Lavadora de libre instalación Serie 6000 ProSense® de 10.0 kg\nL6FBI147P\n914915512",
+    "sku": "l6fbi147p2"
+  },
+  {
+    "url": "https://www.aeg.com.es/laundry/laundry/washing-machines/front-loader-washing-machine/lfr7314o4c/",
+    "name": "Lavadora de libre instalación Serie 7000 ProSteam® de 10.0 kg\nLFR7314O4C\n914501549",
+    "sku": "lfr7314o4c"
+  },
+  {
+    "url": "https://www.aeg.com.es/laundry/laundry/washing-machines/front-loader-washing-machine/lfr6214o2b/",
+    "name": "Lavadora de libre instalación Serie 6000 ProSense® de 10.0 kg\nLFR6214O2B\n914915747",
+    "sku": "lfr6214o2b"
+  },
+  {
     "url": "https://www.aeg.com.es/laundry/laundry/washing-machines/front-loader-washing-machine/lfr7294o2b/",
     "name": "Lavadora de libre instalación Serie 7000 ProSteam® de 9.0 kg\nLFR7294O2B\n914501548",
     "sku": "lfr7294o2b"
@@ -1708,31 +1733,6 @@
     "url": "https://www.aeg.com.es/kitchen/cooking/ovens/steam-oven/bse999330m/",
     "name": "Hornos multifunción para cualquier situación |AEG Tienda Online",
     "sku": "bse999330m"
-  },
-  {
-    "url": "https://www.aeg.com.es/laundry/laundry/washing-machines/front-loader-washing-machine/lfr9514l6u/",
-    "name": "Lavadora de libre instalación Serie 9000 AbsoluteCare® de 10.0 kg\nLFR9514L6U\n914505601",
-    "sku": "lfr9514l6u"
-  },
-  {
-    "url": "https://www.aeg.com.es/laundry/laundry/washing-machines/front-loader-washing-machine/lfr6214o4b/",
-    "name": "Lavadora de libre instalación Serie 6000 ProSense® de 10.0 kg\nLFR6214O4B\n914915746",
-    "sku": "lfr6214o4b"
-  },
-  {
-    "url": "https://www.aeg.com.es/laundry/laundry/washing-machines/front-loader-washing-machine/l6fbi147p2/",
-    "name": "Lavadora de libre instalación Serie 6000 ProSense® de 10.0 kg\nL6FBI147P\n914915512",
-    "sku": "l6fbi147p2"
-  },
-  {
-    "url": "https://www.aeg.com.es/laundry/laundry/washing-machines/front-loader-washing-machine/lfr7314o4c/",
-    "name": "Lavadora de libre instalación Serie 7000 ProSteam® de 10.0 kg\nLFR7314O4C\n914501549",
-    "sku": "lfr7314o4c"
-  },
-  {
-    "url": "https://www.aeg.com.es/laundry/laundry/washing-machines/front-loader-washing-machine/lfr6214o2b/",
-    "name": "Lavadora de libre instalación Serie 6000 ProSense® de 10.0 kg\nLFR6214O2B\n914915747",
-    "sku": "lfr6214o2b"
   },
   {
     "url": "https://www.aeg.com.es/kitchen/cooking/ovens/oven/te8pb731ab/",
