@@ -701,5 +701,53 @@
     "reasons": [
       "por debajo de 100 €"
     ]
+  },
+  {
+    "timestamp": "2026-10-01T14:27:23.180120+00:00",
+    "sku": "ab51c2sw",
+    "name": "Aspiradora con bolsa 5000 de 650 W y 78 dB(A)\nAB51C2SW\n900258689",
+    "url": "https://www.aeg.com.es/aspiradoras/vacuum-cleaners/vacuum-cleaners/vacuum-cleaner/ab51c2sw/",
+    "price": 99.0,
+    "reference_price": 139.0,
+    "discount_pct": 0.2878,
+    "reasons": [
+      "por debajo de 100 €"
+    ]
+  },
+  {
+    "timestamp": "2026-10-01T14:27:31.592875+00:00",
+    "sku": "ab51a3dg",
+    "name": "Aspiradora con bolsa 5000 de 650 W y 78 dB(A)\nAB51A3DG\n900258693",
+    "url": "https://www.aeg.com.es/aspiradoras/vacuum-cleaners/vacuum-cleaners/vacuum-cleaner/ab51a3dg/",
+    "price": 96.85,
+    "reference_price": 149.0,
+    "discount_pct": 0.35,
+    "reasons": [
+      "por debajo de 100 €"
+    ]
+  },
+  {
+    "timestamp": "2026-10-01T14:27:34.801226+00:00",
+    "sku": "ab31c1gg",
+    "name": "Aspiradora con bolsa 3000 de 650 W y 78 dB(A)\nAB31C1GG\n900258688",
+    "url": "https://www.aeg.com.es/aspiradoras/vacuum-cleaners/vacuum-cleaners/vacuum-cleaner/ab31c1gg/",
+    "price": 81.75,
+    "reference_price": 109.0,
+    "discount_pct": 0.25,
+    "reasons": [
+      "por debajo de 100 €"
+    ]
+  },
+  {
+    "timestamp": "2026-10-01T14:27:56.614361+00:00",
+    "sku": "al51c1og",
+    "name": "Aspiradora sin bolsa 5000 de 850 W y 78 dB(A)\nAL51C1OG\n900258727",
+    "url": "https://www.aeg.com.es/aspiradoras/vacuum-cleaners/bagless-vacuum-cleaners/bagless-vacuum-cleaner/al51c1og/",
+    "price": 84.0,
+    "reference_price": 129.0,
+    "discount_pct": 0.3488,
+    "reasons": [
+      "por debajo de 100 €"
+    ]
   }
 ]
