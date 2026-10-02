@@ -225,7 +225,7 @@
   },
   "cib6646abm": {
     "name": "Cocina de inducción AEG CIB6646ABM de 596 mm\nCIB6646ABM\n940002909",
-    "last_price": 1099.0,
+    "last_price": 659.4,
     "reference_price": 1099.0,
     "was_under_100": false,
     "was_big_discount": false
@@ -386,7 +386,7 @@
   },
   "to74ib00fb": {
     "name": "Placa de inducción Serie 6000 Flex de 70 cm\nTO74IB00FB\n949598395",
-    "last_price": 649.0,
+    "last_price": 389.4,
     "reference_price": 649.0,
     "was_under_100": false,
     "was_big_discount": false
@@ -456,7 +456,7 @@
   },
   "ndc7792sw": {
     "name": "Campana extractora de techo Serie 7000 SilenceTech de 90 cm\nNDC7792SW\n942051519",
-    "last_price": 1189.0,
+    "last_price": 713.4,
     "reference_price": 1189.0,
     "was_under_100": false,
     "was_big_discount": false
@@ -631,7 +631,7 @@
   },
   "lfr7184n2v": {
     "name": "Lavadora de libre instalación Serie 7000 ProSteam® UniversalDose de 8.0 kg\nLFR7184N2V\n914921901",
-    "last_price": 759.0,
+    "last_price": 499.0,
     "reference_price": 759.0,
     "was_under_100": false,
     "was_big_discount": false
@@ -778,7 +778,7 @@
   },
   "ork7m391ew": {
     "name": "Frigorífico 1 puerta de libre instalación de 1860 mm\nORK7M391EW\n923421383",
-    "last_price": 959.0,
+    "last_price": 671.3,
     "reference_price": 959.0,
     "was_under_100": false,
     "was_big_discount": false
@@ -1023,14 +1023,14 @@
   },
   "ap72ub21dg": {
     "name": "Aspiradora sin cable Serie 7000 de 40 min de autonomía\nAP72UB21DG\n910008068",
-    "last_price": 349.0,
+    "last_price": 209.4,
     "reference_price": 349.0,
     "was_under_100": false,
     "was_big_discount": false
   },
   "ap72ub21sw": {
     "name": "Aspiradora sin cable Serie 7000 de 40 min de autonomía\nAP72UB21SW\n900402449",
-    "last_price": 329.0,
+    "last_price": 197.4,
     "reference_price": 329.0,
     "was_under_100": false,
     "was_big_discount": false
@@ -1408,7 +1408,7 @@
   },
   "gde689hm2": {
     "name": "Campana extractora integrada Serie 6000 Hob2Hood de 90 cm\nGDE689HM\n942022864",
-    "last_price": 589.0,
+    "last_price": 382.85,
     "reference_price": 589.0,
     "was_under_100": false,
     "was_big_discount": false
@@ -1527,7 +1527,7 @@
   },
   "lwn7e8636f": {
     "name": "Lavadora secadora integrable Serie 7000 ProSteam® de 8.0 kg\nLWN7E8636F\n914606424",
-    "last_price": 1179.0,
+    "last_price": 707.4,
     "reference_price": 1179.0,
     "was_under_100": false,
     "was_big_discount": false
@@ -1562,14 +1562,14 @@
   },
   "ap61cb21dg": {
     "name": "Aspiradora sin cable 6000 de 40 min de autonomía\nAP61CB21DG\n900402325",
-    "last_price": 219.0,
+    "last_price": 121.0,
     "reference_price": 219.0,
     "was_under_100": false,
     "was_big_discount": false
   },
   "fse73507p2": {
     "name": "Lavavajillas de 45 cm Serie 7000 GlassCare para 10 cubiertos\nFSE73507P\n911077040",
-    "last_price": 689.0,
+    "last_price": 482.3,
     "reference_price": 689.0,
     "was_under_100": false,
     "was_big_discount": false
@@ -1667,7 +1667,7 @@
   },
   "ta7pk721b": {
     "name": "Horno compacto Serie 7000 MealAssist con SteamBake con Display CookSmart Touch 4,3 '', con WiFi\nTA7PK721B\n944005084",
-    "last_price": 849.0,
+    "last_price": 551.85,
     "reference_price": 849.0,
     "was_under_100": false,
     "was_big_discount": false
@@ -1772,7 +1772,7 @@
   },
   "tb7aa181es": {
     "name": "Congelador vertical integrable de 1772 mm\nTB7AA181ES\n922782367",
-    "last_price": 1179.0,
+    "last_price": 825.3,
     "reference_price": 1179.0,
     "was_under_100": false,
     "was_big_discount": false
@@ -1856,7 +1856,7 @@
   },
   "tt64cb00cb": {
     "name": "Placa de inducción con campana extractora de 60 cm\nTT64CB00CB\n949598664",
-    "last_price": 1099.0,
+    "last_price": 604.45,
     "reference_price": 1099.0,
     "was_under_100": false,
     "was_big_discount": false
@@ -1914,6 +1914,13 @@
     "name": "Congelador vertical integrable de 818 mm\nOAB3F821EF\n922717378",
     "last_price": 611.15,
     "reference_price": 719.0,
+    "was_under_100": false,
+    "was_big_discount": false
+  },
+  "to63iq00it2": {
+    "name": "Placa de inducción SaphirMatt® SE Serie 6000 Flex de 60 cm\nTO63IQ00IT\n949493096",
+    "last_price": 426.3,
+    "reference_price": 426.3,
     "was_under_100": false,
     "was_big_discount": false
   }
