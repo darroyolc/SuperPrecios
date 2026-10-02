@@ -749,5 +749,29 @@
     "reasons": [
       "por debajo de 100 €"
     ]
+  },
+  {
+    "timestamp": "2026-10-02T00:37:00.444730+00:00",
+    "sku": "th84cb03fb",
+    "name": "Placa de inducción con campana extractora de 80 cm\nTH84CB03FB\n949598397",
+    "url": "https://www.aeg.com.es/kitchen/cooking/cooker-hoods/combo-hob-hood/th84cb03fb/",
+    "price": 824.45,
+    "reference_price": 1749.0,
+    "discount_pct": 0.5286,
+    "reasons": [
+      "ha bajado un 53% respecto a su precio de referencia (1749.00 €)"
+    ]
+  },
+  {
+    "timestamp": "2026-10-02T00:37:39.255161+00:00",
+    "sku": "tch74b01fb",
+    "name": "Placa de inducción con campana extractora de 70 cm\nTCH74B01FB\n949598022",
+    "url": "https://www.aeg.com.es/kitchen/cooking/cooker-hoods/combo-hob-hood/tch74b01fb/",
+    "price": 796.95,
+    "reference_price": 1799.0,
+    "discount_pct": 0.557,
+    "reasons": [
+      "ha bajado un 56% respecto a su precio de referencia (1799.00 €)"
+    ]
   }
 ]
