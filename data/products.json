@@ -230,14 +230,24 @@
     "sku": "kmk968000t"
   },
   {
-    "url": "https://www.aeg.com.es/kitchen/cooking/hobs/electric-hob/tn64ra06xb/",
-    "name": "Placa vitrocerámica Serie 3000 Radiant de 60 cm\nTN64RA06XB\n949493064",
-    "sku": "tn64ra06xb"
+    "url": "https://www.aeg.com.es/kitchen/cooking/hobs/induction-hob/ti63iq10iz/",
+    "name": "Placa de inducción SaphirMatt® Serie 7000 Sense de 60 cm\nTI63IQ10IZ\n949598191",
+    "sku": "ti63iq10iz"
   },
   {
-    "url": "https://www.aeg.com.es/kitchen/cooking/cooker-hoods/combo-hob-hood/tt64cb00cb/",
-    "name": "Placa de inducción con campana extractora de 60 cm\nTT64CB00CB\n949598664",
-    "sku": "tt64cb00cb"
+    "url": "https://www.aeg.com.es/kitchen/cooking/hobs/induction-hob/i84av423fb/",
+    "name": "Placas de inducción | AEG Tienda Online",
+    "sku": "i84av423fb"
+  },
+  {
+    "url": "https://www.aeg.com.es/kitchen/cooking/hobs/induction-hob/i64av423fb/",
+    "name": "Placas de inducción | AEG Tienda Online",
+    "sku": "i64av423fb"
+  },
+  {
+    "url": "https://www.aeg.com.es/kitchen/cooking/hobs/induction-hob/ti63iq30fz/",
+    "name": "Placa de inducción SaphirMatt® Serie 8000 Sense Boil&Fry de 60 cm\nTI63IQ30FZ\n949598179",
+    "sku": "ti63iq30fz"
   },
   {
     "url": "https://www.aeg.com.es/kitchen/cooking/hobs/induction-hob/ti63if00iz/",
@@ -255,24 +265,9 @@
     "sku": "v63ioq00fb2"
   },
   {
-    "url": "https://www.aeg.com.es/kitchen/cooking/hobs/gas-hob/hkb63320nb/",
-    "name": "Placa de gas Serie 6000 Gas on Glass de 60 cm\nHKB63320NB\n949640922",
-    "sku": "hkb63320nb"
-  },
-  {
     "url": "https://www.aeg.com.es/kitchen/cooking/hobs/induction-hob/tn63iv0bct/",
     "name": "Placa de inducción SaphirMatt® SE Serie 6000 Induction de 60 cm\nTN63IV0BCT\n949598645",
     "sku": "tn63iv0bct"
-  },
-  {
-    "url": "https://www.aeg.com.es/kitchen/cooking/hobs/gas-hob/hkb75820nb/",
-    "name": "Placa de gas Serie 6000 Gas on Glass de 75 cm\nHKB75820NB\n949630949",
-    "sku": "hkb75820nb"
-  },
-  {
-    "url": "https://www.aeg.com.es/kitchen/cooking/cooker-hoods/combo-hob-hood/th84cb03fb/",
-    "name": "Placa de inducción con campana extractora de 80 cm\nTH84CB03FB\n949598397",
-    "sku": "th84cb03fb"
   },
   {
     "url": "https://www.aeg.com.es/kitchen/cooking/hobs/induction-hob/to74ib00fb/",
@@ -290,29 +285,9 @@
     "sku": "ikb63300fw2"
   },
   {
-    "url": "https://www.aeg.com.es/kitchen/cooking/hobs/induction-hob/ti63iq30fz/",
-    "name": "Placa de inducción SaphirMatt® Serie 8000 Sense Boil&Fry de 60 cm\nTI63IQ30FZ\n949598179",
-    "sku": "ti63iq30fz"
-  },
-  {
-    "url": "https://www.aeg.com.es/kitchen/cooking/hobs/induction-hob/ti63iq10iz/",
-    "name": "Placa de inducción SaphirMatt® Serie 7000 Sense de 60 cm\nTI63IQ10IZ\n949598191",
-    "sku": "ti63iq10iz"
-  },
-  {
     "url": "https://www.aeg.com.es/kitchen/cooking/hobs/induction-hob/ti63iq30fb/",
     "name": "Placa de inducción Serie 8000 Sense Boil&Fry de 60 cm\nTI63IQ30FB\n949598175",
     "sku": "ti63iq30fb"
-  },
-  {
-    "url": "https://www.aeg.com.es/kitchen/cooking/hobs/induction-hob/i84av423fb/",
-    "name": "Placas de inducción | AEG Tienda Online",
-    "sku": "i84av423fb"
-  },
-  {
-    "url": "https://www.aeg.com.es/kitchen/cooking/hobs/induction-hob/i64av423fb/",
-    "name": "Placas de inducción | AEG Tienda Online",
-    "sku": "i64av423fb"
   },
   {
     "url": "https://www.aeg.com.es/kitchen/cooking/hobs/induction-hob/tn63ip0bfb/",
@@ -338,6 +313,16 @@
     "url": "https://www.aeg.com.es/kitchen/cooking/hobs/induction-hob/tr64it00fb/",
     "name": "Placa de inducción Serie 6000 TotalFlex de 60 cm\nTR64IT00FB\n949598294",
     "sku": "tr64it00fb"
+  },
+  {
+    "url": "https://www.aeg.com.es/kitchen/cooking/cooker-hoods/combo-hob-hood/tt64cb00cb/",
+    "name": "Placa de inducción con campana extractora de 60 cm\nTT64CB00CB\n949598664",
+    "sku": "tt64cb00cb"
+  },
+  {
+    "url": "https://www.aeg.com.es/kitchen/cooking/cooker-hoods/combo-hob-hood/th84cb03fb/",
+    "name": "Placa de inducción con campana extractora de 80 cm\nTH84CB03FB\n949598397",
+    "sku": "th84cb03fb"
   },
   {
     "url": "https://www.aeg.com.es/kitchen/cooking/cooker-hoods/combo-hob-hood/tch74b01fb/",
@@ -390,6 +375,16 @@
     "sku": "cce84779fb"
   },
   {
+    "url": "https://www.aeg.com.es/kitchen/cooking/hobs/gas-hob/hkb63320nb/",
+    "name": "Placa de gas Serie 6000 Gas on Glass de 60 cm\nHKB63320NB\n949640922",
+    "sku": "hkb63320nb"
+  },
+  {
+    "url": "https://www.aeg.com.es/kitchen/cooking/hobs/gas-hob/hkb75820nb/",
+    "name": "Placa de gas Serie 6000 Gas on Glass de 75 cm\nHKB75820NB\n949630949",
+    "sku": "hkb75820nb"
+  },
+  {
     "url": "https://www.aeg.com.es/kitchen/cooking/hobs/gas-hob/hkb95453nb/",
     "name": "Placa de gas Serie 8000 Flamelight de 90 cm\nHKB95453NB\n949750990",
     "sku": "hkb95453nb"
@@ -403,6 +398,11 @@
     "url": "https://www.aeg.com.es/kitchen/cooking/hobs/gas-hob/hkb75453nb/",
     "name": "Placa de gas Serie 8000 Flamelight de 75 cm\nHKB75453NB\n949630955",
     "sku": "hkb75453nb"
+  },
+  {
+    "url": "https://www.aeg.com.es/kitchen/cooking/hobs/electric-hob/tn64ra06xb/",
+    "name": "Placa vitrocerámica Serie 3000 Radiant de 60 cm\nTN64RA06XB\n949493064",
+    "sku": "tn64ra06xb"
   },
   {
     "url": "https://www.aeg.com.es/kitchen/cooking/hobs/electric-hob/tn63raf2cb/",
@@ -1215,14 +1215,14 @@
     "sku": "tab7n12ef"
   },
   {
-    "url": "https://www.aeg.com.es/kitchen/cooling/freezers/free-standing-freezer/oag7m281ew/",
-    "name": "Congelador vertical de libre instalación de 1860 mm\nOAG7M281EW\n922717266",
-    "sku": "oag7m281ew"
-  },
-  {
     "url": "https://www.aeg.com.es/kitchen/cooling/freezers/built-in-freezer/tb7na181es/",
     "name": "Congelador vertical integrable de 1772 mm\nTB7NA181ES\n922782344",
     "sku": "tb7na181es"
+  },
+  {
+    "url": "https://www.aeg.com.es/kitchen/cooling/freezers/free-standing-freezer/oag7m281ew/",
+    "name": "Congelador vertical de libre instalación de 1860 mm\nOAG7M281EW\n922717266",
+    "sku": "oag7m281ew"
   },
   {
     "url": "https://www.aeg.com.es/kitchen/cooling/freezers/free-standing-freezer/oag7m281ex/",
@@ -1580,36 +1580,6 @@
     "sku": "t9deb979"
   },
   {
-    "url": "https://www.aeg.com.es/laundry/laundry/washing-machines/front-loader-washing-machine/lfr6214o4b/",
-    "name": "Lavadora de libre instalación Serie 6000 ProSense® de 10.0 kg\nLFR6214O4B\n914915746",
-    "sku": "lfr6214o4b"
-  },
-  {
-    "url": "https://www.aeg.com.es/laundry/laundry/washing-machines/front-loader-washing-machine/l6fbi147p2/",
-    "name": "Lavadora de libre instalación Serie 6000 ProSense® de 10.0 kg\nL6FBI147P\n914915512",
-    "sku": "l6fbi147p2"
-  },
-  {
-    "url": "https://www.aeg.com.es/laundry/laundry/washing-machines/front-loader-washing-machine/lfr9514l6u/",
-    "name": "Lavadora de libre instalación Serie 9000 AbsoluteCare® de 10.0 kg\nLFR9514L6U\n914505601",
-    "sku": "lfr9514l6u"
-  },
-  {
-    "url": "https://www.aeg.com.es/laundry/laundry/washing-machines/front-loader-washing-machine/lfr7314o4c/",
-    "name": "Lavadora de libre instalación Serie 7000 ProSteam® de 10.0 kg\nLFR7314O4C\n914501549",
-    "sku": "lfr7314o4c"
-  },
-  {
-    "url": "https://www.aeg.com.es/laundry/laundry/washing-machines/front-loader-washing-machine/lfr6214o2b/",
-    "name": "Lavadora de libre instalación Serie 6000 ProSense® de 10.0 kg\nLFR6214O2B\n914915747",
-    "sku": "lfr6214o2b"
-  },
-  {
-    "url": "https://www.aeg.com.es/laundry/laundry/washing-machines/front-loader-washing-machine/lfo6g14o4b/",
-    "name": "Lavadora de libre instalación Serie 6000 ProSense® de 10.0 kg\nLFO6G14O4B\n914922438",
-    "sku": "lfo6g14o4b"
-  },
-  {
     "url": "https://www.aeg.com.es/laundry/laundry/washing-machines/front-loader-washing-machine/lfe6d94o4b/",
     "name": "Lavadora de libre instalación Serie 6000 ProSense® de 9.0 kg\nLFE6D94O4B\n914915532",
     "sku": "lfe6d94o4b"
@@ -1745,14 +1715,39 @@
     "sku": "robot-vacuum-cleaner-the-rx9"
   },
   {
-    "url": "https://www.aeg.com.es/kitchen/cooking/hobs/induction-hob/v64iib10fb/",
-    "name": "Placa de inducción Serie 7000 Sense de 60 cm\nV64IIB10FB\n949598250",
-    "sku": "v64iib10fb"
-  },
-  {
     "url": "https://www.aeg.com.es/kitchen/cooking/ovens/steam-oven/bse999330m/",
     "name": "Hornos multifunción para cualquier situación |AEG Tienda Online",
     "sku": "bse999330m"
+  },
+  {
+    "url": "https://www.aeg.com.es/laundry/laundry/washing-machines/front-loader-washing-machine/lfr6214o4b/",
+    "name": "Lavadora de libre instalación Serie 6000 ProSense® de 10.0 kg\nLFR6214O4B\n914915746",
+    "sku": "lfr6214o4b"
+  },
+  {
+    "url": "https://www.aeg.com.es/laundry/laundry/washing-machines/front-loader-washing-machine/l6fbi147p2/",
+    "name": "Lavadora de libre instalación Serie 6000 ProSense® de 10.0 kg\nL6FBI147P\n914915512",
+    "sku": "l6fbi147p2"
+  },
+  {
+    "url": "https://www.aeg.com.es/laundry/laundry/washing-machines/front-loader-washing-machine/lfr9514l6u/",
+    "name": "Lavadora de libre instalación Serie 9000 AbsoluteCare® de 10.0 kg\nLFR9514L6U\n914505601",
+    "sku": "lfr9514l6u"
+  },
+  {
+    "url": "https://www.aeg.com.es/laundry/laundry/washing-machines/front-loader-washing-machine/lfr7314o4c/",
+    "name": "Lavadora de libre instalación Serie 7000 ProSteam® de 10.0 kg\nLFR7314O4C\n914501549",
+    "sku": "lfr7314o4c"
+  },
+  {
+    "url": "https://www.aeg.com.es/laundry/laundry/washing-machines/front-loader-washing-machine/lfr6214o2b/",
+    "name": "Lavadora de libre instalación Serie 6000 ProSense® de 10.0 kg\nLFR6214O2B\n914915747",
+    "sku": "lfr6214o2b"
+  },
+  {
+    "url": "https://www.aeg.com.es/laundry/laundry/washing-machines/front-loader-washing-machine/lfo6g14o4b/",
+    "name": "Lavadora de libre instalación Serie 6000 ProSense® de 10.0 kg\nLFO6G14O4B\n914922438",
+    "sku": "lfo6g14o4b"
   },
   {
     "url": "https://www.aeg.com.es/kitchen/cooking/ovens/oven/bps335160m/",
