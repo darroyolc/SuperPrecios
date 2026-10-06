@@ -797,5 +797,30 @@
     "reasons": [
       "por debajo de 100 €"
     ]
+  },
+  {
+    "timestamp": "2026-10-06T18:54:04.194191+00:00",
+    "sku": "a6-1-6ag",
+    "name": "Envasadora al vacío portátil\nA6-1-6AG\n900923299",
+    "url": "https://www.aeg.com.es/kitchen/cooking/vacuum-sealers/portable-vaccum-sealers/a6-1-6ag/",
+    "price": 79.0,
+    "reference_price": 189.0,
+    "discount_pct": 0.582,
+    "reasons": [
+      "por debajo de 100 €",
+      "ha bajado un 58% respecto a su precio de referencia (189.00 €)"
+    ]
+  },
+  {
+    "timestamp": "2026-10-06T19:00:18.092477+00:00",
+    "sku": "al51c1og",
+    "name": "Aspiradora sin bolsa 5000 de 850 W y 78 dB(A)\nAL51C1OG\n900258727",
+    "url": "https://www.aeg.com.es/aspiradoras/vacuum-cleaners/bagless-vacuum-cleaners/bagless-vacuum-cleaner/al51c1og/",
+    "price": 99.0,
+    "reference_price": 129.0,
+    "discount_pct": 0.2326,
+    "reasons": [
+      "por debajo de 100 €"
+    ]
   }
 ]

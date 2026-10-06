@@ -29,7 +29,7 @@
   },
   "ffb75707pm": {
     "name": "Lavavajillas de 60 cm Serie 7000 GlassCare para 14 cubiertos\nFFB75707PM\n911417429",
-    "last_price": 636.75,
+    "last_price": 629.0,
     "reference_price": 849.0,
     "was_under_100": false,
     "was_big_discount": false
@@ -470,10 +470,10 @@
   },
   "a6-1-6ag": {
     "name": "Envasadora al vacío portátil\nA6-1-6AG\n900923299",
-    "last_price": 103.95,
+    "last_price": 79.0,
     "reference_price": 189.0,
-    "was_under_100": false,
-    "was_big_discount": false
+    "was_under_100": true,
+    "was_big_discount": true
   },
   "avfk1": {
     "name": "Envasadora al vacío portátil y accesorios\nAVFK1+\n900923313",
@@ -484,14 +484,14 @@
   },
   "gf6100c2snm": {
     "name": "Lavavajillas de 60 cm Serie 6000 SmartSelect para 13 cubiertos\nGF6100C2SNM\n911552116",
-    "last_price": 524.25,
+    "last_price": 499.0,
     "reference_price": 699.0,
     "was_under_100": false,
     "was_big_discount": false
   },
   "gf6100c2snw": {
     "name": "Lavavajillas de 60 cm Serie 6000 SmartSelect para 13 cubiertos\nGF6100C2SNW\n911552117",
-    "last_price": 519.2,
+    "last_price": 489.0,
     "reference_price": 649.0,
     "was_under_100": false,
     "was_big_discount": false
@@ -519,14 +519,14 @@
   },
   "ffb53627zm": {
     "name": "Lavavajillas de 60 cm Serie 6000 SatelliteClean para 13 cubiertos\nFFB53627ZM\n911514113",
-    "last_price": 519.2,
+    "last_price": 465.0,
     "reference_price": 649.0,
     "was_under_100": false,
     "was_big_discount": false
   },
   "ffb75717pw": {
     "name": "Lavavajillas de 60 cm Serie 7000 GlassCare para 14 cubiertos\nFFB75717PW\n911417427",
-    "last_price": 629.25,
+    "last_price": 599.0,
     "reference_price": 839.0,
     "was_under_100": false,
     "was_big_discount": false
@@ -561,7 +561,7 @@
   },
   "ffb53627zw": {
     "name": "Lavavajillas de 60 cm Serie 6000 SatelliteClean para 13 cubiertos\nFFB53627ZW\n911514114",
-    "last_price": 479.2,
+    "last_price": 436.0,
     "reference_price": 599.0,
     "was_under_100": false,
     "was_big_discount": false
@@ -575,7 +575,7 @@
   },
   "ffb75717pm": {
     "name": "Lavavajillas de 60 cm Serie 7000 GlassCare para 14 cubiertos\nFFB75717PM\n911417428",
-    "last_price": 659.25,
+    "last_price": 649.0,
     "reference_price": 879.0,
     "was_under_100": false,
     "was_big_discount": false
@@ -589,7 +589,7 @@
   },
   "lfr6194o2b": {
     "name": "Lavadora de libre instalación Serie 6000 ProSense® de 9.0 kg\nLFR6194O2B\n914915714",
-    "last_price": 524.25,
+    "last_price": 474.0,
     "reference_price": 699.0,
     "was_under_100": false,
     "was_big_discount": false
@@ -610,7 +610,7 @@
   },
   "lfr6114o2b": {
     "name": "Lavadora de libre instalación Serie 6000 ProSense® de 10.0 kg\nLFR6114O2B\n914915713",
-    "last_price": 524.25,
+    "last_price": 499.0,
     "reference_price": 699.0,
     "was_under_100": false,
     "was_big_discount": false
@@ -624,7 +624,7 @@
   },
   "lfr6186n2b": {
     "name": "Lavadora de libre instalación Serie 6000 ProSense® de 8.0 kg\nLFR6186N2B\n914913137",
-    "last_price": 487.2,
+    "last_price": 427.0,
     "reference_price": 609.0,
     "was_under_100": false,
     "was_big_discount": false
@@ -1044,14 +1044,14 @@
   },
   "ar71uw2sw": {
     "name": "Robot aspirador 7000 con 125 min de autonomía\nAR71UW2SW\n900402282",
-    "last_price": 314.3,
+    "last_price": 299.0,
     "reference_price": 449.0,
     "was_under_100": false,
     "was_big_discount": false
   },
   "ar71hw1dg": {
     "name": "Robot aspirador 7000 con 125 min de autonomía\nAR71HW1DG\n900402279",
-    "last_price": 230.3,
+    "last_price": 229.0,
     "reference_price": 329.0,
     "was_under_100": false,
     "was_big_discount": false
@@ -1142,9 +1142,9 @@
   },
   "al51c1og": {
     "name": "Aspiradora sin bolsa 5000 de 850 W y 78 dB(A)\nAL51C1OG\n900258727",
-    "last_price": 103.2,
+    "last_price": 99.0,
     "reference_price": 129.0,
-    "was_under_100": false,
+    "was_under_100": true,
     "was_big_discount": false
   },
   "al61c2sw": {
@@ -1184,7 +1184,7 @@
   },
   "ts5gm25eb": {
     "name": "Microondas de 900 W con función microondas y grill\nTS5GM25EB\n947607529",
-    "last_price": 351.75,
+    "last_price": 329.0,
     "reference_price": 469.0,
     "was_under_100": false,
     "was_big_discount": false
@@ -1275,7 +1275,7 @@
   },
   "ap51uh18dg": {
     "name": "Aspiradora sin cable Serie 5000 de 50 min de autonomía\nAP51UH18DG\n910008074",
-    "last_price": 118.3,
+    "last_price": 109.0,
     "reference_price": 169.0,
     "was_under_100": false,
     "was_big_discount": false
@@ -1513,7 +1513,7 @@
   },
   "lfn6g7434f": {
     "name": "Lavadora integrable Serie 6000 ProSense® de 7.0 kg\nLFN6G7434F\n914580526",
-    "last_price": 621.75,
+    "last_price": 609.0,
     "reference_price": 829.0,
     "was_under_100": false,
     "was_big_discount": false
@@ -1660,7 +1660,7 @@
   },
   "tn63raf2cb": {
     "name": "Placa vitrocerámica Serie 3000 Radiant de 60 cm\nTN63RAF2CB\n949493070",
-    "last_price": 231.2,
+    "last_price": 229.0,
     "reference_price": 289.0,
     "was_under_100": false,
     "was_big_discount": false
