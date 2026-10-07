@@ -1624,8 +1624,8 @@
     "was_big_discount": false
   },
   "iks42640kb": {
-    "name": "Placa de inducción Modular de 36 cm",
-    "last_price": 389.35,
+    "name": "Placa de inducción Modular de 36 cm\nIKS42640KB\n949597949",
+    "last_price": 359.4,
     "reference_price": 599.0,
     "was_under_100": false,
     "was_big_discount": false
@@ -1921,6 +1921,13 @@
     "name": "Placa de inducción SaphirMatt® SE Serie 6000 Flex de 60 cm\nTO63IQ00IT\n949493096",
     "last_price": 426.3,
     "reference_price": 426.3,
+    "was_under_100": false,
+    "was_big_discount": false
+  },
+  "ikx32300cb": {
+    "name": "Placa de inducción Serie 3000 Domino de 29 cm\nIKX32300CB\n949492769",
+    "last_price": 317.4,
+    "reference_price": 317.4,
     "was_under_100": false,
     "was_big_discount": false
   }
