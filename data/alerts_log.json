@@ -822,5 +822,53 @@
     "reasons": [
       "por debajo de 100 €"
     ]
+  },
+  {
+    "timestamp": "2026-10-09T22:23:38.679663+00:00",
+    "sku": "th84cb03fb",
+    "name": "Placa de inducción con campana extractora de 80 cm\nTH84CB03FB\n949598397",
+    "url": "https://www.aeg.com.es/kitchen/cooking/cooker-hoods/combo-hob-hood/th84cb03fb/",
+    "price": 824.45,
+    "reference_price": 1749.0,
+    "discount_pct": 0.5286,
+    "reasons": [
+      "ha bajado un 53% respecto a su precio de referencia (1749.00 €)"
+    ]
+  },
+  {
+    "timestamp": "2026-10-09T22:23:41.489068+00:00",
+    "sku": "tch74b01fb",
+    "name": "Placa de inducción con campana extractora de 70 cm\nTCH74B01FB\n949598022",
+    "url": "https://www.aeg.com.es/kitchen/cooking/cooker-hoods/combo-hob-hood/tch74b01fb/",
+    "price": 796.95,
+    "reference_price": 1799.0,
+    "discount_pct": 0.557,
+    "reasons": [
+      "ha bajado un 56% respecto a su precio de referencia (1799.00 €)"
+    ]
+  },
+  {
+    "timestamp": "2026-10-09T22:32:17.909398+00:00",
+    "sku": "al51c1og",
+    "name": "Aspiradora sin bolsa 5000 de 850 W y 78 dB(A)\nAL51C1OG\n900258727",
+    "url": "https://www.aeg.com.es/aspiradoras/vacuum-cleaners/bagless-vacuum-cleaners/bagless-vacuum-cleaner/al51c1og/",
+    "price": 99.0,
+    "reference_price": 129.0,
+    "discount_pct": 0.2326,
+    "reasons": [
+      "por debajo de 100 €"
+    ]
+  },
+  {
+    "timestamp": "2026-10-09T22:33:03.786023+00:00",
+    "sku": "ab31c1gg",
+    "name": "Aspiradora con bolsa 3000 de 650 W y 78 dB(A)\nAB31C1GG\n900258688",
+    "url": "https://www.aeg.com.es/aspiradoras/vacuum-cleaners/vacuum-cleaners/vacuum-cleaner/ab31c1gg/",
+    "price": 81.75,
+    "reference_price": 109.0,
+    "discount_pct": 0.25,
+    "reasons": [
+      "por debajo de 100 €"
+    ]
   }
 ]
