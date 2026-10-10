@@ -135,6 +135,11 @@
     "sku": "tp9sk821b"
   },
   {
+    "url": "https://www.aeg.com.es/kitchen/cooking/ovens/oven/gs6pb51fab/",
+    "name": "Horno multifunción Serie 6000 SenseCook con Display LED Explore\nGS6PB51FAB\n944035210",
+    "sku": "gs6pb51fab"
+  },
+  {
     "url": "https://www.aeg.com.es/kitchen/cooking/ovens/oven/gu5pb41wsk/",
     "name": "Horno multifunción Serie 5000 SurroundCook con Display LED Explore\nGU5PB41WSK\n949498345",
     "sku": "gu5pb41wsk"
@@ -180,14 +185,14 @@
     "sku": "tr7pb73fsb"
   },
   {
-    "url": "https://www.aeg.com.es/kitchen/cooking/ovens/oven/gu5pb43fsm/",
-    "name": "Horno multifunción Serie 5000 SurroundCook con Display LED Explore\nGU5PB43FSM\n949498348",
-    "sku": "gu5pb43fsm"
-  },
-  {
     "url": "https://www.aeg.com.es/kitchen/cooking/ovens/oven/bse572360m/",
     "name": "Horno de vapor Serie 7000 SteamCrisp con Display LED Explore\nBSE572360M\n949494805",
     "sku": "bse572360m"
+  },
+  {
+    "url": "https://www.aeg.com.es/kitchen/cooking/ovens/oven/gu5pb43fsm/",
+    "name": "Horno multifunción Serie 5000 SurroundCook con Display LED Explore\nGU5PB43FSM\n949498348",
+    "sku": "gu5pb43fsm"
   },
   {
     "url": "https://www.aeg.com.es/kitchen/cooking/ovens/oven/te8pb731ab/",
@@ -198,11 +203,6 @@
     "url": "https://www.aeg.com.es/kitchen/cooking/ovens/oven/v7pbr521sb/",
     "name": "Horno de vapor Serie 6000 SenseCook con SteamCrisp con Display LED Explore\nV7PBR521SB\n949494943",
     "sku": "v7pbr521sb"
-  },
-  {
-    "url": "https://www.aeg.com.es/kitchen/cooking/ovens/oven/bps335160m/",
-    "name": "Horno multifunción Serie 6000 SurroundCook con Display LED Explore\nBPS335160M\n944188768",
-    "sku": "bps335160m"
   },
   {
     "url": "https://www.aeg.com.es/kitchen/cooking/ovens/compact-oven/nkk8n721b/",
@@ -510,11 +510,6 @@
     "sku": "gde689hm2"
   },
   {
-    "url": "https://www.aeg.com.es/kitchen/cooking/compact-built-in-range/built-in-microwaves/tm5nk401b/",
-    "name": "Horno compacto Serie 5000 Microondas con Display LED Explore\nTM5NK401B\n944005052",
-    "sku": "tm5nk401b"
-  },
-  {
     "url": "https://www.aeg.com.es/kitchen/cooking/compact-built-in-range/compact-oven/ta5pk401b/",
     "name": "Horno compacto Serie 5000 SurroundCook con SteamBake con Display LED Explore\nTA5PK401B\n944005091",
     "sku": "ta5pk401b"
@@ -533,6 +528,11 @@
     "url": "https://www.aeg.com.es/kitchen/cooking/compact-built-in-range/built-in-microwaves/tm7nk721b/",
     "name": "Horno compacto Serie 7000 MealAssist con Display CookSmart Touch 4,3 '', con WiFi\nTM7NK721B\n944005065",
     "sku": "tm7nk721b"
+  },
+  {
+    "url": "https://www.aeg.com.es/kitchen/cooking/compact-built-in-range/built-in-microwaves/tm5nk401b/",
+    "name": "Horno compacto Serie 5000 Microondas con Display LED Explore\nTM5NK401B\n944005052",
+    "sku": "tm5nk401b"
   },
   {
     "url": "https://www.aeg.com.es/kitchen/cooking/compact-built-in-range/built-in-microwaves/kmk721880w/",
@@ -655,19 +655,14 @@
     "sku": "fsb32610z2"
   },
   {
-    "url": "https://www.aeg.com.es/kitchen/dishwashing/dishwashers/built-in-dishwasher/gi8200x5tn/",
-    "name": "Lavavajillas de 60 cm integrable Serie 8000 Cleaning Performance para 14 cubiertos\nGI8200X5TN\n911474026",
-    "sku": "gi8200x5tn"
+    "url": "https://www.aeg.com.es/kitchen/dishwashing/dishwashers/built-in-dishwasher/gx970xt/",
+    "name": "Lavavajillas de 60 cm integrable Serie 9000 XXL Flexibility para 15 cubiertos\nGX970XT\n911494008",
+    "sku": "gx970xt"
   },
   {
     "url": "https://www.aeg.com.es/kitchen/dishwashing/dishwashers/built-in-dishwasher/gi8700a2pn/",
     "name": "Lavavajillas de 60 cm integrable Serie 8000 XXL Cleaning Performance para 15 cubiertos\nGI8700A2PN\n911493024",
     "sku": "gi8700a2pn"
-  },
-  {
-    "url": "https://www.aeg.com.es/kitchen/dishwashing/dishwashers/built-in-dishwasher/gx970xt/",
-    "name": "Lavavajillas de 60 cm integrable Serie 9000 XXL Flexibility para 15 cubiertos\nGX970XT\n911494008",
-    "sku": "gx970xt"
   },
   {
     "url": "https://www.aeg.com.es/kitchen/dishwashing/dishwashers/free-standing-dishwasher/ffb75717pm/",
@@ -678,11 +673,6 @@
     "url": "https://www.aeg.com.es/kitchen/dishwashing/dishwashers/free-standing-dishwasher/ffb83816pm/",
     "name": "Lavavajillas de 60 cm Serie 9000 ComfortLift para 14 cubiertos\nFFB83816PM\n911417357",
     "sku": "ffb83816pm"
-  },
-  {
-    "url": "https://www.aeg.com.es/kitchen/dishwashing/dishwashers/free-standing-dishwasher/ffb76717pw/",
-    "name": "Lavavajillas de 60 cm Serie 7000 GlassCare para 14 cubiertos\nFFB76717PW\n911417434",
-    "sku": "ffb76717pw"
   },
   {
     "url": "https://www.aeg.com.es/kitchen/dishwashing/dishwashers/free-standing-dishwasher/ffb74917zw2/",
@@ -698,6 +688,16 @@
     "url": "https://www.aeg.com.es/kitchen/dishwashing/dishwashers/free-standing-dishwasher/ffb74917zm2/",
     "name": "Lavavajillas de 60 cm Serie 6000 SatelliteClean para 14 cubiertos\nFFB74917ZM\n911514255",
     "sku": "ffb74917zm2"
+  },
+  {
+    "url": "https://www.aeg.com.es/kitchen/dishwashing/dishwashers/free-standing-dishwasher/ffb76717pw/",
+    "name": "Lavavajillas de 60 cm Serie 7000 GlassCare para 14 cubiertos\nFFB76717PW\n911417434",
+    "sku": "ffb76717pw"
+  },
+  {
+    "url": "https://www.aeg.com.es/kitchen/dishwashing/dishwashers/built-in-dishwasher/gi8200x5tn/",
+    "name": "Lavavajillas de 60 cm integrable Serie 8000 Cleaning Performance para 14 cubiertos\nGI8200X5TN\n911474026",
+    "sku": "gi8200x5tn"
   },
   {
     "url": "https://www.aeg.com.es/kitchen/dishwashing/dishwashers/built-in-dishwasher/fse73507p2/",
@@ -890,6 +890,11 @@
     "sku": "tr959v6pbc"
   },
   {
+    "url": "https://www.aeg.com.es/laundry/laundry/dryers/heat-pump-dryer/tr719g4pb/",
+    "name": "Secadora con Bomba de Calor Serie 7000 SensiDry® de 9 kg\nTR719G4PB\n916900030",
+    "sku": "tr719g4pb"
+  },
+  {
     "url": "https://www.aeg.com.es/laundry/laundry/dryers/heat-pump-dryer/tr718ebob/",
     "name": "Secadora con Bomba de Calor Serie 7000 SensiDry® de 8 kg\nTR718EBOB\n916900458",
     "sku": "tr718ebob"
@@ -898,11 +903,6 @@
     "url": "https://www.aeg.com.es/laundry/laundry/dryers/heat-pump-dryer/tr939v4pb/",
     "name": "Secadora con Bomba de Calor Serie 9000X AbsoluteCare® Pro de 9 kg\nTR939V4PB\n916900496",
     "sku": "tr939v4pb"
-  },
-  {
-    "url": "https://www.aeg.com.es/laundry/laundry/dryers/heat-pump-dryer/tr719g4pb/",
-    "name": "Secadora con Bomba de Calor Serie 7000 SensiDry® de 9 kg\nTR719G4PB\n916900030",
-    "sku": "tr719g4pb"
   },
   {
     "url": "https://www.aeg.com.es/laundry/laundry/dryers/heat-pump-dryer/tr959m6obc/",
@@ -1690,11 +1690,6 @@
     "sku": "cib6646abm"
   },
   {
-    "url": "https://www.aeg.com.es/kitchen/cooking/hobs/induction-hob/i64kv301cb/",
-    "name": "Placa de inducción Serie 5000 Induction de 60 cm\nI64KV301CB\n949492832",
-    "sku": "i64kv301cb"
-  },
-  {
     "url": "https://www.aeg.com.es/kitchen/cooking/ovens/pizza-oven/nbx7p631sb/",
     "name": "Horno multifunción Serie 7000 MealAssist con PizzaExpert con Display táctil Excite\nNBX7P631SB\n949288049",
     "sku": "nbx7p631sb"
@@ -1740,19 +1735,14 @@
     "sku": "robot-vacuum-cleaner-the-rx9"
   },
   {
-    "url": "https://www.aeg.com.es/kitchen/cooking/hobs/induction-hob/v64iib10fb/",
-    "name": "Placa de inducción Serie 7000 Sense de 60 cm\nV64IIB10FB\n949598250",
-    "sku": "v64iib10fb"
-  },
-  {
     "url": "https://www.aeg.com.es/kitchen/cooking/ovens/steam-oven/bse999330m/",
     "name": "Hornos multifunción para cualquier situación |AEG Tienda Online",
     "sku": "bse999330m"
   },
   {
-    "url": "https://www.aeg.com.es/kitchen/cooking/ovens/oven/gs6pb51fab/",
-    "name": "Horno multifunción Serie 6000 SenseCook con Display LED Explore\nGS6PB51FAB\n944035210",
-    "sku": "gs6pb51fab"
+    "url": "https://www.aeg.com.es/kitchen/cooking/ovens/oven/bps335160m/",
+    "name": "Horno multifunción Serie 6000 SurroundCook con Display LED Explore\nBPS335160M\n944188768",
+    "sku": "bps335160m"
   },
   {
     "url": "https://www.aeg.com.es/aspiradoras/vacuum-cleaners/robotic-vacuum-cleaners/robotic-vacuum-cleaner/rx9-2-6ibm/",
