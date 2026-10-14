@@ -870,5 +870,29 @@
     "reasons": [
       "por debajo de 100 €"
     ]
+  },
+  {
+    "timestamp": "2026-10-14T16:43:13.303461+00:00",
+    "sku": "th84cb03fb",
+    "name": "Placa de inducción con campana extractora de 80 cm\nTH84CB03FB\n949598397",
+    "url": "https://www.aeg.com.es/kitchen/cooking/cooker-hoods/combo-hob-hood/th84cb03fb/",
+    "price": 824.45,
+    "reference_price": 1749.0,
+    "discount_pct": 0.5286,
+    "reasons": [
+      "ha bajado un 53% respecto a su precio de referencia (1749.00 €)"
+    ]
+  },
+  {
+    "timestamp": "2026-10-14T16:53:08.001467+00:00",
+    "sku": "ab31c1gg",
+    "name": "Aspiradora con bolsa 3000 de 650 W y 78 dB(A)\nAB31C1GG\n900258688",
+    "url": "https://www.aeg.com.es/aspiradoras/vacuum-cleaners/vacuum-cleaners/vacuum-cleaner/ab31c1gg/",
+    "price": 81.75,
+    "reference_price": 109.0,
+    "discount_pct": 0.25,
+    "reasons": [
+      "por debajo de 100 €"
+    ]
   }
 ]
