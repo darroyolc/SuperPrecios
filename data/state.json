@@ -337,7 +337,7 @@
   },
   "bps335160m": {
     "name": "Horno multifunción Serie 6000 SurroundCook con Display LED Explore\nBPS335160M\n944188768",
-    "last_price": 569.0,
+    "last_price": 369.85,
     "reference_price": 569.0,
     "was_under_100": false,
     "was_big_discount": false
@@ -1177,8 +1177,8 @@
   },
   "gv77d91sb": {
     "name": "Campana de diseño vertical Serie 7000 SilenceTech de 90 cm\nGV77D91SB\n942051512",
-    "last_price": 509.25,
-    "reference_price": 679.0,
+    "last_price": 489.3,
+    "reference_price": 699.0,
     "was_under_100": false,
     "was_big_discount": false
   },
@@ -1985,6 +1985,20 @@
     "last_price": 501.75,
     "reference_price": 669.0,
     "was_under_100": false,
+    "was_big_discount": false
+  },
+  "gf6202b1sgm": {
+    "name": "Lavavajillas de 60 cm Serie 6000 SmartSelect para 13 cubiertos\nGF6202B1SGM\n911552173",
+    "last_price": 501.75,
+    "reference_price": 669.0,
+    "was_under_100": false,
+    "was_big_discount": false
+  },
+  "ah1em10dr": {
+    "name": "Aspirador de mano ErgoMini de 20 min de autonomía\nAH1EM10DR\n910008111",
+    "last_price": 66.75,
+    "reference_price": 66.75,
+    "was_under_100": true,
     "was_big_discount": false
   }
 }
