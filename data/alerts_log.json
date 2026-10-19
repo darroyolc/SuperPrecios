@@ -918,5 +918,65 @@
     "reasons": [
       "por debajo de 100 €"
     ]
+  },
+  {
+    "timestamp": "2026-10-19T05:54:06.440737+00:00",
+    "sku": "st5-1-2db",
+    "name": "Centro de planchado AEG Gentle 5000 de 2400 W y 100 g/mm de golpe de vapor\nST5-1-2DB\n950008710",
+    "url": "https://www.aeg.com.es/laundry/laundry/steam-stations/steam-station/st5-1-2db/",
+    "price": 59.95,
+    "reference_price": 109.0,
+    "discount_pct": 0.45,
+    "reasons": [
+      "por debajo de 100 €"
+    ]
+  },
+  {
+    "timestamp": "2026-10-19T05:59:11.334601+00:00",
+    "sku": "al51c1og",
+    "name": "Aspiradora sin bolsa 5000 de 850 W y 78 dB(A)\nAL51C1OG\n900258727",
+    "url": "https://www.aeg.com.es/aspiradoras/vacuum-cleaners/bagless-vacuum-cleaners/bagless-vacuum-cleaner/al51c1og/",
+    "price": 99.0,
+    "reference_price": 129.0,
+    "discount_pct": 0.2326,
+    "reasons": [
+      "por debajo de 100 €"
+    ]
+  },
+  {
+    "timestamp": "2026-10-19T05:59:25.742110+00:00",
+    "sku": "ap72ab21db",
+    "name": "Aspiradora sin cable Serie 7000 de 40 min de autonomía\nAP72AB21DB\n900402453",
+    "url": "https://www.aeg.com.es/aspiradoras/vacuum-cleaners/stick-vacuum-cleaners/cordless-sticks/ap72ab21db/",
+    "price": 159.0,
+    "reference_price": 349.0,
+    "discount_pct": 0.5444,
+    "reasons": [
+      "ha bajado un 54% respecto a su precio de referencia (349.00 €)"
+    ]
+  },
+  {
+    "timestamp": "2026-10-19T05:59:53.598425+00:00",
+    "sku": "ab51c2sw",
+    "name": "Aspiradora con bolsa 5000 de 650 W y 78 dB(A)\nAB51C2SW\n900258689",
+    "url": "https://www.aeg.com.es/aspiradoras/vacuum-cleaners/vacuum-cleaners/vacuum-cleaner/ab51c2sw/",
+    "price": 89.0,
+    "reference_price": 139.0,
+    "discount_pct": 0.3597,
+    "reasons": [
+      "por debajo de 100 €"
+    ]
+  },
+  {
+    "timestamp": "2026-10-19T06:00:02.533545+00:00",
+    "sku": "ab31c1gg",
+    "name": "Aspiradora con bolsa 3000 de 650 W y 78 dB(A)\nAB31C1GG\n900258688",
+    "url": "https://www.aeg.com.es/aspiradoras/vacuum-cleaners/vacuum-cleaners/vacuum-cleaner/ab31c1gg/",
+    "price": 81.75,
+    "reference_price": 109.0,
+    "discount_pct": 0.25,
+    "reasons": [
+      "por debajo de 100 €"
+    ]
   }
 ]
