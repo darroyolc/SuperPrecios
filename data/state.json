@@ -554,7 +554,7 @@
   },
   "fsb32610z2": {
     "name": "Lavavajillas de 60 cm integrable Serie 5000 AirDry para 13 cubiertos\nFSB32610Z\n911539308",
-    "last_price": 609.0,
+    "last_price": 487.2,
     "reference_price": 609.0,
     "was_under_100": false,
     "was_big_discount": false
@@ -631,7 +631,7 @@
   },
   "lfr7184n2v": {
     "name": "Lavadora de libre instalación Serie 7000 ProSteam® UniversalDose de 8.0 kg\nLFR7184N2V\n914921901",
-    "last_price": 759.0,
+    "last_price": 499.0,
     "reference_price": 759.0,
     "was_under_100": false,
     "was_big_discount": false
@@ -1569,7 +1569,7 @@
   },
   "fse73507p2": {
     "name": "Lavavajillas de 45 cm Serie 7000 GlassCare para 10 cubiertos\nFSE73507P\n911077040",
-    "last_price": 689.0,
+    "last_price": 482.3,
     "reference_price": 689.0,
     "was_under_100": false,
     "was_big_discount": false
@@ -1999,6 +1999,13 @@
     "last_price": 62.3,
     "reference_price": 89.0,
     "was_under_100": true,
+    "was_big_discount": false
+  },
+  "gf6202b2snm": {
+    "name": "Lavavajillas de 60 cm Serie 6000 SmartSelect para 14 cubiertos\nGF6202B2SNM\n911552161",
+    "last_price": 524.25,
+    "reference_price": 699.0,
+    "was_under_100": false,
     "was_big_discount": false
   }
 }
