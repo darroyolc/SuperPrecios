@@ -2007,5 +2007,12 @@
     "reference_price": 699.0,
     "was_under_100": false,
     "was_big_discount": false
+  },
+  "lfu8e8436c": {
+    "name": "Lavadora integrable Serie 8000 PowerCare de 8.0 kg\nLFU8E8436C\n914580421",
+    "last_price": 649.35,
+    "reference_price": 999.0,
+    "was_under_100": false,
+    "was_big_discount": false
   }
 }
