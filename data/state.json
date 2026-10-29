@@ -1,6 +1,6 @@
 {
   "axp26u339cw": {
-    "name": "Access Denied",
+    "name": "Aire acondicionado portátil Comfort 6000 de 9.000 BTUs para 31-35 m²\nAXP26U339CW\n950011610",
     "last_price": 419.3,
     "reference_price": 599.0,
     "was_under_100": false,
@@ -35,14 +35,14 @@
     "was_big_discount": false
   },
   "gb87d91cb": {
-    "name": "Access Denied",
+    "name": "Campana extractora decorativa Serie 8000 AuroraTech de 90 cm\nGB87D91CB\n942051534",
     "last_price": 525.85,
     "reference_price": 809.0,
     "was_under_100": false,
     "was_big_discount": false
   },
   "tx6mr531ee": {
-    "name": "Access Denied",
+    "name": "Frigorífico americano de libre instalación Serie 6000 Negro de 177 cm\nTX6MR531EE\n925995017",
     "last_price": 971.4,
     "reference_price": 1619.0,
     "was_under_100": false,
@@ -63,7 +63,7 @@
     "was_big_discount": false
   },
   "aw82u1db": {
-    "name": "Access Denied",
+    "name": "Aspiradora sin cable Wet&Dry 8000 de 35 min de autonomía\nAW82U1DB\n900402405",
     "last_price": 274.45,
     "reference_price": 499.0,
     "was_under_100": false,
@@ -2019,6 +2019,13 @@
     "name": "Lavavajillas de 60 cm integrable Serie 6000 SmartSelect para 14 cubiertos\nGI6200A2SN\n911572212",
     "last_price": 532.35,
     "reference_price": 819.0,
+    "was_under_100": false,
+    "was_big_discount": false
+  },
+  "lfo6g14o4b": {
+    "name": "Lavadora de libre instalación Serie 6000 ProSense® de 10.0 kg\nLFO6G14O4B\n914922438",
+    "last_price": 629.3,
+    "reference_price": 899.0,
     "was_under_100": false,
     "was_big_discount": false
   }
