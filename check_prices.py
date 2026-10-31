@@ -43,7 +43,30 @@ CATEGORY_PRICE_THRESHOLDS = []
 
 DISCOUNT_THRESHOLD = 0.50  # 50%
 CHANNEL_PARAM = "cs02_corporatebenefits"
-REQUEST_DELAY = 0.3
+REQUEST_DELAY = 0.2
+
+# Recursos que se bloquean para cargar más rápido. OJO: aquí NO se bloquea
+# "stylesheet" (CSS) porque la detección del precio tachado usa getComputedStyle
+# y necesita los estilos cargados. Sí se bloquean imágenes, vídeo y fuentes.
+BLOCKED_RESOURCE_TYPES = {"image", "media", "font"}
+
+
+def block_heavy_resources(page):
+    def _route(route):
+        try:
+            if route.request.resource_type in BLOCKED_RESOURCE_TYPES:
+                route.abort()
+            else:
+                route.continue_()
+        except Exception:
+            try:
+                route.continue_()
+            except Exception:
+                pass
+    try:
+        page.route("**/*", _route)
+    except Exception:
+        pass
 
 
 def price_threshold_for(url: str) -> float:
@@ -164,6 +187,7 @@ def main():
                 "(KHTML, like Gecko) Chrome/124.0 Safari/537.36"
             )
         )
+        block_heavy_resources(page)
 
         for product in products:
             url = product["url"]
@@ -177,8 +201,8 @@ def main():
                 continue
 
             try:
-                page.goto(with_channel(url), wait_until="domcontentloaded", timeout=30000)
-                page.wait_for_timeout(1500)
+                page.goto(with_channel(url), wait_until="domcontentloaded", timeout=20000)
+                page.wait_for_timeout(1000)
             except Exception as e:
                 print(f"[aviso] no se pudo comprobar {url}: {e}")
                 continue
