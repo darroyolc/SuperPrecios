@@ -38,7 +38,7 @@ from urllib.parse import urlsplit, urlunsplit, parse_qs, urlencode
 
 from playwright.sync_api import sync_playwright
 
-from price_utils import extract_product_price
+from price_utils import extract_product_price, EXCLUDED_PRODUCT_PATHS
 
 BASE_URL = "https://www.aeg.com.es"
 CHANNEL_PARAM = "cs02_corporatebenefits"
@@ -49,14 +49,9 @@ DOMAIN = "www.aeg.com.es"
 # fuera cualquier producto de otra zona. Ahora rastrea TODO el dominio y solo
 # ignora lo que se lista aquí.
 
-# Rutas de PRODUCTO que se ignoran (las que pediste). Se comparan como prefijo
-# de ruta, así que cubren todo lo que cuelgue de ellas.
-EXCLUDE_PATH_FRAGMENTS = [
-    "/accessories/accessories",
-    "/kitchen/small-kitchen-appliances",
-    "/laundry/laundry/irons",
-    "/laundry/laundry/garment-steamer",
-]
+# Rutas de PRODUCTO que se ignoran. Definidas en price_utils como fuente única,
+# para que la revisión de precios use exactamente la misma lista.
+EXCLUDE_PATH_FRAGMENTS = EXCLUDED_PRODUCT_PATHS
 
 # Secciones que NO son de producto (soporte, ayuda, blog, etc.). No contienen
 # fichas; se saltan únicamente para que el rastreo semanal no se vaya de tiempo
