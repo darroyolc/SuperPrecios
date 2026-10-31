@@ -29,12 +29,30 @@ from urllib.parse import urlsplit, urlunsplit, parse_qs, urlencode
 import requests
 from playwright.sync_api import sync_playwright
 
-from price_utils import PRICE_PATTERN, extract_product_price
+from price_utils import PRICE_PATTERN, extract_product_price, is_excluded_product
 
-PRICE_THRESHOLD = 100.0
+# Umbral de precio por defecto: avisa si un producto baja de esta cifra.
+DEFAULT_PRICE_THRESHOLD = 100.0
+
+# Umbrales por categoría (por prefijo de ruta). El primero que encaje manda; si
+# ninguno encaja, se usa DEFAULT_PRICE_THRESHOLD. Vacío ahora mismo: las
+# aspiradoras, que antes iban a 50 €, están excluidas del todo (ver
+# EXCLUDED_PRODUCT_PATHS en price_utils). Añade aquí ("/ruta", importe) si
+# quieres un umbral distinto para otra categoría.
+CATEGORY_PRICE_THRESHOLDS = []
+
 DISCOUNT_THRESHOLD = 0.50  # 50%
 CHANNEL_PARAM = "cs02_corporatebenefits"
 REQUEST_DELAY = 0.3
+
+
+def price_threshold_for(url: str) -> float:
+    """Umbral de precio que aplica a este producto según su ruta."""
+    path = urlsplit(url).path.lower()
+    for prefix, threshold in CATEGORY_PRICE_THRESHOLDS:
+        if path.startswith(prefix):
+            return threshold
+    return DEFAULT_PRICE_THRESHOLD
 
 TELEGRAM_TOKEN = os.environ.get("TELEGRAM_BOT_TOKEN")
 TELEGRAM_CHAT_ID = os.environ.get("TELEGRAM_CHAT_ID")
@@ -152,6 +170,12 @@ def main():
             sku = product.get("sku", url)
             name = product.get("name", url)
 
+            # Categorías excluidas (aspiradoras, planchas, centros de planchado,
+            # accesorios, pequeño electrodoméstico): no se revisan aunque sigan
+            # en products.json de un rastreo anterior.
+            if is_excluded_product(url):
+                continue
+
             try:
                 page.goto(with_channel(url), wait_until="domcontentloaded", timeout=30000)
                 page.wait_for_timeout(1500)
@@ -180,15 +204,19 @@ def main():
             if reference_price > 0:
                 discount_pct = (reference_price - current_price) / reference_price
 
-            under_100 = current_price < PRICE_THRESHOLD
+            threshold = price_threshold_for(url)
+            under_threshold = current_price < threshold
             big_discount = reference_price > current_price and discount_pct >= DISCOUNT_THRESHOLD
 
-            was_under_100 = prev.get("was_under_100", False)
+            # Retrocompatibilidad: el estado antiguo usaba la clave "was_under_100".
+            was_under_threshold = prev.get(
+                "was_under_threshold", prev.get("was_under_100", False)
+            )
             was_big_discount = prev.get("was_big_discount", False)
 
             reasons = []
-            if under_100 and not was_under_100:
-                reasons.append(f"por debajo de {PRICE_THRESHOLD:.0f} €")
+            if under_threshold and not was_under_threshold:
+                reasons.append(f"por debajo de {threshold:.0f} €")
             if big_discount and not was_big_discount:
                 reasons.append(
                     f"ha bajado un {discount_pct * 100:.0f}% respecto a su precio de "
@@ -225,7 +253,7 @@ def main():
                 "name": name,
                 "last_price": current_price,
                 "reference_price": reference_price,
-                "was_under_100": under_100,
+                "was_under_threshold": under_threshold,
                 "was_big_discount": big_discount,
             }
             time.sleep(REQUEST_DELAY)
