@@ -88,11 +88,13 @@ REQUEST_DELAY = 0.15
 # red de seguridad.
 MAX_RUNTIME_SECONDS = 38 * 60
 
-# Recursos que no hacen falta para leer el catálogo (imágenes, tipografías,
-# vídeo, CSS). Bloquearlos acelera mucho la carga de cada página — es la causa
-# principal de que el rastreo se pasara de tiempo. El precio sale de JSON-LD /
-# meta / texto, que no dependen de ninguno de estos.
-BLOCKED_RESOURCE_TYPES = {"image", "media", "font", "stylesheet"}
+# Recursos que se bloquean para acelerar la carga: imágenes, tipografías y
+# vídeo (son el grueso del peso de la página). OJO: NO se bloquea el CSS. Al
+# principio también lo bloqueaba, pero sin estilos las páginas de categoría
+# pierden altura, el auto-scroll no engancha y las rejillas de productos (que
+# cargan al bajar) no llegan a renderizarse — el catálogo caía de ~234 a ~47.
+# El CSS se queda; las imágenes, que son ~80% del peso, sí se bloquean.
+BLOCKED_RESOURCE_TYPES = {"image", "media", "font"}
 
 COOKIE_BUTTON_TEXTS = ["aceptar todas", "aceptar cookies", "aceptar", "accept all", "accept"]
 
@@ -169,7 +171,7 @@ def block_heavy_resources(page):
         pass
 
 
-def autoscroll(page, rounds=4, pause=400):
+def autoscroll(page, rounds=6, pause=500):
     """Baja la página varias veces para forzar la carga de rejillas de producto
     que solo aparecen al hacer scroll (lazy-load). Para en cuanto la altura de
     la página deja de crecer, así no gasta tiempo de más."""
@@ -260,8 +262,8 @@ def crawl():
                 continue
 
             try:
-                page.goto(with_channel(raw_url), wait_until="domcontentloaded", timeout=20000)
-                page.wait_for_timeout(1000)
+                page.goto(with_channel(raw_url), wait_until="domcontentloaded", timeout=30000)
+                page.wait_for_timeout(1500)
             except Exception as e:
                 print(f"[aviso] no se pudo cargar {raw_url}: {e}")
                 continue
