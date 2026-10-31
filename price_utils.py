@@ -21,6 +21,31 @@ los logs para poder diagnosticar de dónde salió cada precio.
 """
 import json
 import re
+from urllib.parse import urlsplit
+
+# --- Categorías de producto que NO se vigilan -----------------------------
+# Fuente única de exclusión, compartida por discover_products.py (no las
+# descubre) y check_prices.py (no las revisa, aunque sigan en products.json
+# de un rastreo anterior). Se comparan como prefijo de ruta, así que cubren
+# todo lo que cuelgue de ellas.
+#   - accessories / small-kitchen-appliances: pedido inicial
+#   - irons + garment-steamer: planchas y centros de planchado
+#   - aspiradoras/vacuum-cleaners: aspiradoras (climatización air-comfort SÍ
+#     se sigue vigilando, por eso no se excluye /aspiradoras entero)
+EXCLUDED_PRODUCT_PATHS = [
+    "/accessories/accessories",
+    "/kitchen/small-kitchen-appliances",
+    "/laundry/laundry/irons",
+    "/laundry/laundry/garment-steamer",
+    "/aspiradoras/vacuum-cleaners",
+]
+
+
+def is_excluded_product(url: str) -> bool:
+    """True si la URL cae en una categoría excluida (no vigilar)."""
+    path = urlsplit(url).path.lower()
+    return any(path.startswith(p) for p in EXCLUDED_PRODUCT_PATHS)
+
 
 PRICE_PATTERN = re.compile(r"\d{1,3}(?:\.\d{3})*(?:,\d{2})?\s?€")
 
