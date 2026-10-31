@@ -80,7 +80,19 @@ SUSPICIOUS_TEXT_PATTERN = re.compile(r"accesori|pequeñ.{0,10}electrodom", re.IG
 PRICE_PATTERN = re.compile(r"\d{1,3}(?:\.\d{3})*(?:,\d{2})?\s?€")
 
 MAX_PAGES = 1000
-REQUEST_DELAY = 0.4
+REQUEST_DELAY = 0.15
+
+# Presupuesto de tiempo interno. El workflow mata el job a los 45 min y, cuando
+# lo mata, NO se guarda nada. Así que el propio crawler para antes (a los 38 min),
+# guarda lo que lleve descubierto y termina limpio. El 45 del .yml queda solo de
+# red de seguridad.
+MAX_RUNTIME_SECONDS = 38 * 60
+
+# Recursos que no hacen falta para leer el catálogo (imágenes, tipografías,
+# vídeo, CSS). Bloquearlos acelera mucho la carga de cada página — es la causa
+# principal de que el rastreo se pasara de tiempo. El precio sale de JSON-LD /
+# meta / texto, que no dependen de ninguno de estos.
+BLOCKED_RESOURCE_TYPES = {"image", "media", "font", "stylesheet"}
 
 COOKIE_BUTTON_TEXTS = ["aceptar todas", "aceptar cookies", "aceptar", "accept all", "accept"]
 
@@ -137,7 +149,27 @@ def dismiss_cookie_banner(page):
             continue
 
 
-def autoscroll(page, rounds=6, pause=500):
+def block_heavy_resources(page):
+    """Aborta la descarga de imágenes, CSS, fuentes y vídeo: no hacen falta para
+    leer el catálogo y son lo que más tarda. Gran parte del ahorro de tiempo."""
+    def _route(route):
+        try:
+            if route.request.resource_type in BLOCKED_RESOURCE_TYPES:
+                route.abort()
+            else:
+                route.continue_()
+        except Exception:
+            try:
+                route.continue_()
+            except Exception:
+                pass
+    try:
+        page.route("**/*", _route)
+    except Exception:
+        pass
+
+
+def autoscroll(page, rounds=4, pause=400):
     """Baja la página varias veces para forzar la carga de rejillas de producto
     que solo aparecen al hacer scroll (lazy-load). Para en cuanto la altura de
     la página deja de crecer, así no gasta tiempo de más."""
@@ -193,6 +225,8 @@ def crawl():
     first_page = True
     pdf_skipped = 0
     suspicious_text_seen = {}  # link_key -> texto (solo informativo)
+    completed = True
+    start = time.monotonic()
 
     with sync_playwright() as p:
         browser = p.chromium.launch()
@@ -202,8 +236,17 @@ def crawl():
                 "(KHTML, like Gecko) Chrome/124.0 Safari/537.36"
             )
         )
+        block_heavy_resources(page)
 
         while to_visit and len(seen) < MAX_PAGES:
+            if time.monotonic() - start > MAX_RUNTIME_SECONDS:
+                completed = False
+                print(
+                    f"[info] Límite de tiempo ({MAX_RUNTIME_SECONDS // 60} min) alcanzado; "
+                    f"guardo lo descubierto hasta ahora ({len(products)} productos) y termino."
+                )
+                break
+
             raw_url = to_visit.pop(0)
             key = dedup_key(raw_url)
             if key in seen:
@@ -217,8 +260,8 @@ def crawl():
                 continue
 
             try:
-                page.goto(with_channel(raw_url), wait_until="domcontentloaded", timeout=30000)
-                page.wait_for_timeout(1500)
+                page.goto(with_channel(raw_url), wait_until="domcontentloaded", timeout=20000)
+                page.wait_for_timeout(1000)
             except Exception as e:
                 print(f"[aviso] no se pudo cargar {raw_url}: {e}")
                 continue
@@ -294,14 +337,45 @@ def crawl():
         for link_key, text in sorted(suspicious_text_seen.items()):
             print(f"        - {text!r} -> {link_key}")
 
-    return list(products.values())
+    status = "completo" if completed else "PARCIAL (por límite de tiempo)"
+    print(f"[info] Rastreo {status}: {len(products)} productos.")
+    return list(products.values()), completed
+
+
+def _still_valid(url: str) -> bool:
+    """Un producto guardado sigue siendo válido si su ruta no está excluida
+    ni fuera de alcance (filtra aspiradoras/planchas antiguas y rutas basura)."""
+    path = urlsplit(url).path
+    return is_in_scope(path) and looks_like_product_url(path)
 
 
 def main():
     data_dir = Path(__file__).parent / "data"
     data_dir.mkdir(exist_ok=True)
-    products = crawl()
     out_path = data_dir / "products.json"
+
+    products, completed = crawl()
+
+    if not completed and out_path.exists():
+        # Run parcial: no encojas el catálogo. Parte de lo ya conocido (filtrando
+        # lo que ahora está excluido o fuera de alcance) y añade lo nuevo.
+        try:
+            previous = json.loads(out_path.read_text(encoding="utf-8"))
+        except Exception:
+            previous = []
+        merged = {
+            p["url"]: p
+            for p in previous
+            if p.get("url") and _still_valid(p["url"])
+        }
+        for p in products:
+            merged[p["url"]] = p
+        before, products = len(products), list(merged.values())
+        print(
+            f"[info] Fusionado con el catálogo anterior: {before} nuevos + previos "
+            f"válidos = {len(products)} en total."
+        )
+
     out_path.write_text(json.dumps(products, ensure_ascii=False, indent=2), encoding="utf-8")
     print(f"\nGuardados {len(products)} productos en {out_path}")
 
