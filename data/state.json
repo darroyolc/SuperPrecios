@@ -1578,7 +1578,7 @@
     "name": "Lavavajillas de 45 cm Serie 7000 GlassCare para 10 cubiertos\nFFB73527ZM\n911054084",
     "last_price": 543.2,
     "reference_price": 679.0,
-    "was_under_100": false,
+    "was_under_threshold": false,
     "was_big_discount": false
   },
   "ffb76717pw": {
@@ -1935,7 +1935,7 @@
     "name": "Lavadora de libre instalación Serie 8000 PowerCare Autodose de 11.0 kg\nLFR8506S6A\n914565700",
     "last_price": 720.3,
     "reference_price": 1029.0,
-    "was_under_100": false,
+    "was_under_threshold": false,
     "was_big_discount": false
   },
   "tr951v6pbc": {
