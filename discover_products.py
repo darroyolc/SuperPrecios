@@ -63,6 +63,10 @@ EXCLUDE_PATH_FRAGMENTS = EXCLUDED_PRODUCT_PATHS
 NON_PRODUCT_PREFIXES = [
     "/support", "/about-aeg", "/about", "/faq", "/local",
     "/legal", "/promotions", "/store", "/newsletter", "/campaigns",
+    # Páginas "discover" de marketing (no son fichas de tienda y salen sin
+    # precio). Aquí viven además las aspiradoras QX9/RX9, que por estar fuera
+    # de /aspiradoras/vacuum-cleaners se escapaban de la exclusión.
+    "/wellbeing", "/wellbeing2",
 ]
 
 # Rutas que nunca son fichas de producto (assets, PDFs, avisos legales)
