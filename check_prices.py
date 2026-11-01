@@ -45,6 +45,12 @@ DISCOUNT_THRESHOLD = 0.50  # 50%
 CHANNEL_PARAM = "cs02_corporatebenefits"
 REQUEST_DELAY = 0.2
 
+# Presupuesto de tiempo interno (el workflow mata el job a los 30 min). Al
+# llegar aquí se corta el bucle, se guarda el estado y los avisos, y se sale
+# limpio. Los productos que queden sin revisar se revisan en la siguiente
+# pasada (cada 6 h); el estado se conserva entre ejecuciones.
+MAX_RUNTIME_SECONDS = 26 * 60
+
 # Recursos que se bloquean para cargar más rápido. OJO: aquí NO se bloquea
 # "stylesheet" (CSS) porque la detección del precio tachado usa getComputedStyle
 # y necesita los estilos cargados. Sí se bloquean imágenes, vídeo y fuentes.
@@ -189,7 +195,18 @@ def main():
         )
         block_heavy_resources(page)
 
+        start = time.monotonic()
+        checked = 0
         for product in products:
+            if time.monotonic() - start > MAX_RUNTIME_SECONDS:
+                print(
+                    f"[info] Límite de tiempo ({MAX_RUNTIME_SECONDS // 60} min) alcanzado; "
+                    f"revisados {checked}/{len(products)}. Guardo estado y salgo; "
+                    f"el resto se revisa en la próxima pasada."
+                )
+                break
+            checked += 1
+
             url = product["url"]
             sku = product.get("sku", url)
             name = product.get("name", url)
@@ -201,13 +218,28 @@ def main():
                 continue
 
             try:
-                page.goto(with_channel(url), wait_until="domcontentloaded", timeout=20000)
-                page.wait_for_timeout(1000)
+                page.goto(with_channel(url), wait_until="domcontentloaded", timeout=30000)
+                page.wait_for_timeout(1500)
             except Exception as e:
                 print(f"[aviso] no se pudo comprobar {url}: {e}")
                 continue
 
             current_price, page_original_price = extract_prices(page)
+
+            # Reintento si no salió precio: muchas fichas cargan el precio por
+            # JSON-LD un poco tarde. Se recarga con una espera más larga y fija
+            # (nada de networkidle, que puede colgarse) y se reintenta una vez.
+            if current_price is None:
+                try:
+                    page.reload(wait_until="domcontentloaded", timeout=30000)
+                except Exception:
+                    pass
+                page.wait_for_timeout(3000)
+                try:
+                    current_price, page_original_price = extract_prices(page)
+                except Exception:
+                    pass
+
             if current_price is None:
                 print(f"[aviso] no se encontró precio en {url}")
                 time.sleep(REQUEST_DELAY)
