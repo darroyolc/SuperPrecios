@@ -563,7 +563,7 @@
     "name": "Lavavajillas de 60 cm Serie 6000 SatelliteClean para 13 cubiertos\nFFB53627ZW\n911514114",
     "last_price": 429.0,
     "reference_price": 599.0,
-    "was_under_100": false,
+    "was_under_threshold": false,
     "was_big_discount": false
   },
   "ffb64627zw": {
@@ -1681,9 +1681,9 @@
   },
   "ti63iq1bfb": {
     "name": "Placa de inducción Serie 7000 Sense de 60 cm\nTI63IQ1BFB\n949598384",
-    "last_price": 549.0,
+    "last_price": 384.3,
     "reference_price": 549.0,
-    "was_under_100": false,
+    "was_under_threshold": false,
     "was_big_discount": false
   },
   "v84iib10fb": {
@@ -2033,6 +2033,13 @@
     "name": "Secadora con Bomba de Calor Serie 7000 SensiDry® de 9 kg\nTR719OAOB\n916900872",
     "last_price": 614.25,
     "reference_price": 819.0,
+    "was_under_threshold": false,
+    "was_big_discount": false
+  },
+  "gf7200a2sfm": {
+    "name": "Lavavajillas de 60 cm Serie 7000 para 14 cubiertos\nGF7200A2SFM\n911453003",
+    "last_price": 599.0,
+    "reference_price": 899.0,
     "was_under_threshold": false,
     "was_big_discount": false
   }
