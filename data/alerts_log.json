@@ -1002,5 +1002,29 @@
     "reasons": [
       "ha bajado un 56% respecto a su precio de referencia (1799.00 €)"
     ]
+  },
+  {
+    "timestamp": "2026-11-06T23:43:41.336353+00:00",
+    "sku": "tch74b01fb",
+    "name": "Placa de inducción con campana extractora de 70 cm\nTCH74B01FB\n949598022",
+    "url": "https://www.aeg.com.es/kitchen/cooking/cooker-hoods/combo-hob-hood/tch74b01fb/",
+    "price": 796.95,
+    "reference_price": 1799.0,
+    "discount_pct": 0.557,
+    "reasons": [
+      "ha bajado un 56% respecto a su precio de referencia (1799.00 €)"
+    ]
+  },
+  {
+    "timestamp": "2026-11-06T23:48:52.018933+00:00",
+    "sku": "st5-1-2db",
+    "name": "Centro de planchado AEG Gentle 5000 de 2400 W y 100 g/mm de golpe de vapor\nST5-1-2DB\n950008710",
+    "url": "https://www.aeg.com.es/laundry/laundry/steam-stations/steam-station/st5-1-2db/",
+    "price": 59.95,
+    "reference_price": 109.0,
+    "discount_pct": 0.45,
+    "reasons": [
+      "por debajo de 100 €"
+    ]
   }
 ]
