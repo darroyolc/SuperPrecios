@@ -388,7 +388,7 @@
     "name": "Placa de inducción Serie 6000 Flex de 70 cm\nTO74IB00FB\n949598395",
     "last_price": 389.4,
     "reference_price": 649.0,
-    "was_under_100": false,
+    "was_under_threshold": false,
     "was_big_discount": false
   },
   "ti64ig00ib": {
