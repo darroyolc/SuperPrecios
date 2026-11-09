@@ -207,3 +207,89 @@ def extract_product_price(page, exclude=None):
     if val is not None:
         return val, "body"
     return None, "-"
+
+
+# --- Detección de stock ----------------------------------------------------
+# En aeg.com.es el precio y el stock los carga JavaScript (backend de
+# Electrolux); el HTML estático no trae ni JSON-LD ni "Agotado". En la página
+# RENDERIZADA (Playwright sí ejecuta el JS), la señal más fiable de "hay stock"
+# es que aparezca precio y/o botón de compra; "agotado" aparece como texto.
+
+# OJO: no se usa "no disponible" como señal porque aparece como valor de una
+# especificación de la ficha ("Filtro de carbón: No disponible"). Solo frases
+# inequívocas de stock.
+OUT_OF_STOCK_TEXT = (
+    "agotado", "sin stock", "sin existencias", "fuera de stock",
+    "temporalmente sin stock", "producto no disponible",
+    "avísame cuando", "avisame cuando", "notificar disponibilidad",
+    "notifícame cuando", "notificame cuando",
+)
+ADD_TO_CART_TEXT = (
+    "añadir a la cesta", "anadir a la cesta", "añadir al carrito",
+    "agregar al carrito", "añadir a la bolsa", "comprar ahora",
+)
+
+_AVAIL_IN = ("instock", "limitedavailability", "onlineonly",
+             "instoreonly", "preorder", "backorder")
+_AVAIL_OUT = ("outofstock", "soldout", "discontinued")
+
+
+def _availability_from_jsonld(page):
+    """Lee offers.availability del JSON-LD renderizado. Devuelve 'in'/'out'/None."""
+    try:
+        raws = page.eval_on_selector_all(
+            'script[type="application/ld+json"]',
+            "els => els.map(e => e.textContent)",
+        )
+    except Exception:
+        return None
+    for raw in raws or []:
+        try:
+            data = json.loads(raw)
+        except Exception:
+            continue
+        for node in _iter_nodes(data):
+            if not isinstance(node, dict) or node.get("offers") is None:
+                continue
+            for off in _iter_nodes(node["offers"]):
+                if not isinstance(off, dict):
+                    continue
+                av = off.get("availability")
+                if not av:
+                    continue
+                token = str(av).lower().rsplit("/", 1)[-1].replace("_", "")
+                if any(t in token for t in _AVAIL_OUT):
+                    return "out"
+                if any(t in token for t in _AVAIL_IN):
+                    return "in"
+    return None
+
+
+def stock_status(page):
+    """Estado de stock de la ficha renderizada: 'in' o 'out' (decisivo).
+
+    Orden: texto de agotado -> JSON-LD availability -> botón de compra ->
+    precio como proxy. Si no hay ninguna señal de compra, se considera 'out'
+    (en esta web, sin precio/botón = no comprable). Solo devuelve None si la
+    página no se pudo leer en absoluto.
+    """
+    try:
+        text = page.inner_text("body").lower()
+    except Exception:
+        text = None
+
+    if text is not None and any(t in text for t in OUT_OF_STOCK_TEXT):
+        return "out"
+
+    av = _availability_from_jsonld(page)
+    if av:
+        return av
+
+    if text is not None and any(t in text for t in ADD_TO_CART_TEXT):
+        return "in"
+
+    price, _ = extract_product_price(page)
+    if price is not None:
+        return "in"
+
+    return "out" if text is not None else None
