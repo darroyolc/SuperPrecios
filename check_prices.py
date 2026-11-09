@@ -29,7 +29,7 @@ from urllib.parse import urlsplit, urlunsplit, parse_qs, urlencode
 import requests
 from playwright.sync_api import sync_playwright
 
-from price_utils import PRICE_PATTERN, extract_product_price, is_excluded_product
+from price_utils import PRICE_PATTERN, extract_product_price, is_excluded_product, stock_status
 
 # Umbral de precio por defecto: avisa si un producto baja de esta cifra.
 DEFAULT_PRICE_THRESHOLD = 100.0
@@ -50,6 +50,26 @@ REQUEST_DELAY = 0.2
 # limpio. Los productos que queden sin revisar se revisan en la siguiente
 # pasada (cada 6 h); el estado se conserva entre ejecuciones.
 MAX_RUNTIME_SECONDS = 26 * 60
+
+# Productos a vigilar por STOCK (además del precio): avisa cuando uno pase de
+# agotado a disponible. En aeg.com.es "hay precio/botón de compra" ≈ "hay
+# stock". Se vigilan aunque estén agotados y sin precio (no se saltan como el
+# resto de "sin precio"). Añade más URLs aquí si quieres vigilar su stock.
+STOCK_WATCH_URLS = [
+    "https://www.aeg.com.es/kitchen/cooking/cooker-hoods/integrated-hood/gde686hm2/",
+]
+
+
+def _url_key(url: str) -> str:
+    """Clave de URL sin query ni barra final, para comparar robustamente."""
+    return urlsplit(url).path.rstrip("/").lower()
+
+
+_STOCK_WATCH_KEYS = {_url_key(u) for u in STOCK_WATCH_URLS}
+
+
+def is_stock_watched(url: str) -> bool:
+    return _url_key(url) in _STOCK_WATCH_KEYS
 
 # Recursos que se bloquean para cargar más rápido. OJO: aquí NO se bloquea
 # "stylesheet" (CSS) porque la detección del precio tachado usa getComputedStyle
@@ -183,6 +203,14 @@ def main():
         print("data/products.json está vacío. Ejecuta antes discover_products.py")
         return
 
+    # Garantiza que las URLs vigiladas por stock se revisen aunque el
+    # descubrimiento no las haya incluido (p. ej. por estar agotadas).
+    known = {_url_key(p.get("url", "")) for p in products}
+    for watch_url in STOCK_WATCH_URLS:
+        if _url_key(watch_url) not in known:
+            sku = [s for s in urlsplit(watch_url).path.strip("/").split("/") if s][-1]
+            products.append({"url": watch_url, "name": watch_url, "sku": sku})
+
     alerts_sent = 0
 
     with sync_playwright() as p:
@@ -239,6 +267,32 @@ def main():
                     current_price, page_original_price = extract_prices(page)
                 except Exception:
                     pass
+
+            # --- Vigilancia de STOCK (solo URLs en STOCK_WATCH_URLS) ---
+            # Va antes del salto por "sin precio": una ficha agotada no tiene
+            # precio, pero igualmente queremos saber cuándo vuelve a haberlo.
+            if is_stock_watched(url):
+                status = stock_status(page)  # 'in' / 'out' / None(ilegible)
+                if status is not None:
+                    was_in = state.get(sku, {}).get("stock_in")  # True/False/None
+                    is_in = status == "in"
+                    if is_in and was_in is False:
+                        send_telegram(
+                            f"🟢 <b>¡VUELVE A HABER STOCK!</b>\n"
+                            f"<b>{name}</b>\n{url}"
+                        )
+                        alerts_sent += 1
+                        print(f"[stock] {name}: VUELVE A HABER STOCK")
+                        alerts_log.append({
+                            "timestamp": datetime.now(timezone.utc).isoformat(),
+                            "sku": sku, "name": name, "url": url,
+                            "reasons": ["vuelta de stock"],
+                        })
+                    else:
+                        print(f"[stock] {name}: {'disponible' if is_in else 'agotado'}")
+                    stock_entry = state.setdefault(sku, {})
+                    stock_entry["name"] = name
+                    stock_entry["stock_in"] = is_in
 
             if current_price is None:
                 print(f"[aviso] no se encontró precio en {url}")
@@ -305,13 +359,15 @@ def main():
             else:
                 print(f"[ok] {name}: {current_price:.2f} € (referencia: {reference_price:.2f} €)")
 
-            state[sku] = {
+            # update (no sobrescribir) para no borrar las claves de stock_in
+            # que haya podido escribir el bloque de vigilancia de stock.
+            state.setdefault(sku, {}).update({
                 "name": name,
                 "last_price": current_price,
                 "reference_price": reference_price,
                 "was_under_threshold": under_threshold,
                 "was_big_discount": big_discount,
-            }
+            })
             time.sleep(REQUEST_DELAY)
 
         browser.close()
