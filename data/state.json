@@ -1867,7 +1867,8 @@
     "last_price": 339.0,
     "reference_price": 549.0,
     "was_under_100": false,
-    "was_big_discount": false
+    "was_big_discount": false,
+    "was_under_threshold": false
   },
   "dbe5651m": {
     "name": "Campana extractora de pared Serie 5000 ExtractionTech de 60 cm\nDBE5651M\n942022962",
