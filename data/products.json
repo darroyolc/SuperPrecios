@@ -125,6 +125,11 @@
     "sku": "bps535160w"
   },
   {
+    "url": "https://www.aeg.com.es/kitchen/cooking/ovens/oven/gs6pb51fab/",
+    "name": "Horno multifunción Serie 6000 SenseCook con Display LED Explore\nGS6PB51FAB\n944035210",
+    "sku": "gs6pb51fab"
+  },
+  {
     "url": "https://www.aeg.com.es/kitchen/cooking/ovens/oven/tb8sb73zab/",
     "name": "Horno de vapor Serie 8000 MealAssist con SteamPro con Display CookSmart Touch 4,3 '', con WiFi\nTB8SB73ZAB\n944035048",
     "sku": "tb8sb73zab"
@@ -168,11 +173,6 @@
     "url": "https://www.aeg.com.es/kitchen/cooking/ovens/oven/v7pbr521sb/",
     "name": "Horno de vapor Serie 6000 SenseCook con SteamCrisp con Display LED Explore\nV7PBR521SB\n949494943",
     "sku": "v7pbr521sb"
-  },
-  {
-    "url": "https://www.aeg.com.es/kitchen/cooking/ovens/oven/bps335160m/",
-    "name": "Horno multifunción Serie 6000 SurroundCook con Display LED Explore\nBPS335160M\n944188768",
-    "sku": "bps335160m"
   },
   {
     "url": "https://www.aeg.com.es/kitchen/cooking/ovens/oven/bse572360m/",
@@ -660,24 +660,24 @@
     "sku": "ffb83816pm"
   },
   {
-    "url": "https://www.aeg.com.es/kitchen/dishwashing/dishwashers/free-standing-dishwasher/ffb76717pw/",
-    "name": "Lavavajillas de 60 cm Serie 7000 GlassCare para 14 cubiertos\nFFB76717PW\n911417434",
-    "sku": "ffb76717pw"
-  },
-  {
     "url": "https://www.aeg.com.es/kitchen/dishwashing/dishwashers/free-standing-dishwasher/ffb74917zw2/",
     "name": "Lavavajillas de 60 cm Serie 6000 SatelliteClean para 14 cubiertos\nFFB74917ZW\n911514256",
     "sku": "ffb74917zw2"
   },
   {
-    "url": "https://www.aeg.com.es/kitchen/dishwashing/dishwashers/free-standing-dishwasher/ffb53627zm/",
-    "name": "Lavavajillas de 60 cm Serie 6000 SatelliteClean para 13 cubiertos\nFFB53627ZM\n911514113",
-    "sku": "ffb53627zm"
-  },
-  {
     "url": "https://www.aeg.com.es/kitchen/dishwashing/dishwashers/free-standing-dishwasher/gf7200a2sfm/",
     "name": "Lavavajillas de 60 cm Serie 7000 para 14 cubiertos\nGF7200A2SFM\n911453003",
     "sku": "gf7200a2sfm"
+  },
+  {
+    "url": "https://www.aeg.com.es/kitchen/dishwashing/dishwashers/free-standing-dishwasher/ffb53627zw/",
+    "name": "Lavavajillas de 60 cm Serie 6000 SatelliteClean para 13 cubiertos\nFFB53627ZW\n911514114",
+    "sku": "ffb53627zw"
+  },
+  {
+    "url": "https://www.aeg.com.es/kitchen/dishwashing/dishwashers/free-standing-dishwasher/ffb53627zm/",
+    "name": "Lavavajillas de 60 cm Serie 6000 SatelliteClean para 13 cubiertos\nFFB53627ZM\n911514113",
+    "sku": "ffb53627zm"
   },
   {
     "url": "https://www.aeg.com.es/kitchen/dishwashing/dishwashers/built-in-dishwasher/gi8200x5tn/",
@@ -710,11 +710,6 @@
     "sku": "lwr9816o1c"
   },
   {
-    "url": "https://www.aeg.com.es/laundry/laundry/washing-machines/front-loader-washing-machine/lfr7394n4b/",
-    "name": "Lavadora de libre instalación Serie 7000 ProSteam® de 9.0 kg\nLFR7394N4B\n914921787",
-    "sku": "lfr7394n4b"
-  },
-  {
     "url": "https://www.aeg.com.es/laundry/laundry/washer-dryers/free-standing-washer-dryer/lwr7194m4b/",
     "name": "Lavadora secadora de libre instalación Serie 7000 ProSteam® de 9.0 kg\nLWR7194M4B\n914610317",
     "sku": "lwr7194m4b"
@@ -723,6 +718,11 @@
     "url": "https://www.aeg.com.es/laundry/laundry/dryers/heat-pump-dryer/tr819obob/",
     "name": "Secadora con Bomba de Calor Serie 8000 AbsoluteCare® de 9 kg\nTR819OBOB\n916900874",
     "sku": "tr819obob"
+  },
+  {
+    "url": "https://www.aeg.com.es/laundry/laundry/washing-machines/front-loader-washing-machine/lfr6114o2b/",
+    "name": "Lavadora de libre instalación Serie 6000 ProSense® de 10.0 kg\nLFR6114O2B\n914915713",
+    "sku": "lfr6114o2b"
   },
   {
     "url": "https://www.aeg.com.es/laundry/laundry/steam-stations/steam-station/st5-1-2db/",
@@ -770,11 +770,6 @@
     "sku": "lfr8504l6q"
   },
   {
-    "url": "https://www.aeg.com.es/laundry/laundry/washing-machines/front-loader-washing-machine/lfr6114o2b/",
-    "name": "Lavadora de libre instalación Serie 6000 ProSense® de 10.0 kg\nLFR6114O2B\n914915713",
-    "sku": "lfr6114o2b"
-  },
-  {
     "url": "https://www.aeg.com.es/laundry/laundry/washing-machines/front-loader-washing-machine/lfa6i8275a/",
     "name": "Lavadora de libre instalación Serie 6000 ProSense® de 8.0 kg\nLFA6I8275A\n914913616",
     "sku": "lfa6i8275a"
@@ -813,6 +808,11 @@
     "url": "https://www.aeg.com.es/laundry/laundry/washing-machines/9-kg-washing-machine/lfr6194o2v/",
     "name": "Lavadoras de 9 kg",
     "sku": "lfr6194o2v"
+  },
+  {
+    "url": "https://www.aeg.com.es/laundry/laundry/washing-machines/front-loader-washing-machine/lfe6g54h4b/",
+    "name": "Lavadora de libre instalación Serie 6000 ProSense® de 10.5 kg\nLFE6G54H4B\n914915761",
+    "sku": "lfe6g54h4b"
   },
   {
     "url": "https://www.aeg.com.es/laundry/laundry/washing-machines/front-loader-washing-machine/lfr8506s6a/",
@@ -860,11 +860,6 @@
     "sku": "tr719g4pb"
   },
   {
-    "url": "https://www.aeg.com.es/laundry/laundry/dryers/heat-pump-dryer/tr939v4pb/",
-    "name": "Secadora con Bomba de Calor Serie 9000X AbsoluteCare® Pro de 9 kg\nTR939V4PB\n916900496",
-    "sku": "tr939v4pb"
-  },
-  {
     "url": "https://www.aeg.com.es/laundry/laundry/dryers/heat-pump-dryer/tr931bbpbc/",
     "name": "Secadora con Bomba de Calor Serie 9000 AbsoluteCare® Plus de 10.0 kg\nTR931BBPBC\n916900850",
     "sku": "tr931bbpbc"
@@ -883,6 +878,11 @@
     "url": "https://www.aeg.com.es/laundry/laundry/dryers/heat-pump-dryer/tr718p2ob/",
     "name": "Secadora con Bomba de Calor Serie 7000 SensiDry® de 8 kg\nTR718P2OB\n916900260",
     "sku": "tr718p2ob"
+  },
+  {
+    "url": "https://www.aeg.com.es/laundry/laundry/dryers/heat-pump-dryer/tr939v4pb/",
+    "name": "Secadora con Bomba de Calor Serie 9000X AbsoluteCare® Pro de 9 kg\nTR939V4PB\n916900496",
+    "sku": "tr939v4pb"
   },
   {
     "url": "https://www.aeg.com.es/laundry/laundry/dryers/heat-pump-dryer/tr959m6obc/",
@@ -940,6 +940,11 @@
     "sku": "aws4020b5b"
   },
   {
+    "url": "https://www.aeg.com.es/kitchen/wine/wine-cabinets/compact-wine-cabinets/nkw8p21kab/",
+    "name": "Vinoteca compacta para 15 botellas\nNKW8P21KAB\n923421437",
+    "sku": "nkw8p21kab"
+  },
+  {
     "url": "https://www.aeg.com.es/kitchen/wine/wine-cabinets/compact-wine-cabinets/cw6000t/",
     "name": "Vinoteca compacta para 15 botellas\nCW6000T\n923421446",
     "sku": "cw6000t"
@@ -948,11 +953,6 @@
     "url": "https://www.aeg.com.es/kitchen/wine/wine-cabinets/under-counter-wine-cabinets/aws4052b5b/",
     "name": "Vinoteca Bajo Encimera para 52 botellas\nAWS4052B5B\n923421506",
     "sku": "aws4052b5b"
-  },
-  {
-    "url": "https://www.aeg.com.es/kitchen/wine/wine-cabinets/compact-wine-cabinets/nkw8p21kab/",
-    "name": "Vinoteca compacta para 15 botellas\nNKW8P21KAB\n923421437",
-    "sku": "nkw8p21kab"
   },
   {
     "url": "https://www.aeg.com.es/kitchen/wine/wine-cabinets/compact-wine-cabinets/nkw8p21kat/",
@@ -978,6 +978,11 @@
     "url": "https://www.aeg.com.es/kitchen/wine/wine-cabinets/under-counter-wine-cabinets/awus052b5b/",
     "name": "Vinoteca Bajo Encimera para 52 botellas\nAWUS052B5B\n923421304",
     "sku": "awus052b5b"
+  },
+  {
+    "url": "https://www.aeg.com.es/kitchen/cooling/fridge-freezers/side-by-side-fridge-freezer/rmb952d6vu/",
+    "name": "Frigorífico americano Multi Door de libre instalación Serie 9000 Inox de 190 cm\nRMB952D6VU\n925993460",
+    "sku": "rmb952d6vu"
   },
   {
     "url": "https://www.aeg.com.es/kitchen/cooling/fridge-freezers/side-by-side-fridge-freezer/rxb659e6nu/",
@@ -1010,11 +1015,6 @@
     "sku": "orc6m341cv"
   },
   {
-    "url": "https://www.aeg.com.es/kitchen/cooling/fridge-freezers/built-in-fridge-freezer/tc7cs18ges/",
-    "name": "Frigorífico combi de integración Serie 7000 de 177,2 cm\nTC7CS18GES\n925555202",
-    "sku": "tc7cs18ges"
-  },
-  {
     "url": "https://www.aeg.com.es/kitchen/cooling/refrigerators/built-in-refrigerator/osf3s821ef/",
     "name": "Frigorífico 1 puerta integrable de 818 mm\nOSF3S821EF\n923421536",
     "sku": "osf3s821ef"
@@ -1033,11 +1033,6 @@
     "url": "https://www.aeg.com.es/kitchen/cooling/fridge-freezers/free-standing-fridge-freezer/orc8m361dt/",
     "name": "Frigorífico combi de libre instalación Serie 8000 Negro de 201 cm\nORC8M361DT\n925993701",
     "sku": "orc8m361dt"
-  },
-  {
-    "url": "https://www.aeg.com.es/kitchen/cooling/fridge-freezers/side-by-side-fridge-freezer/rmb952d6vu/",
-    "name": "Frigorífico americano Multi Door de libre instalación Serie 9000 Inox de 190 cm\nRMB952D6VU\n925993460",
-    "sku": "rmb952d6vu"
   },
   {
     "url": "https://www.aeg.com.es/kitchen/cooling/refrigerators/free-standing-refrigerator/rtb411e1aw/",
@@ -1133,6 +1128,11 @@
     "url": "https://www.aeg.com.es/kitchen/cooling/fridge-freezers/built-in-fridge-freezer/osc6d181es/",
     "name": "Frigorífico combi de integración Serie 6000 de 177,2 cm\nOSC6D181ES\n925503420",
     "sku": "osc6d181es"
+  },
+  {
+    "url": "https://www.aeg.com.es/kitchen/cooling/fridge-freezers/built-in-fridge-freezer/tc7cs18ges/",
+    "name": "Frigorífico combi de integración Serie 7000 de 177,2 cm\nTC7CS18GES\n925555202",
+    "sku": "tc7cs18ges"
   },
   {
     "url": "https://www.aeg.com.es/kitchen/cooling/fridge-freezers/side-by-side-fridge-freezer/orx9v351db/",
@@ -1400,6 +1400,11 @@
     "sku": "lfr6214o2b"
   },
   {
+    "url": "https://www.aeg.com.es/laundry/laundry/washing-machines/front-loader-washing-machine/lfr7394n4b/",
+    "name": "Lavadora de libre instalación Serie 7000 ProSteam® de 9.0 kg\nLFR7394N4B\n914921787",
+    "sku": "lfr7394n4b"
+  },
+  {
     "url": "https://www.aeg.com.es/laundry/laundry/washing-machines/front-loader-washing-machine/lfe6d94o4b/",
     "name": "Lavadora de libre instalación Serie 6000 ProSense® de 9.0 kg\nLFE6D94O4B\n914915532",
     "sku": "lfe6d94o4b"
@@ -1540,9 +1545,9 @@
     "sku": "lwr7316v6o"
   },
   {
-    "url": "https://www.aeg.com.es/kitchen/cooking/ovens/oven/gs6pb51fab/",
-    "name": "Horno multifunción Serie 6000 SenseCook con Display LED Explore\nGS6PB51FAB\n944035210",
-    "sku": "gs6pb51fab"
+    "url": "https://www.aeg.com.es/kitchen/cooking/ovens/oven/bps335160m/",
+    "name": "Horno multifunción Serie 6000 SurroundCook con Display LED Explore\nBPS335160M\n944188768",
+    "sku": "bps335160m"
   },
   {
     "url": "https://www.aeg.com.es/kitchen/cooking/ovens/oven/gu5pb41wsk/",
