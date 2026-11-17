@@ -2044,5 +2044,19 @@
     "reference_price": 899.0,
     "was_under_threshold": false,
     "was_big_discount": false
+  },
+  "lfr7394n4a": {
+    "name": "Lavadora de libre instalación Serie 7000 ProSteam® Autodose de 9.0 kg\nLFR7394N4A\n914921600",
+    "last_price": 599.25,
+    "reference_price": 799.0,
+    "was_under_threshold": false,
+    "was_big_discount": false
+  },
+  "ou5ab21sm": {
+    "name": "Horno multifunción Serie 5000 SurroundCook con Display LED\nOU5AB21SM\n949286134",
+    "last_price": 298.35,
+    "reference_price": 298.35,
+    "was_under_threshold": false,
+    "was_big_discount": false
   }
 }
