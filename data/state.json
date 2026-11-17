@@ -1924,7 +1924,8 @@
     "last_price": 426.3,
     "reference_price": 426.3,
     "was_under_100": false,
-    "was_big_discount": false
+    "was_big_discount": false,
+    "was_under_threshold": false
   },
   "ikx32300cb": {
     "name": "Placa de inducción Serie 3000 Domino de 29 cm\nIKX32300CB\n949492769",
@@ -2054,8 +2055,8 @@
   },
   "ou5ab21sm": {
     "name": "Horno multifunción Serie 5000 SurroundCook con Display LED\nOU5AB21SM\n949286134",
-    "last_price": 298.35,
-    "reference_price": 298.35,
+    "last_price": 321.3,
+    "reference_price": 321.3,
     "was_under_threshold": false,
     "was_big_discount": false
   }
