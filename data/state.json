@@ -2059,5 +2059,19 @@
     "reference_price": 321.3,
     "was_under_threshold": false,
     "was_big_discount": false
+  },
+  "ork6p361dv": {
+    "name": "Frigorífico 1 puerta de libre instalación de 1850 mm\nORK6P361DV\n923421619",
+    "last_price": 734.3,
+    "reference_price": 734.3,
+    "was_under_threshold": false,
+    "was_big_discount": false
+  },
+  "ork6p361dw": {
+    "name": "Frigorífico 1 puerta de libre instalación de 1850 mm\nORK6P361DW\n923421638",
+    "last_price": 699.3,
+    "reference_price": 699.3,
+    "was_under_threshold": false,
+    "was_big_discount": false
   }
 }
