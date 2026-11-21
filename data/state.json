@@ -1377,7 +1377,7 @@
     "reference_price": 549.0,
     "was_under_threshold": false,
     "was_big_discount": false,
-    "stock_in": false
+    "stock_in": true
   },
   "dpe4941m": {
     "name": "Campana extractora extraíble Serie 5000 Extractor de 90 cm\nDPE4941M\n942022113",
