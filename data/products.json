@@ -821,7 +821,7 @@
   },
   {
     "url": "https://www.aeg.com.es/laundry/laundry/washing-machines/built-in-washing-machine/lfn8e8436c/",
-    "name": "Lavadora integrable Serie 8000 PowerCare de 8.0 kg\nLFN8E8436C\n914580412",
+    "name": "Lavadora integrable Serie 8000 ÖKOMix de 8 kg | AEG",
     "sku": "lfn8e8436c"
   },
   {
@@ -1583,5 +1583,50 @@
     "url": "https://www.aeg.com.es/laundry/laundry/washing-machines/front-loader-washing-machine/lfa6i8272a/",
     "name": "Lavadora de libre instalación Serie 6000 ProSense® de 8.0 kg\nLFA6I8272A\n914913614",
     "sku": "lfa6i8272a"
+  },
+  {
+    "url": "https://www.aeg.com.es/kitchen/cooking/warming-drawers/warming-drawer/kde911424m2/",
+    "name": "Cajón calientaplatos de 141 mm Inox antihuellas\nKDE911424M\n947727513",
+    "sku": "kde911424m2"
+  },
+  {
+    "url": "https://www.aeg.com.es/kitchen/cooking/compact-built-in-range/built-in-microwaves/kmk721880m/",
+    "name": "Horno compacto Serie 6000 solo Microondas y Grill con Display táctil Excite\nKMK721880M\n944004945",
+    "sku": "kmk721880m"
+  },
+  {
+    "url": "https://www.aeg.com.es/kitchen/cooking/compact-built-in-range/built-in-microwaves/kmk721880b/",
+    "name": "Horno compacto Serie 6000 solo Microondas y Grill con Display táctil Excite\nKMK721880B\n944004921",
+    "sku": "kmk721880b"
+  },
+  {
+    "url": "https://www.aeg.com.es/kitchen/wine/wine-cabinets/compact-wine-cabinets/kwk884520m/",
+    "name": "Vinoteca integrable de 18 botellas\nKWK884520M\n923421100",
+    "sku": "kwk884520m"
+  },
+  {
+    "url": "https://www.aeg.com.es/kitchen/cooling/fridge-freezers/built-in-fridge-freezer/nsc8t751ds/",
+    "name": "Frigorífico combi de integración Serie 8000 de 188,4 cm\nNSC8T751DS\n925974003",
+    "sku": "nsc8t751ds"
+  },
+  {
+    "url": "https://www.aeg.com.es/kitchen/cooling/fridge-freezers/built-in-fridge-freezer/nsc6l181es/",
+    "name": "Frigorífico combi de integración Serie 6000 de 177,2 cm\nNSC6L181ES\n925503407",
+    "sku": "nsc6l181es"
+  },
+  {
+    "url": "https://www.aeg.com.es/kitchen/cooking/microwaves/microwave-oven/mbe2657seb/",
+    "name": "Microondas de 900 W con función microondas\nMBE2657SEB\n947608733",
+    "sku": "mbe2657seb"
+  },
+  {
+    "url": "https://www.aeg.com.es/kitchen/cooking/microwaves/microwave-oven/msb2057d-b/",
+    "name": "Microondas de 800 W con función microondas y grill\nMSB2057D-B\n947607492",
+    "sku": "msb2057d-b"
+  },
+  {
+    "url": "https://www.aeg.com.es/kitchen/cooking/microwaves/microwave-oven/mbb1756dem/",
+    "name": "Microondas de 800 W con función microondas y grill\nMBB1756DEM\n947608712",
+    "sku": "mbb1756dem"
   }
 ]
